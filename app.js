@@ -32,6 +32,30 @@ async function boot(){
     document.getElementById('sessions-grid').innerHTML=[...d.sessions].reverse().map(s=>`<div class="card session-card"><span class="pill">${s.date}</span><h3>${s.title}</h3><p><b>Session / ask:</b> ${s.ask}</p><p><b>What I did:</b> ${s.progress}</p><p><b>Next focus:</b> ${s.next}</p>${s.source?`<small>${s.source}</small>`:''}</div>`).join('');
   }
 
+  if(d.homeDiary){
+    const diary=[...d.homeDiary].reverse();
+    const counts={done:0,open:0,waiting:0};
+    diary.forEach(x=>{ if(counts[x.status]!==undefined) counts[x.status]++; });
+    document.getElementById('diary-done-count').textContent=counts.done;
+    document.getElementById('diary-open-count').textContent=counts.open;
+    document.getElementById('diary-waiting-count').textContent=counts.waiting;
+
+    const renderDiary=(filter='all')=>{
+      const rows=filter==='all'?diary:diary.filter(x=>x.status===filter);
+      document.getElementById('home-diary-list').innerHTML=rows.map(x=>`<div class="diary-entry">
+        <div class="diary-date">${x.date}</div>
+        <div class="diary-main"><div class="diary-title-row"><h3>${x.title}</h3><span class="status ${x.status}">${x.status}</span></div>
+        <p>${x.detail||''}</p>${x.category?`<small>${x.category}</small>`:''}</div>
+      </div>`).join('') || '<p>No entries in this view.</p>';
+    };
+    renderDiary();
+    document.querySelectorAll('.diary-filter').forEach(btn=>btn.addEventListener('click',()=>{
+      document.querySelectorAll('.diary-filter').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      renderDiary(btn.dataset.filter);
+    }));
+  }
+
   document.getElementById('library-grid').innerHTML=d.library.map(x=>`<div class="card library-card"><h3>${x.title}</h3><p>${x.desc}</p><a href="${x.file}" target="_blank">Open PDF</a></div>`).join('');
 
   document.querySelectorAll('.nav button').forEach(btn=>btn.addEventListener('click',()=>{
