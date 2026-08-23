@@ -40,7 +40,7 @@
       {
         "text": "Continue reading The Secret of Secrets",
         "status": "active",
-        "note": "Chapters 1-6 confirmed complete; chapter 7 was the next planned chapter."
+        "note": "Chapters 1-13 confirmed complete."
       },
       {"text": "Complete allotment section three", "status": "open"},
       {"text": "Put weedkiller on the brambles for Jason", "status": "open"},
@@ -64,7 +64,7 @@
     {"title": "Be present", "text": "Notice when my attention has wandered and bring it back to the person or activity in front of me."}
   ],
   "progress": {
-    "readingConfirmed": 6,
+    "readingConfirmed": 13,
     "avoidanceWins": [
       "Read on the phone when I could not find the Kindle instead of using it as a reason to stop.",
       "Finished chapter 1 even though it felt long.",
@@ -79,6 +79,7 @@
       "Kirsty said I had made huge progress.",
       "The avoidance summary became one of the clearest therapy themes.",
       "Reading plus listening to the audiobook helps concentration.",
+      "Reached chapter 13 of The Secret of Secrets.",
       "The allotment has gone from something I was avoiding to somewhere I am returning to."
     ]
   },
@@ -143,7 +144,8 @@
     {"date": "20 Jul", "personal": "Chapters 5 & 6, bed changed, allotment section two, Marley Bear card sent", "work": "", "avoidance": "", "response": "Continued small-step approach"},
     {"date": "21 Jul", "personal": "Therapy meeting with Kirsty", "work": "", "avoidance": "", "response": "Reviewed progress and avoidance honestly"},
     {"date": "12 Aug", "personal": "Kirsty session: presence and flash-card homework", "work": "", "avoidance": "", "response": "Kept the homework simple: carrot, present, food, treasure"},
-    {"date": "21 Aug", "personal": "Kirsty session: mindfulness homework", "work": "", "avoidance": "", "response": "Three meditation practices selected for the week"}
+    {"date": "21 Aug", "personal": "Kirsty session: mindfulness homework", "work": "", "avoidance": "", "response": "Three meditation practices selected for the week"},
+    {"date": "23 Aug", "personal": "Reached chapter 13 of The Secret of Secrets", "work": "", "avoidance": "", "response": "Kept the reading habit going"}
   ],
   "library": [
     {"title": "Happiness Trap Chapters 24-27", "file": "assets/pdfs/happiness-trap-ch24-27.pdf", "desc": "Values, blockers and living again."},
