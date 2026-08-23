@@ -1,4 +1,3 @@
-
 async function boot(){
   const res = await fetch('data/site-data.json');
   const d = await res.json();
@@ -10,6 +9,11 @@ async function boot(){
   document.getElementById('week-summary').textContent=d.thisWeek.summary;
   document.getElementById('reading-count').textContent=d.progress.readingConfirmed;
 
+  if(d.nextAppointment){
+    document.getElementById('next-appointment').textContent=d.nextAppointment.date;
+    document.getElementById('next-appointment-time').textContent=d.nextAppointment.time;
+  }
+
   const item = (x)=>`<div class="item"><span class="dot"></span><div><div>${x.text}</div>${x.status?`<span class="status ${x.status}">${x.status}</span>`:''}${x.note?`<small>${x.note}</small>`:''}</div></div>`;
   document.getElementById('week-asks').innerHTML=d.thisWeek.asks.map(item).join('');
   document.getElementById('week-discussion').innerHTML=d.thisWeek.discussion.map(x=>item({text:x})).join('');
@@ -20,7 +24,14 @@ async function boot(){
   document.getElementById('avoidance-wins').innerHTML=d.progress.avoidanceWins.map(x=>item({text:x})).join('');
   document.getElementById('recent-wins').innerHTML=d.progress.recentWins.map(x=>item({text:x})).join('');
   document.getElementById('timeline').innerHTML=d.timeline.map(t=>`<div class="time-item"><span class="date">${t.date}</span><h3>${t.title}</h3><p>${t.text}</p></div>`).join('');
-  document.getElementById('daily-log').innerHTML=d.dailyLog.map(r=>`<tr><td>${r.date}</td><td>${r.personal||''}</td><td>${r.work||''}</td><td>${r.avoidance||''}</td><td>${r.response||''}</td></tr>`).join('');
+
+  const daily = [...d.dailyLog].reverse();
+  document.getElementById('daily-log').innerHTML=daily.map(r=>`<tr><td>${r.date}</td><td>${r.personal||''}</td><td>${r.work||''}</td><td>${r.avoidance||''}</td><td>${r.response||''}</td></tr>`).join('');
+
+  if(d.sessions){
+    document.getElementById('sessions-grid').innerHTML=[...d.sessions].reverse().map(s=>`<div class="card session-card"><span class="pill">${s.date}</span><h3>${s.title}</h3><p><b>Session / ask:</b> ${s.ask}</p><p><b>What I did:</b> ${s.progress}</p><p><b>Next focus:</b> ${s.next}</p>${s.source?`<small>${s.source}</small>`:''}</div>`).join('');
+  }
+
   document.getElementById('library-grid').innerHTML=d.library.map(x=>`<div class="card library-card"><h3>${x.title}</h3><p>${x.desc}</p><a href="${x.file}" target="_blank">Open PDF</a></div>`).join('');
 
   document.querySelectorAll('.nav button').forEach(btn=>btn.addEventListener('click',()=>{
