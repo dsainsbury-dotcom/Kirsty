@@ -2,1205 +2,1381 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-08-23T18:27:08+00:00",
+  "updated": "2026-08-23T18:32:17+00:00",
+  "rules": {
+    "pastDate": "done",
+    "todayOrFuture": "planned",
+    "undatedBlocked": "waiting"
+  },
   "count": 171,
   "entries": [
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "2nd | Darren | Lunch | Rich Birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "4th | Darren | Office Trams in with Jaffer",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "9th | Darren | Hearing test | 15:30",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "11th | Darren | London | Gueinea Sam Andrews",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thurs - Sun",
       "detail": "12th-15th | BOTH | IOW",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "18th | BOTH | Tracys SAMs Birthday | Ring to say Happy Birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "19th | Darren | Guernsey | Sure",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "25th | Darren | Book Testosterone Inj",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "26th | Darren | Manchester | AO.com",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "March 2026",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "2nd | Darren | Snr Leader OFFSITE | Bracknell",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "2nd | Darren | Doctors | 8:54:00 AM",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "2nd | Both | Lorraine Eagles Funeral | Thatcham",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "2nd | Darren | APPLE LAUNCH DAY 1",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Tuesday",
       "detail": "3rd | FAMILY | Mayflower | Faulty Towers",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Tuesday",
       "detail": "3rd | Darren | APPLE LAUNCH DAY 2",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "4th | Darren | APPLE LAUNCH DAY 3",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "6th | Darren | Neck Appointment | Ramsay Berkshire Independent Hospital. 12pm",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "6th | BOTH | Tracys | Brighton",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "7th | BOTH | Tracys | Brighton",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "8th | BOTH | Tracys | Brighton",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "11th | Darren | Guinea Grill | Lee / Jiggy",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "15th | FAMILY | Mothers Day Lunch | Mutton 18:00",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "16th | Darren | Cyst Appointment | Fareham 19:15pm",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Tuesday",
       "detail": "17th | Darren | MRI | 09:30",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "19th | Darren | Bloods at hospital | 12:25",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "21st | BOTH | Mayflower | Prisilla queen of desert",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "22nd | FAMILY | CURRY | Whitchurch",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "25th | Darren | Daz Injection Due | Rememer Bloods + PSA on ICE",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Tuesday",
       "detail": "24th | Darren | Neck Chris | 08:45",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Tuesday",
       "detail": "24th | Darren | London lunch James/Rich | Guenea",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "25th | Darren | London Indian Raylo | Veereswamy",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "26th | Darren | Testosteron | 16:50PM PSA and Bloods on ICE",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "26th | Darren | Diabetic yearly review | 14:40 Guildford",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "April 2026",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "1st | GANG | O2 | Josh Groban",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "4th | BOTH | London | Kinky Boots",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "5th | BOTH | Mummy and daddy | Easter Lunch",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "9th | BOTH | Linzi | Paela",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "20th | BOTH | 2 weeks today til holiday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "17th | BOTH | Beyond the baracades | anvil",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "22nd | Daz | Gliding",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "24th | Daz | London | Lunch with JD",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "25th | BOTH | London | Kinky Boots faith/warwick",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "27th | Daz | Circle reading | Pre-Assesment 11am",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "27th | BOTH | 1 weeks today til holiday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "29th | Daz | Gliding",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "1st | Daz | Doctors | 1:00 PM",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "May 2026",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "1st | Daz | London | Lunch with JT London",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "3rd | BOTH | Stay at Gills pre Holiday | maybe boys night at barolos with phil",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "4th | BOTH | Holiday | Castro Verde",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "tuesday",
       "detail": "5th | BOTH | Holiday | Castro Verde",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "wednesday",
       "detail": "6th | BOTH | Holiday | Castro Verde",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "thursday",
       "detail": "7th | BOTH | Holiday | Castro Verde",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "friday",
       "detail": "8th | BOTH | Holiday | Luz",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "saturday",
       "detail": "9th | BOTH | Holiday | Luz",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "sunday",
       "detail": "10th | BOTH | Holiday | Luz",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "monday",
       "detail": "11th | BOTH | Holiday | Luz",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "tuesday",
       "detail": "12th | BOTH | Holiday | Luz",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "wednesday",
       "detail": "13th | BOTH | Holiday | Luz",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "thursday",
       "detail": "14th | BOTH | Holiday | Luz",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "15th | DAZ | Blood test | Cholestorol",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "17th | Darren | Book Testostorone Inj+PSA bloods | for june, last march 26th",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "15th | DAZ | Circle reading bloods | 1:00 PM",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "18th | Daz | Neck operation",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "30th | BOTH | Southampton | Take That",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "June 2026",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "1st | Daz | Doctors wound check | 17:30",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "1st | Daz | Physio | 4:00 PM",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "3rd | Daz | WAREHOUSE",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "4th | BOTH | IOW",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "5th | BOTH | IOW",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "6th | BOTH | IOW",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "7th | BOTH | IOW",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "8th | Daz | Cyst Removal | 13:30PM",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "monday",
       "detail": "8th | Daz | Physio | 4:00 PM",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "19th | DAZ | Hospital blood test | 8:00 AM",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "19th | DAZ | Stitches out | 10:10",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "19th | BOTH | Royal Albert Hall | Les Mis",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "19th | Darren | Bloods hospital | 12:30 Test&PSA",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "20th | BOTH | West End Live | Trafalger Sq",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "21st | BOTH | West End Live | Trafalger Sq",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "22nd | Darren | me topping | 1745",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Tuesday",
       "detail": "23rd | Darren | Daz Nebedo | 4:30",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Tuesday",
       "detail": "30th | DAZ | Mr Topping | 18:00",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "July 2026",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "1st | Daz | Daz Quacks - phyco | 1030",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "1st | Daz | London with Emma at Apple | PM",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "2nd | Daz | Henly",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "3rd | Daz | Chris Brown Follow up | 13:20",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "4th | ALL | Gay Pride London",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "17th | Friends | Wicked Sing along | 18:00 onwards",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Mondsay",
       "detail": "6th | Daz | Fasting blood test hospital | 820",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "8th | Daz | London Roger | PM",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "9th | Daz | London Academia | PM",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "12th | BOTH | Mummys for lunch | PM",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Tuesday",
       "detail": "14th | DAZ | London Albion",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "15th | Daz | Daz Quacks - phyco | 1430",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "17th | Daz | London Jigsaw",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Tyesday",
       "detail": "21st | BOTH | Pizza with Uncle Peter | 19:00",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "23rd | BOTH | Auntie pat hills birthday in heaven",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "23rd | Daz Work | Lee Whatton Birthday | 40",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "24th | BOTH | Marley Birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "26th | BOTH | Cornwall | Canival",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "27th | BOTH | Cornwall | Canival",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Tuesday",
       "detail": "28th | BOTH | Cornwall | Canival",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "29th | BOTH | Cornwall | Canival",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "29th | BOTH | Simons Birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "30th | BOTH | Cornwall | Canival",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "31st | BOTH | Cornwall | Canival",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "31st | BOTH | FREDS | LOOE",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "1st | BOTH | Cornwall | Canival",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "2nd | BOTH | Cornwall | Canival",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thurs",
       "detail": "30th | BOTH | Cornwall | Canival",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "August 2026",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "1st | BOTH | Cornwall | Canival",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "2nd | BOTH | Cornwall | Canival leave 12:58 arrive 18:03   5hrs 1 change at exeter",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Tuesday",
       "detail": "4th | BOTH | Eastbourne | Funeral",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "5th | Daz | Chase yearly bloods | email sent",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "5th | Daz | Phyco | 13:30",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "12th | Daz | phyco | 15:30",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thursday",
       "detail": "13th | Daz | Dentist | 11:10",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Tuesday",
       "detail": "18th | both | caraughs birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "21st | Daz | phyco",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "26th | Daz | Eye test | 3:55",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "29th | both | london | abilgales party | tickets in notes",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "September 2026",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "2nd | Daz | Car Pickup | 17:30",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "2nd | Daz | Book 15th test Injection",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Thurs",
       "detail": "3rd | FAMILY | BlackPool | Travel up",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Fri",
       "detail": "4th | FAMILY | BlackPool | Lights on",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sat",
       "detail": "5th | FAMILY | BlackPool | Enjoy",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sun",
       "detail": "6th | FAMILY | BlackPool | Travel back",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Monday",
       "detail": "7th | Daz | Car Dropoff | 10:00",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "13th",
       "detail": "Both | Richards Birthday | got flasy card",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "15th",
       "detail": "Daz | Needs testos inj",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "October 2026",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Wednesday",
       "detail": "14th | BOTH | Jean ValJean | Guildford | tickets in notes",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Friday",
       "detail": "23Rd | BOTH | Karl Loxley | Southampton | tickets in wallet",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "24th | BOTH | Kitten Day",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "November 2026",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "6th",
       "detail": "BOTH | Uncle joes birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "9th",
       "detail": "BOTH | pat edwards birthday in heaven",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "14th | BOTH+tracy | Alison Moyet | Anvil",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "BOTH",
       "detail": "Chase bowell screening | June/July",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "NEXT YEAR 2027",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "April 2027",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "13th",
       "detail": "should get miss seigon tickets via email",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "May 2027",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sunday",
       "detail": "2nd | BOTH | Mayflower Johannas",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Saturday",
       "detail": "29th | FAMILY | Dinner Ladies | tickets in wallet",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "June 2027",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Sat",
       "detail": "5th | BOTH | DAZ to Jay Surprise",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "July 2027",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "6th",
       "detail": "Daz | Rogers Birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "8th",
       "detail": "Daz | Davd W Birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "9th",
       "detail": "Daz | Rob W Birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "14th",
       "detail": "Daz | Phil W Birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "23rd",
       "detail": "BOTH | Auntie pat hills birthday in heaven",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "23rd",
       "detail": "Daz Work | Lee Whatton Birthday 41",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "24th",
       "detail": "BOTH | Marleys birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "29th",
       "detail": "BOTH | Simons Birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "August 2027",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "18th",
       "detail": "both | caraughs birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "September 2027",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "Fri-sat",
       "detail": "3/4th | BOTH | Gemmas wedding",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "13th",
       "detail": "Both | Richards G Birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "November 2027",
       "detail": "",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "6th",
       "detail": "BOTH | Uncle joes birthday",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     },
     {
       "date": "",
+      "dateISO": "",
       "title": "9th",
       "detail": "BOTH | pat edwards birthday in heaven",
       "category": "",
-      "status": "logged"
+      "status": "planned"
     }
   ]
 }
