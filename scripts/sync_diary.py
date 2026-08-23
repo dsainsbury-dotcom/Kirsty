@@ -17,64 +17,51 @@ MONTHS = {
     "september": 9, "october": 10, "november": 11, "december": 12,
 }
 
+WEEKDAY_RE = re.compile(r"^(mon(day)?|tue(sday)?|wed(nesday)?|thu(rsday)?|fri(day)?|sat(urday)?|sun(day)?)(\s*-\s*(mon(day)?|tue(sday)?|wed(nesday)?|thu(rsday)?|fri(day)?|sat(urday)?|sun(day)?))?$", re.I)
+OWNER_TOKENS = {"darren", "daz", "both", "family", "gang", "tracy", "tracys"}
+
 
 def norm(value):
     return re.sub(r"[^a-z0-9]+", "", str(value or "").strip().lower())
 
 
-def first_present(row, aliases):
-    for alias in aliases:
-        key = norm(alias)
-        if row.get(key, "").strip():
-            return row[key].strip()
-    return ""
-
-
 def parse_month_year(value):
     raw = str(value or "").strip()
-    m = re.fullmatch(r"([A-Za-z]+)\s+(20\d{2})", raw)
+    m = re.search(r"\b([A-Za-z]+)\s+(20\d{2})\b", raw)
     if not m:
         return None
     month = MONTHS.get(m.group(1).lower())
     return (int(m.group(2)), month) if month else None
 
 
-def parse_date(value, month_context=None):
+def ordinal_day(value):
+    """Return first day number from values such as 2nd, 12th-15th, or Saturday 23rd."""
     raw = str(value or "").strip()
     if not raw:
         return None
+    m = re.search(r"\b(\d{1,2})(?:st|nd|rd|th)\b", raw, flags=re.I)
+    if m:
+        return int(m.group(1))
+    # Accept a plain 1-2 digit day only, but not times such as 15:30.
+    if re.fullmatch(r"\d{1,2}", raw):
+        return int(raw)
+    return None
 
-    formats = [
-        "%d/%m/%Y", "%d/%m/%y",
-        "%Y-%m-%d",
-        "%d-%m-%Y", "%d-%m-%y",
-        "%d %b %Y", "%d %B %Y",
-        "%d %b %y", "%d %B %y",
-    ]
-    for fmt in formats:
+
+def parse_full_date(value):
+    raw = str(value or "").strip()
+    for fmt in [
+        "%d/%m/%Y", "%d/%m/%y", "%Y-%m-%d", "%d-%m-%Y", "%d-%m-%y",
+        "%d %b %Y", "%d %B %Y", "%d %b %y", "%d %B %y",
+    ]:
         try:
             return datetime.strptime(raw, fmt).date()
         except ValueError:
             pass
-
-    # Supports diary rows such as "Saturday 23rd", "Sat 23", or just "23rd"
-    # when the month/year is supplied by a preceding row such as "August 2026".
-    if month_context:
-        cleaned = re.sub(r"\b(monday|tuesday|wednesday|thursday|friday|saturday|sunday|mon|tue|wed|thu|fri|sat|sun)\b", "", raw, flags=re.I)
-        cleaned = re.sub(r"(\d)(st|nd|rd|th)\b", r"\1", cleaned, flags=re.I).strip(" ,-/")
-        m = re.search(r"\b(\d{1,2})\b", cleaned)
-        if m:
-            day = int(m.group(1))
-            year, month = month_context
-            try:
-                return date(year, month, day)
-            except ValueError:
-                return None
     return None
 
 
-def derive_status(parsed_date, explicit_status):
-    """Past dates are done. Today/future are planned. Explicit blocked items stay waiting."""
+def derive_status(parsed_date, explicit_status=""):
     if norm(explicit_status) in {"waiting", "blocked", "hold", "onhold", "pending"}:
         return "waiting"
     if parsed_date:
@@ -82,39 +69,77 @@ def derive_status(parsed_date, explicit_status):
     return "planned"
 
 
-def row_to_entry(row, month_context=None):
-    date_value = first_present(row, ["date", "day", "when", "event date"])
-    category = first_present(row, ["category", "type", "area", "group"])
-    explicit_status = first_present(row, ["status", "state", "progress"])
-    title = first_present(row, ["title", "item", "event", "task", "activity", "what", "name"])
-    detail = first_present(row, ["notes", "note", "details", "detail", "description", "comments", "comment"])
-
-    used = {norm(x) for x in [
-        "date", "day", "when", "event date", "category", "type", "area", "group",
-        "status", "state", "progress", "title", "item", "event", "task", "activity",
-        "what", "name", "notes", "note", "details", "detail", "description", "comments", "comment"
-    ]}
-    leftovers = [v.strip() for k, v in row.items() if k not in used and v.strip()]
-    if not title and leftovers:
-        title = leftovers.pop(0)
-    if not detail and leftovers:
-        detail = " | ".join(leftovers)
-
-    if not title:
+def build_entry(cells, month_context):
+    non_empty = [(i, c) for i, c in enumerate(cells) if c]
+    if not non_empty:
         return None
 
-    parsed = parse_date(date_value, month_context)
-    display_date = date_value
-    if parsed:
-        display_date = parsed.strftime("%a %-d %b %Y")
+    # Prefer a genuine full date if one exists in the row.
+    parsed = None
+    date_index = None
+    raw_date = ""
+    for i, cell in non_empty:
+        full = parse_full_date(cell)
+        if full:
+            parsed = full
+            date_index = i
+            raw_date = cell
+            break
 
+    # The diary normally stores weekday in one column and ordinal date in the next.
+    if parsed is None and month_context:
+        for i, cell in non_empty:
+            day = ordinal_day(cell)
+            if day is None:
+                continue
+            year, month = month_context
+            try:
+                parsed = date(year, month, day)
+                date_index = i
+                raw_date = cell
+                break
+            except ValueError:
+                continue
+
+    # Find weekday, owner and the actual event text from the positional layout.
+    weekday = ""
+    owner = ""
+    event_parts = []
+    for i, cell in non_empty:
+        if parse_month_year(cell):
+            continue
+        if WEEKDAY_RE.fullmatch(cell):
+            weekday = cell
+            continue
+        if i == date_index:
+            continue
+        if norm(cell) in OWNER_TOKENS and not owner:
+            owner = cell
+            continue
+        event_parts.append(cell)
+
+    # Skip rows that are just labels/headers and contain no date and no useful event.
+    if parsed is None and len(event_parts) <= 1:
+        return None
+
+    title = " | ".join(event_parts) if event_parts else (weekday or "Diary item")
+    detail_parts = []
+    if weekday:
+        detail_parts.append(weekday)
+    if owner:
+        detail_parts.append(owner)
+    # Preserve a date range such as 12th-15th in the details while sorting by its start date.
+    if raw_date and "-" in raw_date:
+        detail_parts.append(raw_date)
+
+    display_date = parsed.strftime("%a %-d %b %Y") if parsed else ""
     return {
-        "date": display_date or "",
+        "date": display_date,
         "dateISO": parsed.isoformat() if parsed else "",
         "title": title,
-        "detail": detail,
-        "category": category,
-        "status": derive_status(parsed, explicit_status),
+        "detail": " | ".join(detail_parts),
+        "category": owner,
+        "status": derive_status(parsed),
     }
 
 
@@ -131,34 +156,30 @@ def main():
     tab_name = os.environ.get("SHEET_TAB", "").strip()
     worksheet = spreadsheet.worksheet(tab_name) if tab_name else spreadsheet.get_worksheet(0)
     values = worksheet.get_all_values()
-
     if not values:
         raise RuntimeError("The Google Sheet is empty")
 
-    header_index = next((i for i, r in enumerate(values) if any(str(c).strip() for c in r)), None)
-    if header_index is None:
-        raise RuntimeError("No header row found")
-
-    headers = [norm(h) or f"column{i+1}" for i, h in enumerate(values[header_index])]
     entries = []
     month_context = None
 
-    for raw_row in values[header_index + 1:]:
+    # Do not assume a conventional header row. This sheet is laid out as month/year
+    # section rows followed by weekday, ordinal-date, owner and event columns.
+    for raw_row in values:
         cells = [str(c).strip() for c in raw_row]
-        non_empty = [c for c in cells if c]
-        if not non_empty:
+        if not any(cells):
             continue
 
-        # A standalone row such as "August 2026" sets the month/year for the rows below it.
-        if len(non_empty) == 1:
-            possible_month = parse_month_year(non_empty[0])
-            if possible_month:
-                month_context = possible_month
-                continue
+        # Month/year can sit in any cell (including a merged-looking row), so scan all cells.
+        found_month = None
+        for cell in cells:
+            found_month = parse_month_year(cell)
+            if found_month:
+                break
+        if found_month:
+            month_context = found_month
+            continue
 
-        padded = cells + [""] * max(0, len(headers) - len(cells))
-        row = {headers[i]: padded[i] for i in range(len(headers))}
-        entry = row_to_entry(row, month_context)
+        entry = build_entry(cells, month_context)
         if entry:
             entries.append(entry)
 
@@ -168,7 +189,8 @@ def main():
         "tab": worksheet.title,
         "updated": datetime.now().astimezone().isoformat(timespec="seconds"),
         "rules": {
-            "monthHeader": "A row such as August 2026 supplies month/year to following entries",
+            "monthHeader": "Month/year is read from any cell in a section row",
+            "rowLayout": "weekday + ordinal day + owner + event",
             "pastDate": "done",
             "todayOrFuture": "planned",
             "blocked": "waiting"
