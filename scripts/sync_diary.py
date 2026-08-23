@@ -10,6 +10,7 @@ from google.oauth2.service_account import Credentials
 SHEET_ID = "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4"
 OUTPUT = Path("data/home-diary.json")
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
+MIN_DATE = date(2026, 8, 1)
 
 MONTHS = {
     "january": 1, "february": 2, "march": 3, "april": 4,
@@ -35,14 +36,12 @@ def parse_month_year(value):
 
 
 def ordinal_day(value):
-    """Return first day number from values such as 2nd, 12th-15th, or Saturday 23rd."""
     raw = str(value or "").strip()
     if not raw:
         return None
     m = re.search(r"\b(\d{1,2})(?:st|nd|rd|th)\b", raw, flags=re.I)
     if m:
         return int(m.group(1))
-    # Accept a plain 1-2 digit day only, but not times such as 15:30.
     if re.fullmatch(r"\d{1,2}", raw):
         return int(raw)
     return None
@@ -74,7 +73,6 @@ def build_entry(cells, month_context):
     if not non_empty:
         return None
 
-    # Prefer a genuine full date if one exists in the row.
     parsed = None
     date_index = None
     raw_date = ""
@@ -86,7 +84,6 @@ def build_entry(cells, month_context):
             raw_date = cell
             break
 
-    # The diary normally stores weekday in one column and ordinal date in the next.
     if parsed is None and month_context:
         for i, cell in non_empty:
             day = ordinal_day(cell)
@@ -101,7 +98,9 @@ def build_entry(cells, month_context):
             except ValueError:
                 continue
 
-    # Find weekday, owner and the actual event text from the positional layout.
+    if parsed and parsed < MIN_DATE:
+        return None
+
     weekday = ""
     owner = ""
     event_parts = []
@@ -118,7 +117,6 @@ def build_entry(cells, month_context):
             continue
         event_parts.append(cell)
 
-    # Skip rows that are just labels/headers and contain no date and no useful event.
     if parsed is None and len(event_parts) <= 1:
         return None
 
@@ -128,7 +126,6 @@ def build_entry(cells, month_context):
         detail_parts.append(weekday)
     if owner:
         detail_parts.append(owner)
-    # Preserve a date range such as 12th-15th in the details while sorting by its start date.
     if raw_date and "-" in raw_date:
         detail_parts.append(raw_date)
 
@@ -162,14 +159,11 @@ def main():
     entries = []
     month_context = None
 
-    # Do not assume a conventional header row. This sheet is laid out as month/year
-    # section rows followed by weekday, ordinal-date, owner and event columns.
     for raw_row in values:
         cells = [str(c).strip() for c in raw_row]
         if not any(cells):
             continue
 
-        # Month/year can sit in any cell (including a merged-looking row), so scan all cells.
         found_month = None
         for cell in cells:
             found_month = parse_month_year(cell)
@@ -189,6 +183,7 @@ def main():
         "tab": worksheet.title,
         "updated": datetime.now().astimezone().isoformat(timespec="seconds"),
         "rules": {
+            "ignoreBefore": "2026-08-01",
             "monthHeader": "Month/year is read from any cell in a section row",
             "rowLayout": "weekday + ordinal day + owner + event",
             "pastDate": "done",
