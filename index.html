@@ -22,6 +22,7 @@
     <button data-target="values">Values</button>
     <button data-target="goals">Goals</button>
     <button data-target="progress">Progress</button>
+    <button data-target="sessions">Sessions</button>
     <button data-target="journey">Journey</button>
     <button data-target="library">Library</button>
   </nav>
@@ -47,8 +48,8 @@
       </div>
       <div class="grid three stats">
         <div class="card stat"><span>Reading</span><strong id="reading-count"></strong><small>chapters confirmed</small></div>
+        <div class="card stat"><span>Next Kirsty session</span><strong id="next-appointment"></strong><small id="next-appointment-time"></small></div>
         <div class="card stat"><span>Current theme</span><strong>Avoidance</strong><small>notice it, name it, act small</small></div>
-        <div class="card stat"><span>Rule</span><strong>Good enough</strong><small>beats perfect</small></div>
       </div>
       <div class="card">
         <h3>What I'm practising</h3>
@@ -77,8 +78,14 @@
       </div>
       <div class="card">
         <h3>Daily log</h3>
+        <p>Latest entries first. This is the honest record, including difficult days and avoidance.</p>
         <div class="table-wrap"><table><thead><tr><th>Date</th><th>Personal</th><th>Work</th><th>Avoidance</th><th>Response</th></tr></thead><tbody id="daily-log"></tbody></table></div>
       </div>
+    </section>
+
+    <section id="sessions" class="page">
+      <div class="section-head"><h2>Kirsty sessions</h2><p>What each session led to, what I worked on, and where it took me next.</p></div>
+      <div id="sessions-grid" class="grid two"></div>
     </section>
 
     <section id="journey" class="page">
