@@ -4,26 +4,18 @@
     "subtitle": "Values, goals, progress and the next small step",
     "updated": "23 August 2026"
   },
+  "nextAppointment": {
+    "date": "26 Aug 2026",
+    "time": "13:00"
+  },
   "thisWeek": {
     "title": "Mindfulness",
     "summary": "This week is about noticing where my attention is and gently bringing it back, not trying to empty my mind or do mindfulness perfectly.",
     "asks": [
-      {
-        "text": "Try the Chocolate Meditation",
-        "status": "open"
-      },
-      {
-        "text": "Try Mindfulness of Breath and Body",
-        "status": "open"
-      },
-      {
-        "text": "Try the 3-Minute Breathing Space",
-        "status": "open"
-      },
-      {
-        "text": "Notice when my mind wanders and what helps bring it back",
-        "status": "open"
-      }
+      {"text": "Try the Chocolate Meditation", "status": "open"},
+      {"text": "Try Mindfulness of Breath and Body", "status": "open"},
+      {"text": "Try the 3-Minute Breathing Space", "status": "open"},
+      {"text": "Notice when my mind wanders and what helps bring it back", "status": "open"}
     ],
     "discussion": [
       "Which exercise felt easiest?",
@@ -33,42 +25,15 @@
     ]
   },
   "values": [
-    {
-      "name": "Family",
-      "text": "Protect and support the people I love without completely abandoning myself."
-    },
-    {
-      "name": "Home",
-      "text": "A calm, safe and comfortable place that feels mine."
-    },
-    {
-      "name": "Peace",
-      "text": "Protect sleep, rest, quiet and space from constant work or worry."
-    },
-    {
-      "name": "Freedom",
-      "text": "Have parts of life that are mine, including hobbies, gliding, gardening and time outdoors."
-    },
-    {
-      "name": "Trust",
-      "text": "Be reliable and trustworthy, while rebuilding trust in myself."
-    },
-    {
-      "name": "Kindness",
-      "text": "Be caring and giving without turning that into self-sacrifice."
-    },
-    {
-      "name": "Contribution",
-      "text": "Be useful, help others and give something back."
-    },
-    {
-      "name": "Health without obsession",
-      "text": "Look after myself properly without letting health fear become the whole of life."
-    },
-    {
-      "name": "Living again",
-      "text": "Move beyond survival mode and make room for things that make me feel like myself."
-    }
+    {"name": "Family", "text": "Protect and support the people I love without completely abandoning myself."},
+    {"name": "Home", "text": "A calm, safe and comfortable place that feels mine."},
+    {"name": "Peace", "text": "Protect sleep, rest, quiet and space from constant work or worry."},
+    {"name": "Freedom", "text": "Have parts of life that are mine, including hobbies, gliding, gardening and time outdoors."},
+    {"name": "Trust", "text": "Be reliable and trustworthy, while rebuilding trust in myself."},
+    {"name": "Kindness", "text": "Be caring and giving without turning that into self-sacrifice."},
+    {"name": "Contribution", "text": "Be useful, help others and give something back."},
+    {"name": "Health without obsession", "text": "Look after myself properly without letting health fear become the whole of life."},
+    {"name": "Living again", "text": "Move beyond survival mode and make room for things that make me feel like myself."}
   ],
   "currentGoals": {
     "personal": [
@@ -77,14 +42,8 @@
         "status": "active",
         "note": "Chapters 1-6 confirmed complete; chapter 7 was the next planned chapter."
       },
-      {
-        "text": "Complete allotment section three",
-        "status": "open"
-      },
-      {
-        "text": "Put weedkiller on the brambles for Jason",
-        "status": "open"
-      },
+      {"text": "Complete allotment section three", "status": "open"},
+      {"text": "Put weedkiller on the brambles for Jason", "status": "open"},
       {
         "text": "Complete Amazon return",
         "status": "waiting",
@@ -92,41 +51,17 @@
       }
     ],
     "work": [
-      {
-        "text": "No work apps after 6pm on weekdays",
-        "status": "active"
-      },
-      {
-        "text": "No work apps at weekends",
-        "status": "active"
-      }
+      {"text": "No work apps after 6pm on weekdays", "status": "active"},
+      {"text": "No work apps at weekends", "status": "active"}
     ]
   },
   "principles": [
-    {
-      "title": "Notice avoidance",
-      "text": "If I hear 'I'll do it later', look for the smallest useful action rather than waiting to feel ready."
-    },
-    {
-      "title": "Carrot, not stick",
-      "text": "Use what matters to me as motivation instead of giving myself shit."
-    },
-    {
-      "title": "Good enough beats perfect",
-      "text": "Starting matters more than finding the perfect setup."
-    },
-    {
-      "title": "Action before motivation",
-      "text": "I do not have to feel motivated first. Doing something can create momentum afterwards."
-    },
-    {
-      "title": "Small chunks",
-      "text": "Long or mentally noisy tasks work better when I break them down."
-    },
-    {
-      "title": "Be present",
-      "text": "Notice when my attention has wandered and bring it back to the person or activity in front of me."
-    }
+    {"title": "Notice avoidance", "text": "If I hear 'I'll do it later', look for the smallest useful action rather than waiting to feel ready."},
+    {"title": "Carrot, not stick", "text": "Use what matters to me as motivation instead of giving myself shit."},
+    {"title": "Good enough beats perfect", "text": "Starting matters more than finding the perfect setup."},
+    {"title": "Action before motivation", "text": "I do not have to feel motivated first. Doing something can create momentum afterwards."},
+    {"title": "Small chunks", "text": "Long or mentally noisy tasks work better when I break them down."},
+    {"title": "Be present", "text": "Notice when my attention has wandered and bring it back to the person or activity in front of me."}
   ],
   "progress": {
     "readingConfirmed": 6,
@@ -147,127 +82,75 @@
       "The allotment has gone from something I was avoiding to somewhere I am returning to."
     ]
   },
-  "timeline": [
+  "sessions": [
     {
-      "date": "2024",
-      "title": "Major operation and recovery",
-      "text": "A major turning point. Afterwards I did not feel fully like myself and life became heavily focused on survival, health and responsibility."
+      "date": "1 Jul 2026",
+      "title": "Values and Bull's-Eye",
+      "ask": "Read The Happiness Trap chapters 24-27, reflect on values and use the Bull's-Eye worksheet.",
+      "progress": "Built a short values summary and completed the Bull's-Eye. The strongest direction was supporting family without completely abandoning myself, alongside home, peace, freedom, trust, kindness, contribution and living again.",
+      "next": "Turn values into meaningful goals.",
+      "source": "Kirsty's email: Values, Questionnaires, and next session."
     },
     {
-      "date": "July 2026",
-      "title": "Values work",
-      "text": "Worked through The Happiness Trap chapters 24-27. Identified family, home, peace, freedom, trust, kindness, contribution, health without obsession and living again."
+      "date": "15 Jul 2026",
+      "title": "Goal setting",
+      "ask": "Use the goal-setting matrix and Russ Harris SMART approach to create goals linked to values.",
+      "progress": "Built a simple Love, Work, Play and Health grid. Reading, the 6pm work boundary and small practical actions became early goals.",
+      "next": "Start acting on the goals and notice avoidance.",
+      "source": "Kirsty's email: Goals and Questionnaire."
     },
     {
-      "date": "July 2026",
-      "title": "Bull's-Eye and goals",
-      "text": "Looked at how closely I was living by my values and built simple Love, Work, Play and Health goals."
-    },
-    {
-      "date": "16 July 2026",
-      "title": "Reading restarted",
-      "text": "Restarted The Secret of Secrets. The missing Kindle became an obvious avoidance moment. Used the phone app and completed chapter 1."
-    },
-    {
-      "date": "17 July 2026",
-      "title": "Acted against avoidance",
-      "text": "Read chapter 2, tidied the bedroom, put clothes away and completed the Raylo SKU setup that had been put off."
-    },
-    {
-      "date": "18-20 July 2026",
-      "title": "Allotment and small steps",
-      "text": "Visited the allotment, found it was not as bad as expected, then returned and cleared it in sections instead of trying to fix everything at once."
-    },
-    {
-      "date": "July 2026",
+      "date": "21 Jul 2026",
       "title": "Behavioural Activation",
-      "text": "Started using the idea that action can come before motivation, while noticing pleasure, achievement and connection."
+      "ask": "Follow the principles of Behavioural Activation; no need to fill in the whole pack.",
+      "progress": "Used action before motivation, small achievable steps and honest avoidance tracking. Pleasure, achievement and connection became useful things to notice.",
+      "next": "Keep building activity around values instead of waiting to feel motivated.",
+      "source": "Kirsty's email: Behavioural Activation."
     },
     {
-      "date": "August 2026",
+      "date": "12 Aug 2026",
       "title": "Presence and flash cards",
-      "text": "Focused on carrot not stick, being present, enjoying food and noticing ordinary good things."
+      "ask": "Practise carrot not stick, being present with others, enjoying food and finding the treasure in ordinary life.",
+      "progress": "Reduced the homework to four simple things to notice rather than another large worksheet.",
+      "next": "Practise noticing and presence during normal life rather than creating more jobs to complete.",
+      "source": "Flash cards supplied after the Kirsty session."
     },
     {
-      "date": "23 August 2026",
+      "date": "21 Aug 2026",
       "title": "Mindfulness",
-      "text": "Current homework: Chocolate Meditation, Mindfulness of Breath and Body, and the 3-Minute Breathing Space."
+      "ask": "Start with the Chocolate Meditation, Mindfulness of Breath and Body, and the 3-Minute Breathing Space.",
+      "progress": "Current week. The aim is to try the exercises and notice what happens, not to do mindfulness perfectly.",
+      "next": "Discuss which exercise was easiest or hardest and whether it helped with attention, reading, relaxing or switching off.",
+      "source": "Kirsty's email: Mindfulness meditation."
     }
+  ],
+  "timeline": [
+    {"date": "2024", "title": "Major operation and recovery", "text": "A major turning point. Afterwards I did not feel fully like myself and life became heavily focused on survival, health and responsibility."},
+    {"date": "July 2026", "title": "Values work", "text": "Worked through The Happiness Trap chapters 24-27. Identified family, home, peace, freedom, trust, kindness, contribution, health without obsession and living again."},
+    {"date": "July 2026", "title": "Bull's-Eye and goals", "text": "Looked at how closely I was living by my values and built simple Love, Work, Play and Health goals."},
+    {"date": "16 July 2026", "title": "Reading restarted", "text": "Restarted The Secret of Secrets. The missing Kindle became an obvious avoidance moment. Used the phone app and completed chapter 1."},
+    {"date": "17 July 2026", "title": "Acted against avoidance", "text": "Read chapter 2, tidied the bedroom, put clothes away and completed the Raylo SKU setup that had been put off."},
+    {"date": "18-20 July 2026", "title": "Allotment and small steps", "text": "Visited the allotment, found it was not as bad as expected, then returned and cleared it in sections instead of trying to fix everything at once."},
+    {"date": "July 2026", "title": "Behavioural Activation", "text": "Started using the idea that action can come before motivation, while noticing pleasure, achievement and connection."},
+    {"date": "August 2026", "title": "Presence and flash cards", "text": "Focused on carrot not stick, being present, enjoying food and noticing ordinary good things."},
+    {"date": "23 August 2026", "title": "Mindfulness", "text": "Current homework: Chocolate Meditation, Mindfulness of Breath and Body, and the 3-Minute Breathing Space."}
   ],
   "dailyLog": [
-    {
-      "date": "16 Jul",
-      "personal": "Prologue + chapter 1 complete",
-      "work": "6pm work-app boundary",
-      "avoidance": "Missing Kindle / phone not the same",
-      "response": "Used phone app and carried on"
-    },
-    {
-      "date": "17 Jul",
-      "personal": "Chapter 2, bedroom tidy, clothes away, collected Elphaba's ashes",
-      "work": "Raylo SKUs complete",
-      "avoidance": "Raylo had been put off",
-      "response": "Started and completed it"
-    },
-    {
-      "date": "18 Jul",
-      "personal": "Chapter 3, outdoor plants, indoor plants started, allotment assessed",
-      "work": "",
-      "avoidance": "Allotment had been built up in my head",
-      "response": "Only goal was to visit and look"
-    },
-    {
-      "date": "19 Jul",
-      "personal": "Chapter 4, allotment section one, bins in",
-      "work": "",
-      "avoidance": "",
-      "response": "Kept tasks small"
-    },
-    {
-      "date": "20 Jul",
-      "personal": "Chapters 5 & 6, bed changed, allotment section two, Marley Bear card sent",
-      "work": "",
-      "avoidance": "",
-      "response": "Continued small-step approach"
-    },
-    {
-      "date": "21 Jul",
-      "personal": "Therapy meeting with Kirsty",
-      "work": "",
-      "avoidance": "",
-      "response": "Reviewed progress and avoidance honestly"
-    }
+    {"date": "16 Jul", "personal": "Prologue + chapter 1 complete", "work": "6pm work-app boundary", "avoidance": "Missing Kindle / phone not the same", "response": "Used phone app and carried on"},
+    {"date": "17 Jul", "personal": "Chapter 2, bedroom tidy, clothes away, collected Elphaba's ashes", "work": "Raylo SKUs complete", "avoidance": "Raylo had been put off", "response": "Started and completed it"},
+    {"date": "18 Jul", "personal": "Chapter 3, outdoor plants, indoor plants started, allotment assessed", "work": "", "avoidance": "Allotment had been built up in my head", "response": "Only goal was to visit and look"},
+    {"date": "19 Jul", "personal": "Chapter 4, allotment section one, bins in", "work": "", "avoidance": "", "response": "Kept tasks small"},
+    {"date": "20 Jul", "personal": "Chapters 5 & 6, bed changed, allotment section two, Marley Bear card sent", "work": "", "avoidance": "", "response": "Continued small-step approach"},
+    {"date": "21 Jul", "personal": "Therapy meeting with Kirsty", "work": "", "avoidance": "", "response": "Reviewed progress and avoidance honestly"},
+    {"date": "12 Aug", "personal": "Kirsty session: presence and flash-card homework", "work": "", "avoidance": "", "response": "Kept the homework simple: carrot, present, food, treasure"},
+    {"date": "21 Aug", "personal": "Kirsty session: mindfulness homework", "work": "", "avoidance": "", "response": "Three meditation practices selected for the week"}
   ],
   "library": [
-    {
-      "title": "Happiness Trap Chapters 24-27",
-      "file": "assets/pdfs/happiness-trap-ch24-27.pdf",
-      "desc": "Values, blockers and living again."
-    },
-    {
-      "title": "Bull's-Eye Worksheet",
-      "file": "assets/pdfs/bullseye.pdf",
-      "desc": "Values alignment snapshot."
-    },
-    {
-      "title": "Goal Setting",
-      "file": "assets/pdfs/goal-setting.pdf",
-      "desc": "Love, Work, Play and Health goals."
-    },
-    {
-      "title": "Behavioural Activation",
-      "file": "assets/pdfs/behavioural-activation.pdf",
-      "desc": "Action before motivation, small steps and value-linked activity."
-    },
-    {
-      "title": "Flash Card Homework",
-      "file": "assets/pdfs/flash-cards.pdf",
-      "desc": "Carrot not stick, presence, food and finding the treasure."
-    },
-    {
-      "title": "Mindfulness Homework",
-      "file": "assets/pdfs/mindfulness.pdf",
-      "desc": "This week's simple mindfulness guide."
-    }
+    {"title": "Happiness Trap Chapters 24-27", "file": "assets/pdfs/happiness-trap-ch24-27.pdf", "desc": "Values, blockers and living again."},
+    {"title": "Bull's-Eye Worksheet", "file": "assets/pdfs/bullseye.pdf", "desc": "Values alignment snapshot."},
+    {"title": "Goal Setting", "file": "assets/pdfs/goal-setting.pdf", "desc": "Love, Work, Play and Health goals."},
+    {"title": "Behavioural Activation", "file": "assets/pdfs/behavioural-activation.pdf", "desc": "Action before motivation, small steps and value-linked activity."},
+    {"title": "Flash Card Homework", "file": "assets/pdfs/flash-cards.pdf", "desc": "Carrot not stick, presence, food and finding the treasure."},
+    {"title": "Mindfulness Homework", "file": "assets/pdfs/mindfulness.pdf", "desc": "This week's simple mindfulness guide."}
   ]
 }
