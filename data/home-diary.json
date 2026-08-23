@@ -2,13 +2,14 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-08-23T18:32:17+00:00",
+  "updated": "2026-08-23T18:40:40+00:00",
   "rules": {
+    "monthHeader": "A row such as August 2026 supplies month/year to following entries",
     "pastDate": "done",
     "todayOrFuture": "planned",
-    "undatedBlocked": "waiting"
+    "blocked": "waiting"
   },
-  "count": 171,
+  "count": 155,
   "entries": [
     {
       "date": "",
@@ -79,14 +80,6 @@
       "dateISO": "",
       "title": "Thursday",
       "detail": "26th | Darren | Manchester | AO.com",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "March 2026",
-      "detail": "",
       "category": "",
       "status": "planned"
     },
@@ -285,14 +278,6 @@
     {
       "date": "",
       "dateISO": "",
-      "title": "April 2026",
-      "detail": "",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
       "title": "Wednesday",
       "detail": "1st | GANG | O2 | Josh Groban",
       "category": "",
@@ -391,14 +376,6 @@
       "dateISO": "",
       "title": "Friday",
       "detail": "1st | Daz | Doctors | 1:00 PM",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "May 2026",
-      "detail": "",
       "category": "",
       "status": "planned"
     },
@@ -549,14 +526,6 @@
     {
       "date": "",
       "dateISO": "",
-      "title": "June 2026",
-      "detail": "",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
       "title": "Monday",
       "detail": "1st | Daz | Doctors wound check | 17:30",
       "category": "",
@@ -695,14 +664,6 @@
       "dateISO": "",
       "title": "Tuesday",
       "detail": "30th | DAZ | Mr Topping | 18:00",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "July 2026",
-      "detail": "",
       "category": "",
       "status": "planned"
     },
@@ -933,14 +894,6 @@
     {
       "date": "",
       "dateISO": "",
-      "title": "August 2026",
-      "detail": "",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
       "title": "Saturday",
       "detail": "1st | BOTH | Cornwall | Canival",
       "category": "",
@@ -1029,14 +982,6 @@
     {
       "date": "",
       "dateISO": "",
-      "title": "September 2026",
-      "detail": "",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
       "title": "Wednesday",
       "detail": "2nd | Daz | Car Pickup | 17:30",
       "category": "",
@@ -1109,14 +1054,6 @@
     {
       "date": "",
       "dateISO": "",
-      "title": "October 2026",
-      "detail": "",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
       "title": "Wednesday",
       "detail": "14th | BOTH | Jean ValJean | Guildford | tickets in notes",
       "category": "",
@@ -1135,14 +1072,6 @@
       "dateISO": "",
       "title": "Saturday",
       "detail": "24th | BOTH | Kitten Day",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "November 2026",
-      "detail": "",
       "category": "",
       "status": "planned"
     },
@@ -1189,24 +1118,8 @@
     {
       "date": "",
       "dateISO": "",
-      "title": "April 2027",
-      "detail": "",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
       "title": "13th",
       "detail": "should get miss seigon tickets via email",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "May 2027",
-      "detail": "",
       "category": "",
       "status": "planned"
     },
@@ -1229,24 +1142,8 @@
     {
       "date": "",
       "dateISO": "",
-      "title": "June 2027",
-      "detail": "",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
       "title": "Sat",
       "detail": "5th | BOTH | DAZ to Jay Surprise",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "July 2027",
-      "detail": "",
       "category": "",
       "status": "planned"
     },
@@ -1317,24 +1214,8 @@
     {
       "date": "",
       "dateISO": "",
-      "title": "August 2027",
-      "detail": "",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
       "title": "18th",
       "detail": "both | caraughs birthday",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "September 2027",
-      "detail": "",
       "category": "",
       "status": "planned"
     },
@@ -1351,14 +1232,6 @@
       "dateISO": "",
       "title": "13th",
       "detail": "Both | Richards G Birthday",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "November 2027",
-      "detail": "",
       "category": "",
       "status": "planned"
     },
