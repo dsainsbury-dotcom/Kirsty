@@ -32,8 +32,26 @@ async function boot(){
     document.getElementById('sessions-grid').innerHTML=[...d.sessions].reverse().map(s=>`<div class="card session-card"><span class="pill">${s.date}</span><h3>${s.title}</h3><p><b>Session / ask:</b> ${s.ask}</p><p><b>What I did:</b> ${s.progress}</p><p><b>Next focus:</b> ${s.next}</p>${s.source?`<small>${s.source}</small>`:''}</div>`).join('');
   }
 
-  if(d.homeDiary){
-    const diary=[...d.homeDiary].reverse();
+  let diarySource = d.homeDiary || [];
+  try {
+    const syncRes = await fetch('data/home-diary.json?ts='+Date.now());
+    if(syncRes.ok){
+      const synced = await syncRes.json();
+      if(Array.isArray(synced.entries) && synced.entries.length){
+        diarySource = synced.entries;
+        const diaryMeta = document.getElementById('diary-sync-meta');
+        if(diaryMeta){
+          const when = synced.updated ? new Date(synced.updated).toLocaleString() : 'recently';
+          diaryMeta.textContent = `Synced from Google Sheets: ${synced.count} entries, ${when}`;
+        }
+      }
+    }
+  } catch(e) {
+    console.warn('Using built-in diary data because Google Sheet sync data was unavailable.', e);
+  }
+
+  if(diarySource){
+    const diary=[...diarySource].reverse();
     const counts={done:0,open:0,waiting:0};
     diary.forEach(x=>{ if(counts[x.status]!==undefined) counts[x.status]++; });
     document.getElementById('diary-done-count').textContent=counts.done;
@@ -43,7 +61,7 @@ async function boot(){
     const renderDiary=(filter='all')=>{
       const rows=filter==='all'?diary:diary.filter(x=>x.status===filter);
       document.getElementById('home-diary-list').innerHTML=rows.map(x=>`<div class="diary-entry">
-        <div class="diary-date">${x.date}</div>
+        <div class="diary-date">${x.date||''}</div>
         <div class="diary-main"><div class="diary-title-row"><h3>${x.title}</h3><span class="status ${x.status}">${x.status}</span></div>
         <p>${x.detail||''}</p>${x.category?`<small>${x.category}</small>`:''}</div>
       </div>`).join('') || '<p>No entries in this view.</p>';
