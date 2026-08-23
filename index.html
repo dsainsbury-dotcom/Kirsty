@@ -19,6 +19,7 @@
 
   <nav class="nav">
     <button data-target="home" class="active">Home</button>
+    <button data-target="diary">Home Diary</button>
     <button data-target="values">Values</button>
     <button data-target="goals">Goals</button>
     <button data-target="progress">Progress</button>
@@ -54,6 +55,24 @@
       <div class="card">
         <h3>What I'm practising</h3>
         <div id="principles" class="chip-grid"></div>
+      </div>
+    </section>
+
+    <section id="diary" class="page">
+      <div class="section-head">
+        <h2>Home Diary</h2>
+        <p>My live home diary. Updates made in Google Sheets should appear here without rebuilding the site.</p>
+      </div>
+      <div class="card diary-card">
+        <div class="diary-toolbar">
+          <div>
+            <span class="pill">LIVE SHEET</span>
+            <h3>DiaryEvents</h3>
+          </div>
+          <a class="diary-open" href="https://docs.google.com/spreadsheets/d/18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4/edit?gid=0#gid=0" target="_blank" rel="noopener">Open in Google Sheets</a>
+        </div>
+        <iframe class="diary-frame" src="https://docs.google.com/spreadsheets/d/18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4/preview?gid=0" title="Darren's Home Diary" loading="lazy"></iframe>
+        <p class="diary-note">If the embedded view does not refresh immediately after a change, use the Open in Google Sheets button or refresh this page.</p>
       </div>
     </section>
 
