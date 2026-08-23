@@ -61,18 +61,27 @@
     <section id="diary" class="page">
       <div class="section-head">
         <h2>Home Diary</h2>
-        <p>My live home diary. Updates made in Google Sheets should appear here without rebuilding the site.</p>
+        <p>The things I have actually done, things still planned, and things waiting on someone else. Latest first.</p>
       </div>
-      <div class="card diary-card">
+      <div class="grid three stats">
+        <div class="card stat"><span>Done</span><strong id="diary-done-count">0</strong><small>logged actions</small></div>
+        <div class="card stat"><span>Open</span><strong id="diary-open-count">0</strong><small>still to do</small></div>
+        <div class="card stat"><span>Waiting</span><strong id="diary-waiting-count">0</strong><small>blocked, not avoidance</small></div>
+      </div>
+      <div class="card">
         <div class="diary-toolbar">
           <div>
-            <span class="pill">LIVE SHEET</span>
-            <h3>DiaryEvents</h3>
+            <span class="pill">LIVING LOG</span>
+            <h3>Done, planned and waiting</h3>
           </div>
-          <a class="diary-open" href="https://docs.google.com/spreadsheets/d/18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4/edit?gid=0#gid=0" target="_blank" rel="noopener">Open in Google Sheets</a>
+          <div class="diary-filters">
+            <button class="diary-filter active" data-filter="all">All</button>
+            <button class="diary-filter" data-filter="done">Done</button>
+            <button class="diary-filter" data-filter="open">Open</button>
+            <button class="diary-filter" data-filter="waiting">Waiting</button>
+          </div>
         </div>
-        <iframe class="diary-frame" src="https://docs.google.com/spreadsheets/d/18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4/preview?gid=0" title="Darren's Home Diary" loading="lazy"></iframe>
-        <p class="diary-note">If the embedded view does not refresh immediately after a change, use the Open in Google Sheets button or refresh this page.</p>
+        <div id="home-diary-list" class="home-diary-list"></div>
       </div>
     </section>
 
