@@ -19,7 +19,7 @@
 
   <nav class="nav">
     <button data-target="home" class="active">Home</button>
-    <button data-target="diary">Home Diary</button>
+    <button data-target="diary">Diary</button>
     <button data-target="values">Values</button>
     <button data-target="goals">Goals</button>
     <button data-target="progress">Progress</button>
@@ -37,6 +37,26 @@
           <p id="week-summary"></p>
         </div>
       </div>
+
+      <div class="grid three stats">
+        <div class="card stat"><span>Reading</span><strong id="reading-count"></strong><small>chapters confirmed</small></div>
+        <div class="card stat"><span>Next Kirsty session</span><strong id="next-appointment"></strong><small id="next-appointment-time"></small></div>
+        <div class="card stat"><span>Current theme</span><strong>Avoidance</strong><small>notice it, name it, act small</small></div>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <span class="pill">COMING UP</span>
+          <h3>Next diary items</h3>
+          <div id="home-upcoming"></div>
+        </div>
+        <div class="card">
+          <span class="pill">RECENT</span>
+          <h3>Recently completed</h3>
+          <div id="home-recent"></div>
+        </div>
+      </div>
+
       <div class="grid two">
         <div class="card">
           <h3>Current ask</h3>
@@ -47,11 +67,7 @@
           <div id="week-discussion"></div>
         </div>
       </div>
-      <div class="grid three stats">
-        <div class="card stat"><span>Reading</span><strong id="reading-count"></strong><small>chapters confirmed</small></div>
-        <div class="card stat"><span>Next Kirsty session</span><strong id="next-appointment"></strong><small id="next-appointment-time"></small></div>
-        <div class="card stat"><span>Current theme</span><strong>Avoidance</strong><small>notice it, name it, act small</small></div>
-      </div>
+
       <div class="card">
         <h3>What I'm practising</h3>
         <div id="principles" class="chip-grid"></div>
@@ -60,28 +76,31 @@
 
     <section id="diary" class="page">
       <div class="section-head">
-        <h2>Home Diary</h2>
-        <p>The things I have actually done, things still planned, and things waiting on someone else. Latest first.</p>
+        <h2>Diary</h2>
+        <p>Google Sheets is the master diary. Past dates are completed automatically. Today and future dates are planned.</p>
       </div>
       <div class="grid three stats">
-        <div class="card stat"><span>Done</span><strong id="diary-done-count">0</strong><small>logged actions</small></div>
-        <div class="card stat"><span>Open</span><strong id="diary-open-count">0</strong><small>still to do</small></div>
-        <div class="card stat"><span>Waiting</span><strong id="diary-waiting-count">0</strong><small>blocked, not avoidance</small></div>
+        <div class="card stat"><span>Completed</span><strong id="diary-done-count">0</strong><small>past dated items</small></div>
+        <div class="card stat"><span>Planned</span><strong id="diary-planned-count">0</strong><small>today and future</small></div>
+        <div class="card stat"><span>Waiting</span><strong id="diary-waiting-count">0</strong><small>blocked or undated</small></div>
       </div>
-      <div class="card">
-        <div class="diary-toolbar">
-          <div>
-            <span class="pill">LIVING LOG</span>
-            <h3>Done, planned and waiting</h3>
-          </div>
-          <div class="diary-filters">
-            <button class="diary-filter active" data-filter="all">All</button>
-            <button class="diary-filter" data-filter="done">Done</button>
-            <button class="diary-filter" data-filter="open">Open</button>
-            <button class="diary-filter" data-filter="waiting">Waiting</button>
-          </div>
-        </div>
-        <div id="home-diary-list" class="home-diary-list"></div>
+
+      <div class="card diary-section">
+        <span class="pill">WHAT'S NEXT</span>
+        <h3>Planned</h3>
+        <div id="diary-planned-list" class="home-diary-list"></div>
+      </div>
+
+      <div class="card diary-section">
+        <span class="pill">DONE</span>
+        <h3>Recently completed</h3>
+        <div id="diary-done-list" class="home-diary-list"></div>
+      </div>
+
+      <div class="card diary-section" id="diary-waiting-section">
+        <span class="pill">WAITING</span>
+        <h3>Blocked or waiting</h3>
+        <div id="diary-waiting-list" class="home-diary-list"></div>
       </div>
     </section>
 
