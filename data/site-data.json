@@ -83,6 +83,36 @@
       "The allotment has gone from something I was avoiding to somewhere I am returning to."
     ]
   },
+  "homeDiary": [
+    {"date":"16 Jul 2026","title":"Restarted The Secret of Secrets","detail":"Read the prologue and chapter 1. Could not find the Kindle and nearly used that as a reason not to read, then used the phone app instead.","category":"Reading / avoidance","status":"done"},
+    {"date":"16 Jul 2026","title":"Work-app boundary restarted","detail":"Put the 6pm weekday shut-off back in place, with no work apps at all at weekends.","category":"Work / boundaries","status":"done"},
+    {"date":"17 Jul 2026","title":"Read chapter 2","detail":"Continued the new daily reading habit.","category":"Reading","status":"done"},
+    {"date":"17 Jul 2026","title":"Bedroom tidied and clothes put away","detail":"Did not deep-clean the room, but cleared the clothes so I was no longer stepping over them.","category":"Home","status":"done"},
+    {"date":"17 Jul 2026","title":"Raylo SKU setup completed","detail":"A work job I had been avoiding was started and finished.","category":"Work / avoidance","status":"done"},
+    {"date":"17 Jul 2026","title":"Collected Elphaba's ashes","detail":"Collected her ashes from the crematorium.","category":"Personal / family","status":"done"},
+    {"date":"18 Jul 2026","title":"Read chapter 3","detail":"Kept the reading streak going.","category":"Reading","status":"done"},
+    {"date":"18 Jul 2026","title":"Outdoor plants sorted","detail":"Watered and dealt with the outside plants.","category":"Home / gardening","status":"done"},
+    {"date":"18 Jul 2026","title":"Indoor plants sorted","detail":"Finished watering and sorting the indoor plants.","category":"Home / gardening","status":"done"},
+    {"date":"18 Jul 2026","title":"Visited allotment for the first time this year","detail":"Went up just to assess it. It was not as bad as I had built it up to be, which gave me confidence to go back.","category":"Allotment / avoidance","status":"done"},
+    {"date":"19 Jul 2026","title":"Allotment section one cleared","detail":"Spent about an hour there and cleared the first of three sections.","category":"Allotment","status":"done"},
+    {"date":"19 Jul 2026","title":"Bought two large tomato plants","detail":"Visited Ingham's nursery and bought two big tomato plants.","category":"Gardening / pleasure","status":"done"},
+    {"date":"19 Jul 2026","title":"Bins brought in","detail":"Remembered and completed the job after initially forgetting it.","category":"Home","status":"done"},
+    {"date":"19 Jul 2026","title":"Read chapter 4","detail":"Four chapters on four consecutive days.","category":"Reading","status":"done"},
+    {"date":"20 Jul 2026","title":"Bed changed","detail":"Cleared the carried-over weekend goal rather than dropping it.","category":"Home","status":"done"},
+    {"date":"20 Jul 2026","title":"Allotment section two cleared","detail":"Second section completed. One section remained.","category":"Allotment","status":"done"},
+    {"date":"20 Jul 2026","title":"Read chapters 5 and 6","detail":"Read two chapters and kept the reading momentum going.","category":"Reading","status":"done"},
+    {"date":"20 Jul 2026","title":"Marley Bear's birthday card sent","detail":"Card sent as planned.","category":"Family / connection","status":"done"},
+    {"date":"21 Jul 2026","title":"Meeting with Kirsty","detail":"Talked through the goal-setting grid. Kirsty agreed with it, liked the avoidance summary and said I had made huge progress.","category":"Therapy","status":"done"},
+    {"date":"21 Jul 2026","title":"Amazon return","detail":"Return still needs completing, but the Post Office is waiting for the return labels. This is blocked, not avoidance.","category":"Admin","status":"waiting"},
+    {"date":"Open","title":"Complete allotment section three","detail":"Sections one and two are done. The final section remains open.","category":"Allotment","status":"open"},
+    {"date":"Open","title":"Put weedkiller on brambles for Jason","detail":"No fixed deadline. Jason asked me to do it.","category":"Home / helping","status":"open"},
+    {"date":"12 Aug 2026","title":"Kirsty session: flash-card homework","detail":"Focus became carrot not stick, being present, enjoying food and finding the treasure in ordinary life.","category":"Therapy","status":"done"},
+    {"date":"21 Aug 2026","title":"Kirsty session: mindfulness","detail":"Asked to try Chocolate Meditation, Mindfulness of Breath and Body, and the 3-Minute Breathing Space.","category":"Therapy","status":"done"},
+    {"date":"23 Aug 2026","title":"Reached chapter 13","detail":"Reading has continued well beyond the original first-week goal.","category":"Reading","status":"done"},
+    {"date":"This week","title":"Try the Chocolate Meditation","detail":"One of Kirsty's three suggested mindfulness exercises.","category":"Therapy / mindfulness","status":"open"},
+    {"date":"This week","title":"Try Mindfulness of Breath and Body","detail":"Notice when attention wanders and bring it back.","category":"Therapy / mindfulness","status":"open"},
+    {"date":"This week","title":"Try the 3-Minute Breathing Space","detail":"Use as a short reset and notice whether it helps with switching off or concentration.","category":"Therapy / mindfulness","status":"open"}
+  ],
   "sessions": [
     {
       "date": "1 Jul 2026",
