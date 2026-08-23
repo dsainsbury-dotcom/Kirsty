@@ -2,89 +2,21 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-08-23T18:45:37+00:00",
+  "updated": "2026-08-23T18:47:37+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
+    "ignoreNoDate": true,
     "monthHeader": "Month/year is read from any cell in a section row",
     "rowLayout": "weekday + ordinal day + owner + event",
     "pastDate": "done",
-    "todayOrFuture": "planned",
-    "blocked": "waiting"
+    "todayOrFuture": "planned"
   },
-  "count": 53,
+  "skipped": {
+    "noDate": 12,
+    "beforeAugust2026": 101
+  },
+  "count": 43,
   "entries": [
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "2nd | Lunch | Rich Birthday",
-      "detail": "Monday | Darren",
-      "category": "Darren",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "4th | Office Trams in with Jaffer",
-      "detail": "Wednesday | Darren",
-      "category": "Darren",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "9th | Hearing test | 15:30",
-      "detail": "Monday | Darren",
-      "category": "Darren",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "11th | London | Gueinea Sam Andrews",
-      "detail": "Wednesday | Darren",
-      "category": "Darren",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "Thurs - Sun | 12th-15th | IOW",
-      "detail": "BOTH",
-      "category": "BOTH",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "18th | Tracys SAMs Birthday | Ring to say Happy Birthday",
-      "detail": "Wednesday | BOTH",
-      "category": "BOTH",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "19th | Guernsey | Sure",
-      "detail": "Thursday | Darren",
-      "category": "Darren",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "25th | Book Testosterone Inj",
-      "detail": "Wednesday | Darren",
-      "category": "Darren",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "26th | Manchester | AO.com",
-      "detail": "Thursday | Darren",
-      "category": "Darren",
-      "status": "planned"
-    },
     {
       "date": "Sat 1 Aug 2026",
       "dateISO": "2026-08-01",
@@ -291,14 +223,6 @@
       "title": "BOTH+tracy | Alison Moyet | Anvil",
       "detail": "Saturday",
       "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "Chase bowell screening | June/July",
-      "detail": "BOTH",
-      "category": "BOTH",
       "status": "planned"
     },
     {
