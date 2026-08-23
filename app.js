@@ -14,7 +14,7 @@ async function boot(){
     document.getElementById('next-appointment-time').textContent=d.nextAppointment.time;
   }
 
-  const item = (x)=>`<div class="item"><span class="dot"></span><div><div>${x.text}</div>${x.status?`<span class="status ${x.status}">${x.status}</span>`:''}${x.note?`<small>${x.note}</small>`:''}</div></div>`;
+  const item=(x)=>`<div class="item"><span class="dot"></span><div><div>${x.text}</div>${x.status?`<span class="status ${x.status}">${x.status}</span>`:''}${x.note?`<small>${x.note}</small>`:''}</div></div>`;
   document.getElementById('week-asks').innerHTML=d.thisWeek.asks.map(item).join('');
   document.getElementById('week-discussion').innerHTML=d.thisWeek.discussion.map(x=>item({text:x})).join('');
   document.getElementById('personal-goals').innerHTML=d.currentGoals.personal.map(item).join('');
@@ -25,53 +25,53 @@ async function boot(){
   document.getElementById('recent-wins').innerHTML=d.progress.recentWins.map(x=>item({text:x})).join('');
   document.getElementById('timeline').innerHTML=d.timeline.map(t=>`<div class="time-item"><span class="date">${t.date}</span><h3>${t.title}</h3><p>${t.text}</p></div>`).join('');
 
-  const daily = [...d.dailyLog].reverse();
+  const daily=[...d.dailyLog].reverse();
   document.getElementById('daily-log').innerHTML=daily.map(r=>`<tr><td>${r.date}</td><td>${r.personal||''}</td><td>${r.work||''}</td><td>${r.avoidance||''}</td><td>${r.response||''}</td></tr>`).join('');
 
   if(d.sessions){
     document.getElementById('sessions-grid').innerHTML=[...d.sessions].reverse().map(s=>`<div class="card session-card"><span class="pill">${s.date}</span><h3>${s.title}</h3><p><b>Session / ask:</b> ${s.ask}</p><p><b>What I did:</b> ${s.progress}</p><p><b>Next focus:</b> ${s.next}</p>${s.source?`<small>${s.source}</small>`:''}</div>`).join('');
   }
 
-  let diarySource = d.homeDiary || [];
-  try {
-    const syncRes = await fetch('data/home-diary.json?ts='+Date.now());
-    if(syncRes.ok){
-      const synced = await syncRes.json();
-      if(Array.isArray(synced.entries) && synced.entries.length){
-        diarySource = synced.entries;
-        const diaryMeta = document.getElementById('diary-sync-meta');
-        if(diaryMeta){
-          const when = synced.updated ? new Date(synced.updated).toLocaleString() : 'recently';
-          diaryMeta.textContent = `Synced from Google Sheets: ${synced.count} entries, ${when}`;
-        }
-      }
-    }
-  } catch(e) {
-    console.warn('Using built-in diary data because Google Sheet sync data was unavailable.', e);
+  let diaryPayload=null;
+  try{
+    const diaryRes=await fetch('data/home-diary.json?ts='+Date.now());
+    if(diaryRes.ok) diaryPayload=await diaryRes.json();
+  }catch(e){
+    console.warn('Synced diary unavailable',e);
   }
 
-  if(diarySource){
-    const diary=[...diarySource].reverse();
-    const counts={done:0,open:0,waiting:0};
-    diary.forEach(x=>{ if(counts[x.status]!==undefined) counts[x.status]++; });
-    document.getElementById('diary-done-count').textContent=counts.done;
-    document.getElementById('diary-open-count').textContent=counts.open;
-    document.getElementById('diary-waiting-count').textContent=counts.waiting;
+  const diary=(diaryPayload?.entries?.length?diaryPayload.entries:(d.homeDiary||[])).map(x=>({...x}));
+  const sortKey=(x)=>x.dateISO||'';
+  const planned=diary.filter(x=>x.status==='planned').sort((a,b)=>sortKey(a).localeCompare(sortKey(b)));
+  const done=diary.filter(x=>x.status==='done').sort((a,b)=>sortKey(b).localeCompare(sortKey(a)));
+  const waiting=diary.filter(x=>x.status==='waiting');
 
-    const renderDiary=(filter='all')=>{
-      const rows=filter==='all'?diary:diary.filter(x=>x.status===filter);
-      document.getElementById('home-diary-list').innerHTML=rows.map(x=>`<div class="diary-entry">
-        <div class="diary-date">${x.date||''}</div>
-        <div class="diary-main"><div class="diary-title-row"><h3>${x.title}</h3><span class="status ${x.status}">${x.status}</span></div>
-        <p>${x.detail||''}</p>${x.category?`<small>${x.category}</small>`:''}</div>
-      </div>`).join('') || '<p>No entries in this view.</p>';
-    };
-    renderDiary();
-    document.querySelectorAll('.diary-filter').forEach(btn=>btn.addEventListener('click',()=>{
-      document.querySelectorAll('.diary-filter').forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active');
-      renderDiary(btn.dataset.filter);
-    }));
+  document.getElementById('diary-done-count').textContent=done.length;
+  document.getElementById('diary-planned-count').textContent=planned.length;
+  document.getElementById('diary-waiting-count').textContent=waiting.length;
+
+  const renderEntry=(x)=>`<div class="diary-entry">
+    <div class="diary-date">${x.date||'No date'}</div>
+    <div class="diary-main">
+      <div class="diary-title-row"><h3>${x.title}</h3><span class="status ${x.status}">${x.status}</span></div>
+      <p>${x.detail||''}</p>${x.category?`<small>${x.category}</small>`:''}
+    </div>
+  </div>`;
+
+  const renderList=(id,rows,emptyText)=>{
+    const el=document.getElementById(id);
+    if(el) el.innerHTML=rows.length?rows.map(renderEntry).join(''):`<p>${emptyText}</p>`;
+  };
+
+  renderList('diary-planned-list',planned,'Nothing planned.');
+  renderList('diary-done-list',done.slice(0,20),'Nothing completed yet.');
+  renderList('diary-waiting-list',waiting,'Nothing waiting.');
+  renderList('home-upcoming',planned.slice(0,5),'Nothing planned.');
+  renderList('home-recent',done.slice(0,5),'Nothing completed yet.');
+
+  if(!waiting.length){
+    const waitingSection=document.getElementById('diary-waiting-section');
+    if(waitingSection) waitingSection.style.display='none';
   }
 
   document.getElementById('library-grid').innerHTML=d.library.map(x=>`<div class="card library-card"><h3>${x.title}</h3><p>${x.desc}</p><a href="${x.file}" target="_blank">Open PDF</a></div>`).join('');
@@ -84,6 +84,7 @@ async function boot(){
     window.scrollTo({top:0,behavior:'smooth'});
   }));
 }
+
 boot().catch(err=>{
   document.body.insertAdjacentHTML('beforeend',`<p style="padding:20px;color:#ffc76b">Could not load site data: ${err.message}</p>`);
 });
