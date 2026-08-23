@@ -2,1253 +2,1246 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-08-23T18:40:40+00:00",
+  "updated": "2026-08-23T18:44:25+00:00",
   "rules": {
-    "monthHeader": "A row such as August 2026 supplies month/year to following entries",
+    "monthHeader": "Month/year is read from any cell in a section row",
+    "rowLayout": "weekday + ordinal day + owner + event",
     "pastDate": "done",
     "todayOrFuture": "planned",
     "blocked": "waiting"
   },
-  "count": 155,
+  "count": 154,
   "entries": [
     {
       "date": "",
       "dateISO": "",
-      "title": "Monday",
-      "detail": "2nd | Darren | Lunch | Rich Birthday",
-      "category": "",
+      "title": "2nd | Lunch | Rich Birthday",
+      "detail": "Monday | Darren",
+      "category": "Darren",
       "status": "planned"
     },
     {
       "date": "",
       "dateISO": "",
-      "title": "Wednesday",
-      "detail": "4th | Darren | Office Trams in with Jaffer",
-      "category": "",
+      "title": "4th | Office Trams in with Jaffer",
+      "detail": "Wednesday | Darren",
+      "category": "Darren",
       "status": "planned"
     },
     {
       "date": "",
       "dateISO": "",
-      "title": "Monday",
-      "detail": "9th | Darren | Hearing test | 15:30",
-      "category": "",
+      "title": "9th | Hearing test | 15:30",
+      "detail": "Monday | Darren",
+      "category": "Darren",
       "status": "planned"
     },
     {
       "date": "",
       "dateISO": "",
-      "title": "Wednesday",
-      "detail": "11th | Darren | London | Gueinea Sam Andrews",
-      "category": "",
+      "title": "11th | London | Gueinea Sam Andrews",
+      "detail": "Wednesday | Darren",
+      "category": "Darren",
       "status": "planned"
     },
     {
       "date": "",
       "dateISO": "",
-      "title": "Thurs - Sun",
-      "detail": "12th-15th | BOTH | IOW",
-      "category": "",
+      "title": "Thurs - Sun | 12th-15th | IOW",
+      "detail": "BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
       "date": "",
       "dateISO": "",
-      "title": "Wednesday",
-      "detail": "18th | BOTH | Tracys SAMs Birthday | Ring to say Happy Birthday",
-      "category": "",
+      "title": "18th | Tracys SAMs Birthday | Ring to say Happy Birthday",
+      "detail": "Wednesday | BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
       "date": "",
       "dateISO": "",
-      "title": "Thursday",
-      "detail": "19th | Darren | Guernsey | Sure",
-      "category": "",
+      "title": "19th | Guernsey | Sure",
+      "detail": "Thursday | Darren",
+      "category": "Darren",
       "status": "planned"
     },
     {
       "date": "",
       "dateISO": "",
-      "title": "Wednesday",
-      "detail": "25th | Darren | Book Testosterone Inj",
-      "category": "",
+      "title": "25th | Book Testosterone Inj",
+      "detail": "Wednesday | Darren",
+      "category": "Darren",
       "status": "planned"
     },
     {
       "date": "",
       "dateISO": "",
-      "title": "Thursday",
-      "detail": "26th | Darren | Manchester | AO.com",
-      "category": "",
+      "title": "26th | Manchester | AO.com",
+      "detail": "Thursday | Darren",
+      "category": "Darren",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "2nd | Darren | Snr Leader OFFSITE | Bracknell",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 2 Mar 2026",
+      "dateISO": "2026-03-02",
+      "title": "Snr Leader OFFSITE | Bracknell",
+      "detail": "Monday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "2nd | Darren | Doctors | 8:54:00 AM",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 2 Mar 2026",
+      "dateISO": "2026-03-02",
+      "title": "Doctors | 8:54:00 AM",
+      "detail": "Monday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "2nd | Both | Lorraine Eagles Funeral | Thatcham",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 2 Mar 2026",
+      "dateISO": "2026-03-02",
+      "title": "Lorraine Eagles Funeral | Thatcham",
+      "detail": "Monday | Both",
+      "category": "Both",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "2nd | Darren | APPLE LAUNCH DAY 1",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 2 Mar 2026",
+      "dateISO": "2026-03-02",
+      "title": "APPLE LAUNCH DAY 1",
+      "detail": "Monday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Tuesday",
-      "detail": "3rd | FAMILY | Mayflower | Faulty Towers",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 3 Mar 2026",
+      "dateISO": "2026-03-03",
+      "title": "Mayflower | Faulty Towers",
+      "detail": "Tuesday | FAMILY",
+      "category": "FAMILY",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Tuesday",
-      "detail": "3rd | Darren | APPLE LAUNCH DAY 2",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 3 Mar 2026",
+      "dateISO": "2026-03-03",
+      "title": "APPLE LAUNCH DAY 2",
+      "detail": "Tuesday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "4th | Darren | APPLE LAUNCH DAY 3",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 4 Mar 2026",
+      "dateISO": "2026-03-04",
+      "title": "APPLE LAUNCH DAY 3",
+      "detail": "Wednesday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "6th | Darren | Neck Appointment | Ramsay Berkshire Independent Hospital. 12pm",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 6 Mar 2026",
+      "dateISO": "2026-03-06",
+      "title": "Neck Appointment | Ramsay Berkshire Independent Hospital. 12pm",
+      "detail": "Friday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "6th | BOTH | Tracys | Brighton",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 6 Mar 2026",
+      "dateISO": "2026-03-06",
+      "title": "Tracys | Brighton",
+      "detail": "Friday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "7th | BOTH | Tracys | Brighton",
-      "category": "",
-      "status": "planned"
+      "date": "Sat 7 Mar 2026",
+      "dateISO": "2026-03-07",
+      "title": "Tracys | Brighton",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "8th | BOTH | Tracys | Brighton",
-      "category": "",
-      "status": "planned"
+      "date": "Sun 8 Mar 2026",
+      "dateISO": "2026-03-08",
+      "title": "Tracys | Brighton",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "11th | Darren | Guinea Grill | Lee / Jiggy",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 11 Mar 2026",
+      "dateISO": "2026-03-11",
+      "title": "Guinea Grill | Lee / Jiggy",
+      "detail": "Wednesday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "15th | FAMILY | Mothers Day Lunch | Mutton 18:00",
-      "category": "",
-      "status": "planned"
+      "date": "Sun 15 Mar 2026",
+      "dateISO": "2026-03-15",
+      "title": "Mothers Day Lunch | Mutton 18:00",
+      "detail": "Sunday | FAMILY",
+      "category": "FAMILY",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "16th | Darren | Cyst Appointment | Fareham 19:15pm",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 16 Mar 2026",
+      "dateISO": "2026-03-16",
+      "title": "Cyst Appointment | Fareham 19:15pm",
+      "detail": "Monday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Tuesday",
-      "detail": "17th | Darren | MRI | 09:30",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 17 Mar 2026",
+      "dateISO": "2026-03-17",
+      "title": "MRI | 09:30",
+      "detail": "Tuesday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thursday",
-      "detail": "19th | Darren | Bloods at hospital | 12:25",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 19 Mar 2026",
+      "dateISO": "2026-03-19",
+      "title": "Bloods at hospital | 12:25",
+      "detail": "Thursday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "21st | BOTH | Mayflower | Prisilla queen of desert",
-      "category": "",
-      "status": "planned"
+      "date": "Sat 21 Mar 2026",
+      "dateISO": "2026-03-21",
+      "title": "Mayflower | Prisilla queen of desert",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "22nd | FAMILY | CURRY | Whitchurch",
-      "category": "",
-      "status": "planned"
+      "date": "Sun 22 Mar 2026",
+      "dateISO": "2026-03-22",
+      "title": "CURRY | Whitchurch",
+      "detail": "Sunday | FAMILY",
+      "category": "FAMILY",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "25th | Darren | Daz Injection Due | Rememer Bloods + PSA on ICE",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 25 Mar 2026",
+      "dateISO": "2026-03-25",
+      "title": "Daz Injection Due | Rememer Bloods + PSA on ICE",
+      "detail": "Wednesday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Tuesday",
-      "detail": "24th | Darren | Neck Chris | 08:45",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 24 Mar 2026",
+      "dateISO": "2026-03-24",
+      "title": "Neck Chris | 08:45",
+      "detail": "Tuesday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Tuesday",
-      "detail": "24th | Darren | London lunch James/Rich | Guenea",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 24 Mar 2026",
+      "dateISO": "2026-03-24",
+      "title": "London lunch James/Rich | Guenea",
+      "detail": "Tuesday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "25th | Darren | London Indian Raylo | Veereswamy",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 25 Mar 2026",
+      "dateISO": "2026-03-25",
+      "title": "London Indian Raylo | Veereswamy",
+      "detail": "Wednesday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thursday",
-      "detail": "26th | Darren | Testosteron | 16:50PM PSA and Bloods on ICE",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 26 Mar 2026",
+      "dateISO": "2026-03-26",
+      "title": "Testosteron | 16:50PM PSA and Bloods on ICE",
+      "detail": "Thursday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thursday",
-      "detail": "26th | Darren | Diabetic yearly review | 14:40 Guildford",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 26 Mar 2026",
+      "dateISO": "2026-03-26",
+      "title": "Diabetic yearly review | 14:40 Guildford",
+      "detail": "Thursday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "1st | GANG | O2 | Josh Groban",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 1 Apr 2026",
+      "dateISO": "2026-04-01",
+      "title": "O2 | Josh Groban",
+      "detail": "Wednesday | GANG",
+      "category": "GANG",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "4th | BOTH | London | Kinky Boots",
-      "category": "",
-      "status": "planned"
+      "date": "Sat 4 Apr 2026",
+      "dateISO": "2026-04-04",
+      "title": "London | Kinky Boots",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "5th | BOTH | Mummy and daddy | Easter Lunch",
-      "category": "",
-      "status": "planned"
+      "date": "Sun 5 Apr 2026",
+      "dateISO": "2026-04-05",
+      "title": "Mummy and daddy | Easter Lunch",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thursday",
-      "detail": "9th | BOTH | Linzi | Paela",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 9 Apr 2026",
+      "dateISO": "2026-04-09",
+      "title": "Linzi | Paela",
+      "detail": "Thursday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "20th | BOTH | 2 weeks today til holiday",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 20 Apr 2026",
+      "dateISO": "2026-04-20",
+      "title": "2 weeks today til holiday",
+      "detail": "Monday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "17th | BOTH | Beyond the baracades | anvil",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 17 Apr 2026",
+      "dateISO": "2026-04-17",
+      "title": "Beyond the baracades | anvil",
+      "detail": "Friday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "22nd | Daz | Gliding",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 22 Apr 2026",
+      "dateISO": "2026-04-22",
+      "title": "Gliding",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "24th | Daz | London | Lunch with JD",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 24 Apr 2026",
+      "dateISO": "2026-04-24",
+      "title": "London | Lunch with JD",
+      "detail": "Friday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "25th | BOTH | London | Kinky Boots faith/warwick",
-      "category": "",
-      "status": "planned"
+      "date": "Sat 25 Apr 2026",
+      "dateISO": "2026-04-25",
+      "title": "London | Kinky Boots faith/warwick",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "27th | Daz | Circle reading | Pre-Assesment 11am",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 27 Apr 2026",
+      "dateISO": "2026-04-27",
+      "title": "Circle reading | Pre-Assesment 11am",
+      "detail": "Monday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "27th | BOTH | 1 weeks today til holiday",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 27 Apr 2026",
+      "dateISO": "2026-04-27",
+      "title": "1 weeks today til holiday",
+      "detail": "Monday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "29th | Daz | Gliding",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 29 Apr 2026",
+      "dateISO": "2026-04-29",
+      "title": "Gliding",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "1st | Daz | Doctors | 1:00 PM",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 1 Apr 2026",
+      "dateISO": "2026-04-01",
+      "title": "Doctors | 1:00 PM",
+      "detail": "Friday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "1st | Daz | London | Lunch with JT London",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 1 May 2026",
+      "dateISO": "2026-05-01",
+      "title": "London | Lunch with JT London",
+      "detail": "Friday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "3rd | BOTH | Stay at Gills pre Holiday | maybe boys night at barolos with phil",
-      "category": "",
-      "status": "planned"
+      "date": "Sun 3 May 2026",
+      "dateISO": "2026-05-03",
+      "title": "Stay at Gills pre Holiday | maybe boys night at barolos with phil",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "4th | BOTH | Holiday | Castro Verde",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 4 May 2026",
+      "dateISO": "2026-05-04",
+      "title": "Holiday | Castro Verde",
+      "detail": "Monday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "tuesday",
-      "detail": "5th | BOTH | Holiday | Castro Verde",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 5 May 2026",
+      "dateISO": "2026-05-05",
+      "title": "Holiday | Castro Verde",
+      "detail": "tuesday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "wednesday",
-      "detail": "6th | BOTH | Holiday | Castro Verde",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 6 May 2026",
+      "dateISO": "2026-05-06",
+      "title": "Holiday | Castro Verde",
+      "detail": "wednesday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "thursday",
-      "detail": "7th | BOTH | Holiday | Castro Verde",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 7 May 2026",
+      "dateISO": "2026-05-07",
+      "title": "Holiday | Castro Verde",
+      "detail": "thursday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "friday",
-      "detail": "8th | BOTH | Holiday | Luz",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 8 May 2026",
+      "dateISO": "2026-05-08",
+      "title": "Holiday | Luz",
+      "detail": "friday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "saturday",
-      "detail": "9th | BOTH | Holiday | Luz",
-      "category": "",
-      "status": "planned"
+      "date": "Sat 9 May 2026",
+      "dateISO": "2026-05-09",
+      "title": "Holiday | Luz",
+      "detail": "saturday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "sunday",
-      "detail": "10th | BOTH | Holiday | Luz",
-      "category": "",
-      "status": "planned"
+      "date": "Sun 10 May 2026",
+      "dateISO": "2026-05-10",
+      "title": "Holiday | Luz",
+      "detail": "sunday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "monday",
-      "detail": "11th | BOTH | Holiday | Luz",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 11 May 2026",
+      "dateISO": "2026-05-11",
+      "title": "Holiday | Luz",
+      "detail": "monday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "tuesday",
-      "detail": "12th | BOTH | Holiday | Luz",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 12 May 2026",
+      "dateISO": "2026-05-12",
+      "title": "Holiday | Luz",
+      "detail": "tuesday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "wednesday",
-      "detail": "13th | BOTH | Holiday | Luz",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 13 May 2026",
+      "dateISO": "2026-05-13",
+      "title": "Holiday | Luz",
+      "detail": "wednesday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "thursday",
-      "detail": "14th | BOTH | Holiday | Luz",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 14 May 2026",
+      "dateISO": "2026-05-14",
+      "title": "Holiday | Luz",
+      "detail": "thursday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "15th | DAZ | Blood test | Cholestorol",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 15 May 2026",
+      "dateISO": "2026-05-15",
+      "title": "Blood test | Cholestorol",
+      "detail": "Friday | DAZ",
+      "category": "DAZ",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "17th | Darren | Book Testostorone Inj+PSA bloods | for june, last march 26th",
-      "category": "",
-      "status": "planned"
+      "date": "Sun 17 May 2026",
+      "dateISO": "2026-05-17",
+      "title": "Book Testostorone Inj+PSA bloods | for june, last march 26th",
+      "detail": "Sunday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "15th | DAZ | Circle reading bloods | 1:00 PM",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 15 May 2026",
+      "dateISO": "2026-05-15",
+      "title": "Circle reading bloods | 1:00 PM",
+      "detail": "Friday | DAZ",
+      "category": "DAZ",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "18th | Daz | Neck operation",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 18 May 2026",
+      "dateISO": "2026-05-18",
+      "title": "Neck operation",
+      "detail": "Monday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "30th | BOTH | Southampton | Take That",
-      "category": "",
-      "status": "planned"
+      "date": "Sat 30 May 2026",
+      "dateISO": "2026-05-30",
+      "title": "Southampton | Take That",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "1st | Daz | Doctors wound check | 17:30",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 1 Jun 2026",
+      "dateISO": "2026-06-01",
+      "title": "Doctors wound check | 17:30",
+      "detail": "Monday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "1st | Daz | Physio | 4:00 PM",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 1 Jun 2026",
+      "dateISO": "2026-06-01",
+      "title": "Physio | 4:00 PM",
+      "detail": "Monday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "3rd | Daz | WAREHOUSE",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 3 Jun 2026",
+      "dateISO": "2026-06-03",
+      "title": "WAREHOUSE",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thursday",
-      "detail": "4th | BOTH | IOW",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 4 Jun 2026",
+      "dateISO": "2026-06-04",
+      "title": "IOW",
+      "detail": "Thursday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "5th | BOTH | IOW",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 5 Jun 2026",
+      "dateISO": "2026-06-05",
+      "title": "IOW",
+      "detail": "Friday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "6th | BOTH | IOW",
-      "category": "",
-      "status": "planned"
+      "date": "Sat 6 Jun 2026",
+      "dateISO": "2026-06-06",
+      "title": "IOW",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "7th | BOTH | IOW",
-      "category": "",
-      "status": "planned"
+      "date": "Sun 7 Jun 2026",
+      "dateISO": "2026-06-07",
+      "title": "IOW",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "8th | Daz | Cyst Removal | 13:30PM",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 8 Jun 2026",
+      "dateISO": "2026-06-08",
+      "title": "Cyst Removal | 13:30PM",
+      "detail": "Monday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "monday",
-      "detail": "8th | Daz | Physio | 4:00 PM",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 8 Jun 2026",
+      "dateISO": "2026-06-08",
+      "title": "Physio | 4:00 PM",
+      "detail": "monday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "19th | DAZ | Hospital blood test | 8:00 AM",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 19 Jun 2026",
+      "dateISO": "2026-06-19",
+      "title": "Hospital blood test | 8:00 AM",
+      "detail": "Friday | DAZ",
+      "category": "DAZ",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "19th | DAZ | Stitches out | 10:10",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 19 Jun 2026",
+      "dateISO": "2026-06-19",
+      "title": "Stitches out | 10:10",
+      "detail": "Friday | DAZ",
+      "category": "DAZ",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "19th | BOTH | Royal Albert Hall | Les Mis",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 19 Jun 2026",
+      "dateISO": "2026-06-19",
+      "title": "Royal Albert Hall | Les Mis",
+      "detail": "Friday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "19th | Darren | Bloods hospital | 12:30 Test&PSA",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 19 Jun 2026",
+      "dateISO": "2026-06-19",
+      "title": "Bloods hospital | 12:30 Test&PSA",
+      "detail": "Friday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "20th | BOTH | West End Live | Trafalger Sq",
-      "category": "",
-      "status": "planned"
+      "date": "Sat 20 Jun 2026",
+      "dateISO": "2026-06-20",
+      "title": "West End Live | Trafalger Sq",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "21st | BOTH | West End Live | Trafalger Sq",
-      "category": "",
-      "status": "planned"
+      "date": "Sun 21 Jun 2026",
+      "dateISO": "2026-06-21",
+      "title": "West End Live | Trafalger Sq",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "22nd | Darren | me topping | 1745",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 22 Jun 2026",
+      "dateISO": "2026-06-22",
+      "title": "me topping | 1745",
+      "detail": "Monday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Tuesday",
-      "detail": "23rd | Darren | Daz Nebedo | 4:30",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 23 Jun 2026",
+      "dateISO": "2026-06-23",
+      "title": "Daz Nebedo | 4:30",
+      "detail": "Tuesday | Darren",
+      "category": "Darren",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Tuesday",
-      "detail": "30th | DAZ | Mr Topping | 18:00",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 30 Jun 2026",
+      "dateISO": "2026-06-30",
+      "title": "Mr Topping | 18:00",
+      "detail": "Tuesday | DAZ",
+      "category": "DAZ",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "1st | Daz | Daz Quacks - phyco | 1030",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 1 Jul 2026",
+      "dateISO": "2026-07-01",
+      "title": "Daz Quacks - phyco | 1030",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "1st | Daz | London with Emma at Apple | PM",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 1 Jul 2026",
+      "dateISO": "2026-07-01",
+      "title": "London with Emma at Apple | PM",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thursday",
-      "detail": "2nd | Daz | Henly",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 2 Jul 2026",
+      "dateISO": "2026-07-02",
+      "title": "Henly",
+      "detail": "Thursday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "3rd | Daz | Chris Brown Follow up | 13:20",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 3 Jul 2026",
+      "dateISO": "2026-07-03",
+      "title": "Chris Brown Follow up | 13:20",
+      "detail": "Friday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "4th | ALL | Gay Pride London",
+      "date": "Sat 4 Jul 2026",
+      "dateISO": "2026-07-04",
+      "title": "ALL | Gay Pride London",
+      "detail": "Saturday",
       "category": "",
-      "status": "planned"
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "17th | Friends | Wicked Sing along | 18:00 onwards",
+      "date": "Fri 17 Jul 2026",
+      "dateISO": "2026-07-17",
+      "title": "Friends | Wicked Sing along | 18:00 onwards",
+      "detail": "Friday",
       "category": "",
-      "status": "planned"
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Mondsay",
-      "detail": "6th | Daz | Fasting blood test hospital | 820",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 6 Jul 2026",
+      "dateISO": "2026-07-06",
+      "title": "Mondsay | Fasting blood test hospital | 820",
+      "detail": "Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "8th | Daz | London Roger | PM",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 8 Jul 2026",
+      "dateISO": "2026-07-08",
+      "title": "London Roger | PM",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thursday",
-      "detail": "9th | Daz | London Academia | PM",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 9 Jul 2026",
+      "dateISO": "2026-07-09",
+      "title": "London Academia | PM",
+      "detail": "Thursday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "12th | BOTH | Mummys for lunch | PM",
-      "category": "",
-      "status": "planned"
+      "date": "Sun 12 Jul 2026",
+      "dateISO": "2026-07-12",
+      "title": "Mummys for lunch | PM",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Tuesday",
-      "detail": "14th | DAZ | London Albion",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 14 Jul 2026",
+      "dateISO": "2026-07-14",
+      "title": "London Albion",
+      "detail": "Tuesday | DAZ",
+      "category": "DAZ",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "15th | Daz | Daz Quacks - phyco | 1430",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 15 Jul 2026",
+      "dateISO": "2026-07-15",
+      "title": "Daz Quacks - phyco | 1430",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thursday",
-      "detail": "17th | Daz | London Jigsaw",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 17 Jul 2026",
+      "dateISO": "2026-07-17",
+      "title": "London Jigsaw",
+      "detail": "Thursday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Tyesday",
-      "detail": "21st | BOTH | Pizza with Uncle Peter | 19:00",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 21 Jul 2026",
+      "dateISO": "2026-07-21",
+      "title": "Tyesday | Pizza with Uncle Peter | 19:00",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thursday",
-      "detail": "23rd | BOTH | Auntie pat hills birthday in heaven",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 23 Jul 2026",
+      "dateISO": "2026-07-23",
+      "title": "Auntie pat hills birthday in heaven",
+      "detail": "Thursday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thursday",
-      "detail": "23rd | Daz Work | Lee Whatton Birthday | 40",
+      "date": "Thu 23 Jul 2026",
+      "dateISO": "2026-07-23",
+      "title": "Daz Work | Lee Whatton Birthday | 40",
+      "detail": "Thursday",
       "category": "",
-      "status": "planned"
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "24th | BOTH | Marley Birthday",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 24 Jul 2026",
+      "dateISO": "2026-07-24",
+      "title": "Marley Birthday",
+      "detail": "Friday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "26th | BOTH | Cornwall | Canival",
-      "category": "",
-      "status": "planned"
+      "date": "Sun 26 Jul 2026",
+      "dateISO": "2026-07-26",
+      "title": "Cornwall | Canival",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "27th | BOTH | Cornwall | Canival",
-      "category": "",
-      "status": "planned"
+      "date": "Mon 27 Jul 2026",
+      "dateISO": "2026-07-27",
+      "title": "Cornwall | Canival",
+      "detail": "Monday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Tuesday",
-      "detail": "28th | BOTH | Cornwall | Canival",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 28 Jul 2026",
+      "dateISO": "2026-07-28",
+      "title": "Cornwall | Canival",
+      "detail": "Tuesday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "29th | BOTH | Cornwall | Canival",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 29 Jul 2026",
+      "dateISO": "2026-07-29",
+      "title": "Cornwall | Canival",
+      "detail": "Wednesday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "29th | BOTH | Simons Birthday",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 29 Jul 2026",
+      "dateISO": "2026-07-29",
+      "title": "Simons Birthday",
+      "detail": "Wednesday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thursday",
-      "detail": "30th | BOTH | Cornwall | Canival",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 30 Jul 2026",
+      "dateISO": "2026-07-30",
+      "title": "Cornwall | Canival",
+      "detail": "Thursday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "31st | BOTH | Cornwall | Canival",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 31 Jul 2026",
+      "dateISO": "2026-07-31",
+      "title": "Cornwall | Canival",
+      "detail": "Friday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "31st | BOTH | FREDS | LOOE",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 31 Jul 2026",
+      "dateISO": "2026-07-31",
+      "title": "FREDS | LOOE",
+      "detail": "Friday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "1st | BOTH | Cornwall | Canival",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 1 Jul 2026",
+      "dateISO": "2026-07-01",
+      "title": "Cornwall | Canival",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "2nd | BOTH | Cornwall | Canival",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 2 Jul 2026",
+      "dateISO": "2026-07-02",
+      "title": "Cornwall | Canival",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thurs",
-      "detail": "30th | BOTH | Cornwall | Canival",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 30 Jul 2026",
+      "dateISO": "2026-07-30",
+      "title": "Thurs | Cornwall | Canival",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "1st | BOTH | Cornwall | Canival",
-      "category": "",
-      "status": "planned"
+      "date": "Sat 1 Aug 2026",
+      "dateISO": "2026-08-01",
+      "title": "Cornwall | Canival",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "2nd | BOTH | Cornwall | Canival leave 12:58 arrive 18:03   5hrs 1 change at exeter",
-      "category": "",
-      "status": "planned"
+      "date": "Sun 2 Aug 2026",
+      "dateISO": "2026-08-02",
+      "title": "Cornwall | Canival leave 12:58 arrive 18:03   5hrs 1 change at exeter",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Tuesday",
-      "detail": "4th | BOTH | Eastbourne | Funeral",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 4 Aug 2026",
+      "dateISO": "2026-08-04",
+      "title": "Eastbourne | Funeral",
+      "detail": "Tuesday | BOTH",
+      "category": "BOTH",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "5th | Daz | Chase yearly bloods | email sent",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 5 Aug 2026",
+      "dateISO": "2026-08-05",
+      "title": "Chase yearly bloods | email sent",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "5th | Daz | Phyco | 13:30",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 5 Aug 2026",
+      "dateISO": "2026-08-05",
+      "title": "Phyco | 13:30",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "12th | Daz | phyco | 15:30",
-      "category": "",
-      "status": "planned"
+      "date": "Wed 12 Aug 2026",
+      "dateISO": "2026-08-12",
+      "title": "phyco | 15:30",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thursday",
-      "detail": "13th | Daz | Dentist | 11:10",
-      "category": "",
-      "status": "planned"
+      "date": "Thu 13 Aug 2026",
+      "dateISO": "2026-08-13",
+      "title": "Dentist | 11:10",
+      "detail": "Thursday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Tuesday",
-      "detail": "18th | both | caraughs birthday",
-      "category": "",
-      "status": "planned"
+      "date": "Tue 18 Aug 2026",
+      "dateISO": "2026-08-18",
+      "title": "caraughs birthday",
+      "detail": "Tuesday | both",
+      "category": "both",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "21st | Daz | phyco",
-      "category": "",
-      "status": "planned"
+      "date": "Fri 21 Aug 2026",
+      "dateISO": "2026-08-21",
+      "title": "phyco",
+      "detail": "Friday | Daz",
+      "category": "Daz",
+      "status": "done"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "26th | Daz | Eye test | 3:55",
-      "category": "",
+      "date": "Wed 26 Aug 2026",
+      "dateISO": "2026-08-26",
+      "title": "Eye test | 3:55",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "29th | both | london | abilgales party | tickets in notes",
-      "category": "",
+      "date": "Sat 29 Aug 2026",
+      "dateISO": "2026-08-29",
+      "title": "london | abilgales party | tickets in notes",
+      "detail": "Saturday | both",
+      "category": "both",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "2nd | Daz | Car Pickup | 17:30",
-      "category": "",
+      "date": "Wed 2 Sep 2026",
+      "dateISO": "2026-09-02",
+      "title": "Car Pickup | 17:30",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "2nd | Daz | Book 15th test Injection",
-      "category": "",
+      "date": "Wed 2 Sep 2026",
+      "dateISO": "2026-09-02",
+      "title": "Book 15th test Injection",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Thurs",
-      "detail": "3rd | FAMILY | BlackPool | Travel up",
-      "category": "",
+      "date": "Thu 3 Sep 2026",
+      "dateISO": "2026-09-03",
+      "title": "Thurs | BlackPool | Travel up",
+      "detail": "FAMILY",
+      "category": "FAMILY",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Fri",
-      "detail": "4th | FAMILY | BlackPool | Lights on",
-      "category": "",
+      "date": "Fri 4 Sep 2026",
+      "dateISO": "2026-09-04",
+      "title": "BlackPool | Lights on",
+      "detail": "Fri | FAMILY",
+      "category": "FAMILY",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sat",
-      "detail": "5th | FAMILY | BlackPool | Enjoy",
-      "category": "",
+      "date": "Sat 5 Sep 2026",
+      "dateISO": "2026-09-05",
+      "title": "BlackPool | Enjoy",
+      "detail": "Sat | FAMILY",
+      "category": "FAMILY",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sun",
-      "detail": "6th | FAMILY | BlackPool | Travel back",
-      "category": "",
+      "date": "Sun 6 Sep 2026",
+      "dateISO": "2026-09-06",
+      "title": "BlackPool | Travel back",
+      "detail": "Sun | FAMILY",
+      "category": "FAMILY",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Monday",
-      "detail": "7th | Daz | Car Dropoff | 10:00",
-      "category": "",
+      "date": "Mon 7 Sep 2026",
+      "dateISO": "2026-09-07",
+      "title": "Car Dropoff | 10:00",
+      "detail": "Monday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "13th",
-      "detail": "Both | Richards Birthday | got flasy card",
-      "category": "",
+      "date": "Sun 13 Sep 2026",
+      "dateISO": "2026-09-13",
+      "title": "Richards Birthday | got flasy card",
+      "detail": "Both",
+      "category": "Both",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "15th",
-      "detail": "Daz | Needs testos inj",
-      "category": "",
+      "date": "Tue 15 Sep 2026",
+      "dateISO": "2026-09-15",
+      "title": "Needs testos inj",
+      "detail": "Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Wednesday",
-      "detail": "14th | BOTH | Jean ValJean | Guildford | tickets in notes",
-      "category": "",
+      "date": "Wed 14 Oct 2026",
+      "dateISO": "2026-10-14",
+      "title": "Jean ValJean | Guildford | tickets in notes",
+      "detail": "Wednesday | BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Friday",
-      "detail": "23Rd | BOTH | Karl Loxley | Southampton | tickets in wallet",
-      "category": "",
+      "date": "Fri 23 Oct 2026",
+      "dateISO": "2026-10-23",
+      "title": "Karl Loxley | Southampton | tickets in wallet",
+      "detail": "Friday | BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "24th | BOTH | Kitten Day",
-      "category": "",
+      "date": "Sat 24 Oct 2026",
+      "dateISO": "2026-10-24",
+      "title": "Kitten Day",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "6th",
-      "detail": "BOTH | Uncle joes birthday",
-      "category": "",
+      "date": "Fri 6 Nov 2026",
+      "dateISO": "2026-11-06",
+      "title": "Uncle joes birthday",
+      "detail": "BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "9th",
-      "detail": "BOTH | pat edwards birthday in heaven",
-      "category": "",
+      "date": "Mon 9 Nov 2026",
+      "dateISO": "2026-11-09",
+      "title": "pat edwards birthday in heaven",
+      "detail": "BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "14th | BOTH+tracy | Alison Moyet | Anvil",
+      "date": "Sat 14 Nov 2026",
+      "dateISO": "2026-11-14",
+      "title": "BOTH+tracy | Alison Moyet | Anvil",
+      "detail": "Saturday",
       "category": "",
       "status": "planned"
     },
     {
       "date": "",
       "dateISO": "",
-      "title": "BOTH",
-      "detail": "Chase bowell screening | June/July",
-      "category": "",
+      "title": "Chase bowell screening | June/July",
+      "detail": "BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "NEXT YEAR 2027",
+      "date": "Tue 13 Apr 2027",
+      "dateISO": "2027-04-13",
+      "title": "should get miss seigon tickets via email",
       "detail": "",
       "category": "",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "13th",
-      "detail": "should get miss seigon tickets via email",
+      "date": "Sun 2 May 2027",
+      "dateISO": "2027-05-02",
+      "title": "Mayflower Johannas",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Sat 29 May 2027",
+      "dateISO": "2027-05-29",
+      "title": "Dinner Ladies | tickets in wallet",
+      "detail": "Saturday | FAMILY",
+      "category": "FAMILY",
+      "status": "planned"
+    },
+    {
+      "date": "Sat 5 Jun 2027",
+      "dateISO": "2027-06-05",
+      "title": "DAZ to Jay Surprise",
+      "detail": "Sat | BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Tue 6 Jul 2027",
+      "dateISO": "2027-07-06",
+      "title": "Rogers Birthday",
+      "detail": "Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 8 Jul 2027",
+      "dateISO": "2027-07-08",
+      "title": "Davd W Birthday",
+      "detail": "Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 9 Jul 2027",
+      "dateISO": "2027-07-09",
+      "title": "Rob W Birthday",
+      "detail": "Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 14 Jul 2027",
+      "dateISO": "2027-07-14",
+      "title": "Phil W Birthday",
+      "detail": "Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 23 Jul 2027",
+      "dateISO": "2027-07-23",
+      "title": "Auntie pat hills birthday in heaven",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 23 Jul 2027",
+      "dateISO": "2027-07-23",
+      "title": "Daz Work | Lee Whatton Birthday 41",
+      "detail": "",
       "category": "",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sunday",
-      "detail": "2nd | BOTH | Mayflower Johannas",
-      "category": "",
+      "date": "Sat 24 Jul 2027",
+      "dateISO": "2027-07-24",
+      "title": "Marleys birthday",
+      "detail": "BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Saturday",
-      "detail": "29th | FAMILY | Dinner Ladies | tickets in wallet",
-      "category": "",
+      "date": "Thu 29 Jul 2027",
+      "dateISO": "2027-07-29",
+      "title": "Simons Birthday",
+      "detail": "BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "Sat",
-      "detail": "5th | BOTH | DAZ to Jay Surprise",
-      "category": "",
+      "date": "Wed 18 Aug 2027",
+      "dateISO": "2027-08-18",
+      "title": "caraughs birthday",
+      "detail": "both",
+      "category": "both",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "6th",
-      "detail": "Daz | Rogers Birthday",
-      "category": "",
+      "date": "Sat 4 Sep 2027",
+      "dateISO": "2027-09-04",
+      "title": "Gemmas wedding",
+      "detail": "Fri-sat | BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "8th",
-      "detail": "Daz | Davd W Birthday",
-      "category": "",
+      "date": "Mon 13 Sep 2027",
+      "dateISO": "2027-09-13",
+      "title": "Richards G Birthday",
+      "detail": "Both",
+      "category": "Both",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "9th",
-      "detail": "Daz | Rob W Birthday",
-      "category": "",
+      "date": "Sat 6 Nov 2027",
+      "dateISO": "2027-11-06",
+      "title": "Uncle joes birthday",
+      "detail": "BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
-      "date": "",
-      "dateISO": "",
-      "title": "14th",
-      "detail": "Daz | Phil W Birthday",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "23rd",
-      "detail": "BOTH | Auntie pat hills birthday in heaven",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "23rd",
-      "detail": "Daz Work | Lee Whatton Birthday 41",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "24th",
-      "detail": "BOTH | Marleys birthday",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "29th",
-      "detail": "BOTH | Simons Birthday",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "18th",
-      "detail": "both | caraughs birthday",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "Fri-sat",
-      "detail": "3/4th | BOTH | Gemmas wedding",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "13th",
-      "detail": "Both | Richards G Birthday",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "6th",
-      "detail": "BOTH | Uncle joes birthday",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "",
-      "dateISO": "",
-      "title": "9th",
-      "detail": "BOTH | pat edwards birthday in heaven",
-      "category": "",
+      "date": "Tue 9 Nov 2027",
+      "dateISO": "2027-11-09",
+      "title": "pat edwards birthday in heaven",
+      "detail": "BOTH",
+      "category": "BOTH",
       "status": "planned"
     }
   ]
