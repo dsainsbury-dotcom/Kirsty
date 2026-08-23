@@ -63,9 +63,7 @@ def parse_full_date(value):
 def derive_status(parsed_date, explicit_status=""):
     if norm(explicit_status) in {"waiting", "blocked", "hold", "onhold", "pending"}:
         return "waiting"
-    if parsed_date:
-        return "done" if parsed_date < date.today() else "planned"
-    return "planned"
+    return "done" if parsed_date < date.today() else "planned"
 
 
 def build_entry(cells, month_context):
@@ -76,6 +74,7 @@ def build_entry(cells, month_context):
     parsed = None
     date_index = None
     raw_date = ""
+
     for i, cell in non_empty:
         full = parse_full_date(cell)
         if full:
@@ -98,7 +97,12 @@ def build_entry(cells, month_context):
             except ValueError:
                 continue
 
-    if parsed and parsed < MIN_DATE:
+    # If we cannot establish a real date, ignore the row completely.
+    if parsed is None:
+        return None
+
+    # Ignore all historical diary items before August 2026.
+    if parsed < MIN_DATE:
         return None
 
     weekday = ""
@@ -117,9 +121,6 @@ def build_entry(cells, month_context):
             continue
         event_parts.append(cell)
 
-    if parsed is None and len(event_parts) <= 1:
-        return None
-
     title = " | ".join(event_parts) if event_parts else (weekday or "Diary item")
     detail_parts = []
     if weekday:
@@ -129,10 +130,10 @@ def build_entry(cells, month_context):
     if raw_date and "-" in raw_date:
         detail_parts.append(raw_date)
 
-    display_date = parsed.strftime("%a %-d %b %Y") if parsed else ""
+    display_date = parsed.strftime("%a %-d %b %Y")
     return {
         "date": display_date,
-        "dateISO": parsed.isoformat() if parsed else "",
+        "dateISO": parsed.isoformat(),
         "title": title,
         "detail": " | ".join(detail_parts),
         "category": owner,
@@ -158,6 +159,8 @@ def main():
 
     entries = []
     month_context = None
+    skipped_no_date = 0
+    skipped_before_august = 0
 
     for raw_row in values:
         cells = [str(c).strip() for c in raw_row]
@@ -173,9 +176,33 @@ def main():
             month_context = found_month
             continue
 
+        # Track skipped rows for easier debugging without publishing them to the site.
+        has_full_date = any(parse_full_date(c) for c in cells if c)
+        has_ordinal = bool(month_context and any(ordinal_day(c) is not None for c in cells if c))
+        if not has_full_date and not has_ordinal:
+            skipped_no_date += 1
+            continue
+
         entry = build_entry(cells, month_context)
         if entry:
             entries.append(entry)
+        else:
+            parsed_candidate = None
+            for c in cells:
+                parsed_candidate = parse_full_date(c)
+                if parsed_candidate:
+                    break
+            if parsed_candidate is None and month_context:
+                for c in cells:
+                    day = ordinal_day(c)
+                    if day is not None:
+                        try:
+                            parsed_candidate = date(month_context[0], month_context[1], day)
+                        except ValueError:
+                            pass
+                        break
+            if parsed_candidate and parsed_candidate < MIN_DATE:
+                skipped_before_august += 1
 
     payload = {
         "source": "Google Sheets - DiaryEvents",
@@ -184,11 +211,15 @@ def main():
         "updated": datetime.now().astimezone().isoformat(timespec="seconds"),
         "rules": {
             "ignoreBefore": "2026-08-01",
+            "ignoreNoDate": True,
             "monthHeader": "Month/year is read from any cell in a section row",
             "rowLayout": "weekday + ordinal day + owner + event",
             "pastDate": "done",
-            "todayOrFuture": "planned",
-            "blocked": "waiting"
+            "todayOrFuture": "planned"
+        },
+        "skipped": {
+            "noDate": skipped_no_date,
+            "beforeAugust2026": skipped_before_august
         },
         "count": len(entries),
         "entries": entries,
@@ -196,7 +227,7 @@ def main():
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Synced {len(entries)} diary entries from tab '{worksheet.title}'.")
+    print(f"Synced {len(entries)} diary entries from tab '{worksheet.title}'. Skipped {skipped_no_date} undated rows and {skipped_before_august} rows before Aug 2026.")
 
 
 if __name__ == "__main__":
