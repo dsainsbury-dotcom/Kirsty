@@ -1,0 +1,31 @@
+{
+  "updated": "24 August 2026",
+  "reading": {
+    "confirmed": 14,
+    "current": "Chapter 15 in progress",
+    "goalNote": "Chapters 1-14 confirmed complete. Currently reading chapter 15."
+  },
+  "completedGoals": [
+    "Complete Amazon return"
+  ],
+  "recentWins": [
+    "Amazon returns taken back and completed.",
+    "Reading has reached chapter 15, with chapters 1-14 completed."
+  ],
+  "dailyLog": [
+    {
+      "date": "24 Aug",
+      "personal": "Chapter 15 in progress; Amazon returns taken back; looking forward to Blackpool with Mum & Dad next week",
+      "work": "",
+      "avoidance": "",
+      "response": "Kept reading moving and closed the Amazon return task"
+    }
+  ],
+  "lookingForward": [
+    {
+      "title": "Blackpool with Mum & Dad",
+      "detail": "Next week. Looking forward to going up the tower, high tea and a drag cabaret.",
+      "values": "Family / connection / living again"
+    }
+  ]
+}
