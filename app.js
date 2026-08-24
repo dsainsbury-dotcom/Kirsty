@@ -15,18 +15,18 @@ function setupNavigation(){
 
 setupNavigation();
 
+async function fetchJson(path){
+  const res=await fetch(path+'?ts='+Date.now());
+  if(!res.ok) throw new Error(`${path} returned ${res.status}`);
+  return res.json();
+}
+
 async function boot(){
-  const res = await fetch('data/site-data.json?ts='+Date.now());
-  if(!res.ok) throw new Error(`site-data.json returned ${res.status}`);
-  const d = await res.json();
+  const d=await fetchJson('data/site-data.json');
 
   let live={};
-  try{
-    const liveRes=await fetch('data/live-updates.json?ts='+Date.now());
-    if(liveRes.ok) live=await liveRes.json();
-  }catch(e){
-    console.warn('Live updates unavailable',e);
-  }
+  try{ live=await fetchJson('data/live-updates.json'); }
+  catch(e){ console.warn('Live updates unavailable',e); }
 
   const setText=(id,value)=>{const el=document.getElementById(id);if(el) el.textContent=value??'';};
   const setHTML=(id,value)=>{const el=document.getElementById(id);if(el) el.innerHTML=value??'';};
@@ -37,6 +37,7 @@ async function boot(){
   setText('week-title',d.thisWeek?.title);
   setText('week-summary',d.thisWeek?.summary);
   setText('reading-count',live.reading?.confirmed ?? d.progress?.readingConfirmed);
+  setText('reading-current',live.reading?.current || 'chapters confirmed');
 
   if(d.nextAppointment){
     setText('next-appointment',d.nextAppointment.date);
@@ -83,15 +84,29 @@ async function boot(){
     setHTML('sessions-grid',[...d.sessions].reverse().map(s=>`<div class="card session-card"><span class="pill">${s.date}</span><h3>${s.title}</h3><p><b>Session / ask:</b> ${s.ask}</p><p><b>What I did:</b> ${s.progress}</p><p><b>Next focus:</b> ${s.next}</p>${s.source?`<small>${s.source}</small>`:''}</div>`).join(''));
   }
 
-  let diaryPayload=null;
   try{
-    const diaryRes=await fetch('data/home-diary.json?ts='+Date.now());
-    if(diaryRes.ok) diaryPayload=await diaryRes.json();
+    const blog=await fetchJson('data/blog.json');
+    setText('blog-subtitle',blog.subtitle);
+    const entries=[...(blog.entries||[])].reverse();
+    setHTML('blog-list',entries.map(e=>`<div class="time-item card" style="margin-bottom:16px">
+      <span class="date">${e.date}</span>
+      <h3>${e.title}</h3>
+      <p>${e.story}</p>
+      ${(e.goals||[]).length?`<p><b>Goals crossed:</b> ${(e.goals||[]).join(' · ')}</p>`:''}
+      ${e.avoidance?`<p><b>Avoidance:</b> ${e.avoidance}</p>`:''}
+      ${e.response?`<p><b>What I did:</b> ${e.response}</p>`:''}
+      ${(e.values||[]).length?`<p><b>Values showing up:</b> ${(e.values||[]).join(' · ')}</p>`:''}
+    </div>`).join(''));
   }catch(e){
-    console.warn('Synced diary unavailable',e);
+    console.warn('Blog unavailable',e);
+    setHTML('blog-list','<p>Blog data could not load.</p>');
   }
 
-  const diary=(diaryPayload?.entries?.length?diaryPayload.entries:(d.homeDiary||[])).map(x=>({...x}));
+  let diaryPayload=null;
+  try{ diaryPayload=await fetchJson('data/home-diary.json'); }
+  catch(e){ console.warn('Synced diary unavailable',e); }
+
+  const diary=(diaryPayload?.entries?.length?diaryPayload.entries:(d.homeDiary||[])).filter(x=>x.dateISO).map(x=>({...x}));
   const sortKey=(x)=>x.dateISO||'';
   const planned=diary.filter(x=>x.status==='planned').sort((a,b)=>sortKey(a).localeCompare(sortKey(b)));
   const done=diary.filter(x=>x.status==='done').sort((a,b)=>sortKey(b).localeCompare(sortKey(a)));
@@ -101,7 +116,7 @@ async function boot(){
   setText('diary-planned-count',planned.length);
   setText('diary-waiting-count',waiting.length);
 
-  const renderEntry=(x)=>`<div class="diary-entry"><div class="diary-date">${x.date||''}</div><div class="diary-main"><div class="diary-title-row"><h3>${x.title}</h3><span class="status ${x.status}">${x.status}</span></div><p>${x.detail||''}</p>${x.category?`<small>${x.category}</small>`:''}</div></div>`;
+  const renderEntry=(x)=>`<div class="diary-entry"><div class="diary-date">${x.date}</div><div class="diary-main"><div class="diary-title-row"><h3>${x.title}</h3><span class="status ${x.status}">${x.status}</span></div><p>${x.detail||''}</p>${x.category?`<small>${x.category}</small>`:''}</div></div>`;
   const renderList=(id,rows,emptyText)=>setHTML(id,rows.length?rows.map(renderEntry).join(''):`<p>${emptyText}</p>`);
 
   renderList('diary-planned-list',planned,'Nothing planned.');
