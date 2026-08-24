@@ -19,6 +19,7 @@
 
   <nav class="nav">
     <button data-target="home" class="active">Home</button>
+    <button data-target="blog">From the Start</button>
     <button data-target="diary">Diary</button>
     <button data-target="values">Values</button>
     <button data-target="goals">Goals</button>
@@ -39,7 +40,7 @@
       </div>
 
       <div class="grid three stats">
-        <div class="card stat"><span>Reading</span><strong id="reading-count"></strong><small>chapters confirmed</small></div>
+        <div class="card stat"><span>Reading</span><strong id="reading-count"></strong><small id="reading-current">chapters confirmed</small></div>
         <div class="card stat"><span>Next Kirsty session</span><strong id="next-appointment"></strong><small id="next-appointment-time"></small></div>
         <div class="card stat"><span>Current theme</span><strong>Avoidance</strong><small>notice it, name it, act small</small></div>
       </div>
@@ -72,6 +73,14 @@
         <h3>What I'm practising</h3>
         <div id="principles" class="chip-grid"></div>
       </div>
+    </section>
+
+    <section id="blog" class="page">
+      <div class="section-head">
+        <h2>From the Start</h2>
+        <p id="blog-subtitle">Day by day: what happened, what I was thinking, what I did, and which goals or values it touched.</p>
+      </div>
+      <div id="blog-list" class="timeline"></div>
     </section>
 
     <section id="diary" class="page">
