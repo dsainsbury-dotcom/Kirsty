@@ -20,6 +20,7 @@
   <nav class="nav">
     <button data-target="home" class="active">Home</button>
     <button data-target="blog">From the Start</button>
+    <button data-target="memories">Memory Lane</button>
     <button data-target="diary">Diary</button>
     <button data-target="values">Values</button>
     <button data-target="goals">Goals</button>
@@ -31,128 +32,58 @@
 
   <main>
     <section id="home" class="page active">
-      <div class="hero card">
-        <div>
-          <span class="pill">THIS WEEK</span>
-          <h2 id="week-title"></h2>
-          <p id="week-summary"></p>
-        </div>
-      </div>
-
+      <div class="hero card"><div><span class="pill">THIS WEEK</span><h2 id="week-title"></h2><p id="week-summary"></p></div></div>
       <div class="grid three stats">
         <div class="card stat"><span>Reading</span><strong id="reading-count"></strong><small id="reading-current">chapters confirmed</small></div>
         <div class="card stat"><span>Next Kirsty session</span><strong id="next-appointment"></strong><small id="next-appointment-time"></small></div>
         <div class="card stat"><span>Current theme</span><strong>Avoidance</strong><small>notice it, name it, act small</small></div>
       </div>
-
       <div class="grid two">
-        <div class="card">
-          <span class="pill">COMING UP</span>
-          <h3>Next diary items</h3>
-          <div id="home-upcoming"></div>
-        </div>
-        <div class="card">
-          <span class="pill">RECENT</span>
-          <h3>Recently completed</h3>
-          <div id="home-recent"></div>
-        </div>
+        <div class="card"><span class="pill">COMING UP</span><h3>Next diary items</h3><div id="home-upcoming"></div></div>
+        <div class="card"><span class="pill">RECENT</span><h3>Recently completed</h3><div id="home-recent"></div></div>
       </div>
-
       <div class="grid two">
-        <div class="card">
-          <h3>Current ask</h3>
-          <div id="week-asks"></div>
-        </div>
-        <div class="card">
-          <h3>Talk about with Kirsty</h3>
-          <div id="week-discussion"></div>
-        </div>
+        <div class="card"><h3>Current ask</h3><div id="week-asks"></div></div>
+        <div class="card"><h3>Talk about with Kirsty</h3><div id="week-discussion"></div></div>
       </div>
-
-      <div class="card">
-        <h3>What I'm practising</h3>
-        <div id="principles" class="chip-grid"></div>
-      </div>
+      <div class="card"><h3>What I'm practising</h3><div id="principles" class="chip-grid"></div></div>
     </section>
 
     <section id="blog" class="page">
-      <div class="section-head">
-        <h2>From the Start</h2>
-        <p id="blog-subtitle">Day by day: what happened, what I was thinking, what I did, and which goals or values it touched.</p>
-      </div>
+      <div class="section-head"><h2>From the Start</h2><p id="blog-subtitle">Day by day: what happened, what I was thinking, what I did, and which goals or values it touched.</p></div>
       <div id="blog-list" class="timeline"></div>
     </section>
 
-    <section id="diary" class="page">
+    <section id="memories" class="page">
       <div class="section-head">
-        <h2>Diary</h2>
-        <p>Google Sheets is the master diary. Past dates are completed automatically. Today and future dates are planned.</p>
+        <h2>Memory Lane</h2>
+        <p id="memories-subtitle">Pictures that bring back something good: people, places, pets, progress and ordinary moments worth keeping.</p>
       </div>
+      <div class="card memory-intro">
+        <span class="pill">HOW THIS WORKS</span>
+        <p>Send a photo in the chat and say what it reminds you of. I will add the date, a short title, the memory behind it and any values it connects to. Exact dates are useful but not compulsory.</p>
+      </div>
+      <div id="memories-grid" class="memory-grid"></div>
+    </section>
+
+    <section id="diary" class="page">
+      <div class="section-head"><h2>Diary</h2><p>Google Sheets is the master diary. Past dates are completed automatically. Today and future dates are planned.</p></div>
       <div class="grid three stats">
         <div class="card stat"><span>Completed</span><strong id="diary-done-count">0</strong><small>past dated items</small></div>
         <div class="card stat"><span>Planned</span><strong id="diary-planned-count">0</strong><small>today and future</small></div>
         <div class="card stat"><span>Waiting</span><strong id="diary-waiting-count">0</strong><small>blocked or undated</small></div>
       </div>
-
-      <div class="card diary-section">
-        <span class="pill">WHAT'S NEXT</span>
-        <h3>Planned</h3>
-        <div id="diary-planned-list" class="home-diary-list"></div>
-      </div>
-
-      <div class="card diary-section">
-        <span class="pill">DONE</span>
-        <h3>Recently completed</h3>
-        <div id="diary-done-list" class="home-diary-list"></div>
-      </div>
-
-      <div class="card diary-section" id="diary-waiting-section">
-        <span class="pill">WAITING</span>
-        <h3>Blocked or waiting</h3>
-        <div id="diary-waiting-list" class="home-diary-list"></div>
-      </div>
+      <div class="card diary-section"><span class="pill">WHAT'S NEXT</span><h3>Planned</h3><div id="diary-planned-list" class="home-diary-list"></div></div>
+      <div class="card diary-section"><span class="pill">DONE</span><h3>Recently completed</h3><div id="diary-done-list" class="home-diary-list"></div></div>
+      <div class="card diary-section" id="diary-waiting-section"><span class="pill">WAITING</span><h3>Blocked or waiting</h3><div id="diary-waiting-list" class="home-diary-list"></div></div>
     </section>
 
-    <section id="values" class="page">
-      <div class="section-head"><h2>My values</h2><p>The direction I want my life to move in.</p></div>
-      <div id="values-grid" class="grid three"></div>
-    </section>
-
-    <section id="goals" class="page">
-      <div class="section-head"><h2>Current goals</h2><p>Small, realistic and linked to what matters.</p></div>
-      <div class="grid two">
-        <div class="card"><h3>Personal</h3><div id="personal-goals"></div></div>
-        <div class="card"><h3>Work</h3><div id="work-goals"></div></div>
-      </div>
-    </section>
-
-    <section id="progress" class="page">
-      <div class="section-head"><h2>Progress</h2><p>Not just wins. Evidence that I am doing things differently.</p></div>
-      <div class="grid two">
-        <div class="card"><h3>Avoidance wins</h3><div id="avoidance-wins"></div></div>
-        <div class="card"><h3>Recent progress</h3><div id="recent-wins"></div></div>
-      </div>
-      <div class="card">
-        <h3>Daily log</h3>
-        <p>Latest entries first. This is the honest record, including difficult days and avoidance.</p>
-        <div class="table-wrap"><table><thead><tr><th>Date</th><th>Personal</th><th>Work</th><th>Avoidance</th><th>Response</th></tr></thead><tbody id="daily-log"></tbody></table></div>
-      </div>
-    </section>
-
-    <section id="sessions" class="page">
-      <div class="section-head"><h2>Kirsty sessions</h2><p>What each session led to, what I worked on, and where it took me next.</p></div>
-      <div id="sessions-grid" class="grid two"></div>
-    </section>
-
-    <section id="journey" class="page">
-      <div class="section-head"><h2>Journey</h2><p>The bigger picture, without turning it into a wall of text.</p></div>
-      <div id="timeline" class="timeline"></div>
-    </section>
-
-    <section id="library" class="page">
-      <div class="section-head"><h2>Homework library</h2><p>Printable one-pagers and the key work from each stage.</p></div>
-      <div id="library-grid" class="grid three"></div>
-    </section>
+    <section id="values" class="page"><div class="section-head"><h2>My values</h2><p>The direction I want my life to move in.</p></div><div id="values-grid" class="grid three"></div></section>
+    <section id="goals" class="page"><div class="section-head"><h2>Current goals</h2><p>Small, realistic and linked to what matters.</p></div><div class="grid two"><div class="card"><h3>Personal</h3><div id="personal-goals"></div></div><div class="card"><h3>Work</h3><div id="work-goals"></div></div></div></section>
+    <section id="progress" class="page"><div class="section-head"><h2>Progress</h2><p>Not just wins. Evidence that I am doing things differently.</p></div><div class="grid two"><div class="card"><h3>Avoidance wins</h3><div id="avoidance-wins"></div></div><div class="card"><h3>Recent progress</h3><div id="recent-wins"></div></div></div><div class="card"><h3>Daily log</h3><p>Latest entries first. This is the honest record, including difficult days and avoidance.</p><div class="table-wrap"><table><thead><tr><th>Date</th><th>Personal</th><th>Work</th><th>Avoidance</th><th>Response</th></tr></thead><tbody id="daily-log"></tbody></table></div></div></section>
+    <section id="sessions" class="page"><div class="section-head"><h2>Kirsty sessions</h2><p>What each session led to, what I worked on, and where it took me next.</p></div><div id="sessions-grid" class="grid two"></div></section>
+    <section id="journey" class="page"><div class="section-head"><h2>Journey</h2><p>The bigger picture, without turning it into a wall of text.</p></div><div id="timeline" class="timeline"></div></section>
+    <section id="library" class="page"><div class="section-head"><h2>Homework library</h2><p>Printable one-pagers and the key work from each stage.</p></div><div id="library-grid" class="grid three"></div></section>
   </main>
 
   <footer>One small step at a time.</footer>
