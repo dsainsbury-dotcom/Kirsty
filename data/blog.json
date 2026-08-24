@@ -2,95 +2,16 @@
   "title": "From the Start",
   "subtitle": "Day by day: what happened, what I was thinking, what I did, and which goals or values it touched.",
   "entries": [
-    {
-      "date": "16 Jul 2026",
-      "title": "Day one: restart, not perfect conditions",
-      "story": "Restarted The Secret of Secrets. I could not find the Kindle and nearly let that become the reason not to read. I used the phone app instead, read the prologue and then finished chapter 1. I also put the 6pm weekday work-app ban back in place, with no work apps at weekends.",
-      "goals": ["Read at least one chapter a day", "No work apps after 6pm on weekdays", "No work apps at weekends"],
-      "avoidance": "Missing Kindle and the phone not feeling the same nearly became a reason to put reading off.",
-      "response": "Used the phone app and read anyway.",
-      "values": ["Peace", "Sleep", "Living again", "Not abandoning myself"]
-    },
-    {
-      "date": "17 Jul 2026",
-      "title": "Action before motivation",
-      "story": "Read chapter 2. Tidied the bedroom and put clothes away so I was no longer stepping over them. Completed the Raylo SKU setup that had been hanging around. Also collected Elphaba's ashes from the crematorium.",
-      "goals": ["Read chapter 2", "Put clothes away and tidy bedroom", "Complete Raylo SKU setup"],
-      "avoidance": "Raylo SKUs had been avoided.",
-      "response": "Started the job and completed it.",
-      "values": ["Home", "Work", "Family", "Progress through small steps"]
-    },
-    {
-      "date": "18 Jul 2026",
-      "title": "The allotment was worse in my head",
-      "story": "Read chapter 3. Sorted the outdoor plants and started the indoor plants. Went to the allotment for the first time that year just to see what state it was in. It was not as bad as I expected and that gave me confidence to go back.",
-      "goals": ["Read chapter 3", "Sort outdoor plants", "Sort indoor plants", "Visit allotment and assess it"],
-      "avoidance": "The allotment had been built up into a much bigger job in my head.",
-      "response": "Changed the goal from 'fix it' to 'go and look'.",
-      "values": ["Hobbies", "Home", "Freedom", "Living again"]
-    },
-    {
-      "date": "19 Jul 2026",
-      "title": "Section one, not the whole allotment",
-      "story": "Went back to the allotment and cleared section one, spending about an hour there. Read chapter 4 and listened to chapter 3 on audio, which seemed to help concentration. Bought two large tomato plants and visited Ingham's nursery. Brought the bins in.",
-      "goals": ["Read chapter 4", "Clear allotment section one", "Bring bins in"],
-      "avoidance": "No major avoidance reported.",
-      "response": "Kept the allotment broken into sections instead of treating it as one huge job.",
-      "values": ["Hobbies", "Home", "Progress", "Living again"]
-    },
-    {
-      "date": "20 Jul 2026",
-      "title": "A lot got closed out",
-      "story": "Read chapters 5 and 6. Changed the bed, cleared allotment section two and sent Marley Bear's birthday card. The carried-over jobs did not get dropped just because they missed their original day.",
-      "goals": ["Read chapters 5 and 6", "Change the bed", "Complete allotment section two", "Send Marley Bear his birthday card"],
-      "avoidance": "The bed change had been carried over from the weekend.",
-      "response": "Finished it rather than abandoning it.",
-      "values": ["Home", "Family", "Progress", "Trust in myself"]
-    },
-    {
-      "date": "21 Jul 2026",
-      "title": "Kirsty said the progress was huge",
-      "story": "Met with Kirsty and talked her through the goal-setting grid. She liked it, agreed with the direction and said the avoidance summary showed huge progress. The Amazon return was added as an ongoing task, but it was genuinely blocked because the Post Office was waiting for labels.",
-      "goals": ["Review goals with Kirsty", "Complete Amazon return when labels are available"],
-      "avoidance": "Amazon return was blocked, not avoidance.",
-      "response": "Kept blocked tasks separate from things I was actually avoiding.",
-      "values": ["Health", "Trust", "Progress", "Honesty"]
-    },
-    {
-      "date": "12 Aug 2026",
-      "title": "Presence instead of more homework",
-      "story": "Kirsty's homework became a small set of flash-card ideas: carrot not stick, being present with people, enjoying food and finding the treasure in ordinary life. The point was practice during normal life, not creating another huge worksheet.",
-      "goals": ["Practise carrot not stick", "Be present", "Enjoy food", "Notice ordinary good things"],
-      "avoidance": "Risk of turning therapy into another list of jobs.",
-      "response": "Kept the homework deliberately simple.",
-      "values": ["Peace", "Connection", "Living again"]
-    },
-    {
-      "date": "21 Aug 2026",
-      "title": "Mindfulness week",
-      "story": "Kirsty's new ask was to try the Chocolate Meditation, Mindfulness of Breath and Body, and the 3-Minute Breathing Space. The aim was not to empty the mind or do it perfectly, but to notice where attention goes and bring it back.",
-      "goals": ["Try Chocolate Meditation", "Try Mindfulness of Breath and Body", "Try 3-Minute Breathing Space"],
-      "avoidance": "No need to turn mindfulness into another perfection test.",
-      "response": "Treat the exercises as experiments and notice what happens.",
-      "values": ["Peace", "Attention", "Health without obsession"]
-    },
-    {
-      "date": "23 Aug 2026",
-      "title": "Chapter 13",
-      "story": "Reached chapter 13 of The Secret of Secrets. The reading goal had gone from a restart task into an ongoing habit.",
-      "goals": ["Keep reading daily"],
-      "avoidance": "None reported.",
-      "response": "Kept the habit going.",
-      "values": ["Living again", "Concentration", "Hobbies"]
-    },
-    {
-      "date": "24 Aug 2026",
-      "title": "Chapter 15, Amazon return done, Blackpool ahead",
-      "story": "Chapters 1-14 are complete and chapter 15 is in progress. Took the Amazon returns back, closing a task that had been waiting on labels. Also talked about really looking forward to Blackpool with Mum and Dad next week, with the tower, high tea and a drag cabaret planned.",
-      "goals": ["Continue reading", "Complete Amazon return"],
-      "avoidance": "No new avoidance reported today.",
-      "response": "Closed the Amazon return and kept reading moving.",
-      "values": ["Family", "Connection", "Living again", "Progress"]
-    }
+    {"date":"16 Jul 2026","title":"Day one: restart, not perfect conditions","story":"Restarted The Secret of Secrets. I could not find the Kindle and nearly let that become the reason not to read. I used the phone app instead, read the prologue and then finished chapter 1. I also put the 6pm weekday work-app ban back in place, with no work apps at weekends.","goals":["Read at least one chapter a day","No work apps after 6pm on weekdays","No work apps at weekends"],"avoidance":"Missing Kindle and the phone not feeling the same nearly became a reason to put reading off.","response":"Used the phone app and read anyway.","values":["Peace","Sleep","Living again","Not abandoning myself"]},
+    {"date":"17 Jul 2026","title":"Action before motivation","story":"Read chapter 2. Tidied the bedroom and put clothes away so I was no longer stepping over them. Completed the Raylo SKU setup that had been hanging around. Also collected Elphaba's ashes from the crematorium.","goals":["Read chapter 2","Put clothes away and tidy bedroom","Complete Raylo SKU setup"],"avoidance":"Raylo SKUs had been avoided.","response":"Started the job and completed it.","values":["Home","Work","Family","Progress through small steps"]},
+    {"date":"18 Jul 2026","title":"The allotment was worse in my head","story":"Read chapter 3. Sorted the outdoor plants and started the indoor plants. Went to the allotment for the first time that year just to see what state it was in. It was not as bad as I expected and that gave me confidence to go back.","goals":["Read chapter 3","Sort outdoor plants","Sort indoor plants","Visit allotment and assess it"],"avoidance":"The allotment had been built up into a much bigger job in my head.","response":"Changed the goal from 'fix it' to 'go and look'.","values":["Hobbies","Home","Freedom","Living again"]},
+    {"date":"19 Jul 2026","title":"Section one, not the whole allotment","story":"Went back to the allotment and cleared section one, spending about an hour there. Read chapter 4 and listened to chapter 3 on audio, which seemed to help concentration. Bought two large tomato plants and visited Ingham's nursery. Brought the bins in.","goals":["Read chapter 4","Clear allotment section one","Bring bins in"],"avoidance":"No major avoidance reported.","response":"Kept the allotment broken into sections instead of treating it as one huge job.","values":["Hobbies","Home","Progress","Living again"]},
+    {"date":"20 Jul 2026","title":"A lot got closed out","story":"Read chapters 5 and 6. Changed the bed, cleared allotment section two and sent Marley Bear's birthday card. The carried-over jobs did not get dropped just because they missed their original day.","goals":["Read chapters 5 and 6","Change the bed","Complete allotment section two","Send Marley Bear his birthday card"],"avoidance":"The bed change had been carried over from the weekend.","response":"Finished it rather than abandoning it.","values":["Home","Family","Progress","Trust in myself"]},
+    {"date":"21 Jul 2026","title":"Kirsty said the progress was huge","story":"Met with Kirsty and talked her through the goal-setting grid. She liked it, agreed with the direction and said the avoidance summary showed huge progress. The Amazon return was added as an ongoing task, but it was genuinely blocked because the Post Office was waiting for labels.","goals":["Review goals with Kirsty","Complete Amazon return when labels are available"],"avoidance":"Amazon return was blocked, not avoidance.","response":"Kept blocked tasks separate from things I was actually avoiding.","values":["Health","Trust","Progress","Honesty"]},
+    {"date":"12 Aug 2026","title":"Presence instead of more homework","story":"Kirsty's homework became a small set of flash-card ideas: carrot not stick, being present with people, enjoying food and finding the treasure in ordinary life. The point was practice during normal life, not creating another huge worksheet.","goals":["Practise carrot not stick","Be present","Enjoy food","Notice ordinary good things"],"avoidance":"Risk of turning therapy into another list of jobs.","response":"Kept the homework deliberately simple.","values":["Peace","Connection","Living again"]},
+    {"date":"21 Aug 2026","title":"Mindfulness week","story":"Kirsty's new ask was to try the Chocolate Meditation, Mindfulness of Breath and Body, and the 3-Minute Breathing Space. The aim was not to empty the mind or do it perfectly, but to notice where attention goes and bring it back.","goals":["Try Chocolate Meditation","Try Mindfulness of Breath and Body","Try 3-Minute Breathing Space"],"avoidance":"No need to turn mindfulness into another perfection test.","response":"Treat the exercises as experiments and notice what happens.","values":["Peace","Attention","Health without obsession"]},
+    {"date":"23 Aug 2026","title":"Chapter 13","story":"Reached chapter 13 of The Secret of Secrets. The reading goal had gone from a restart task into an ongoing habit.","goals":["Keep reading daily"],"avoidance":"None reported.","response":"Kept the habit going.","values":["Living again","Concentration","Hobbies"]},
+    {"date":"24 Aug 2026","title":"Chapter 15, Amazon return done, Blackpool ahead","story":"Chapters 1-14 are complete and chapter 15 is in progress. Took the Amazon returns back, closing a task that had been waiting on labels. Also talked about really looking forward to Blackpool with Mum and Dad next week, with the tower, high tea and a drag cabaret planned.","goals":["Continue reading","Complete Amazon return"],"avoidance":"No new avoidance reported today.","response":"Closed the Amazon return and kept reading moving.","values":["Family","Connection","Living again","Progress"]},
+    {"date":"24 Aug 2026","title":"About five weeks in: a new rhythm","story":"Looking at the app and the journey so far felt genuinely positive. Only about five weeks into actively working on this, I can see that I have started to build a new rhythm rather than just completing isolated tasks. Reading, acting on avoidance, making room for family and things to look forward to, and keeping the therapy work practical are beginning to feel more like part of normal life.","goals":["Keep building small repeatable habits","Continue acting against avoidance","Keep life connected to my values"],"avoidance":"The important thing now is not to turn the new rhythm into another perfection test.","response":"Notice the change, keep doing the small things, and allow imperfect days without treating them as failure.","values":["Living again","Peace","Family","Freedom","Trust in myself"]}
   ]
 }
