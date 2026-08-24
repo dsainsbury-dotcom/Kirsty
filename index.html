@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101216">
   <title>Darren's Compass</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260824-3">
 </head>
 <body>
   <header class="topbar">
@@ -38,6 +38,12 @@
         <div class="card stat"><span>Next Kirsty session</span><strong id="next-appointment"></strong><small id="next-appointment-time"></small></div>
         <div class="card stat"><span>Current theme</span><strong>Avoidance</strong><small>notice it, name it, act small</small></div>
       </div>
+      <div class="card" style="margin-bottom:16px">
+        <span class="pill">NEW</span>
+        <h3 style="margin-top:.7rem">Memory Lane</h3>
+        <p>Photos and video moments that bring back something good. Dante's first solid food is the first memory.</p>
+        <button type="button" data-open-page="memories" style="margin-top:10px;border:1px solid var(--line);background:var(--panel2);color:var(--text);padding:9px 12px;border-radius:10px;font-weight:700;cursor:pointer">Open Memory Lane</button>
+      </div>
       <div class="grid two">
         <div class="card"><span class="pill">COMING UP</span><h3>Next diary items</h3><div id="home-upcoming"></div></div>
         <div class="card"><span class="pill">RECENT</span><h3>Recently completed</h3><div id="home-recent"></div></div>
@@ -57,11 +63,11 @@
     <section id="memories" class="page">
       <div class="section-head">
         <h2>Memory Lane</h2>
-        <p id="memories-subtitle">Pictures that bring back something good: people, places, pets, progress and ordinary moments worth keeping.</p>
+        <p id="memories-subtitle">Pictures and video moments that bring back something good: people, places, pets, progress and ordinary moments worth keeping.</p>
       </div>
       <div class="card memory-intro">
         <span class="pill">HOW THIS WORKS</span>
-        <p>Send a photo in the chat and say what it reminds you of. I will add the date, a short title, the memory behind it and any values it connects to. Exact dates are useful but not compulsory.</p>
+        <p>Send a photo or video in the chat and say what it reminds you of. I will add a still from video where useful, the date, a short title, the memory behind it and any values it connects to.</p>
       </div>
       <div id="memories-grid" class="memory-grid"></div>
     </section>
@@ -71,7 +77,7 @@
       <div class="grid three stats">
         <div class="card stat"><span>Completed</span><strong id="diary-done-count">0</strong><small>past dated items</small></div>
         <div class="card stat"><span>Planned</span><strong id="diary-planned-count">0</strong><small>today and future</small></div>
-        <div class="card stat"><span>Waiting</span><strong id="diary-waiting-count">0</strong><small>blocked or undated</small></div>
+        <div class="card stat"><span>Waiting</span><strong id="diary-waiting-count">0</strong><small>blocked items</small></div>
       </div>
       <div class="card diary-section"><span class="pill">WHAT'S NEXT</span><h3>Planned</h3><div id="diary-planned-list" class="home-diary-list"></div></div>
       <div class="card diary-section"><span class="pill">DONE</span><h3>Recently completed</h3><div id="diary-done-list" class="home-diary-list"></div></div>
@@ -87,6 +93,6 @@
   </main>
 
   <footer>One small step at a time.</footer>
-  <script src="app.js"></script>
+  <script src="app.js?v=20260824-3"></script>
 </body>
 </html>
