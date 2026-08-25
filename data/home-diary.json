@@ -2,52 +2,372 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-08-25T13:27:00+01:00",
-  "rules": {"ignoreBefore":"2026-08-01","ignoreNoDate":true,"monthHeader":"Month/year is read from any cell in a section row","rowLayout":"weekday + ordinal day + owner + event","pastDate":"done","todayOrFuture":"planned"},
+  "updated": "2026-08-25T14:29:05+00:00",
+  "rules": {
+    "ignoreBefore": "2026-08-01",
+    "ignoreNoDate": true,
+    "monthHeader": "Month/year is read from any cell in a section row",
+    "rowLayout": "weekday + ordinal day + owner + event",
+    "pastDate": "done",
+    "todayOrFuture": "planned"
+  },
+  "skipped": {
+    "noDate": 12,
+    "beforeAugust2026": 101
+  },
+  "count": 44,
   "entries": [
-    {"date":"Sat 1 Aug 2026","dateISO":"2026-08-01","title":"Cornwall | Canival","detail":"Saturday | BOTH","category":"BOTH","status":"done"},
-    {"date":"Sun 2 Aug 2026","dateISO":"2026-08-02","title":"Cornwall | Canival leave 12:58 arrive 18:03   5hrs 1 change at exeter","detail":"Sunday | BOTH","category":"BOTH","status":"done"},
-    {"date":"Tue 4 Aug 2026","dateISO":"2026-08-04","title":"Eastbourne | Funeral","detail":"Tuesday | BOTH","category":"BOTH","status":"done"},
-    {"date":"Wed 5 Aug 2026","dateISO":"2026-08-05","title":"Chase yearly bloods | email sent","detail":"Wednesday | Daz","category":"Daz","status":"done"},
-    {"date":"Wed 5 Aug 2026","dateISO":"2026-08-05","title":"Phyco | 13:30","detail":"Wednesday | Daz","category":"Daz","status":"done"},
-    {"date":"Wed 12 Aug 2026","dateISO":"2026-08-12","title":"phyco | 15:30","detail":"Wednesday | Daz","category":"Daz","status":"done"},
-    {"date":"Thu 13 Aug 2026","dateISO":"2026-08-13","title":"Dentist | 11:10","detail":"Thursday | Daz","category":"Daz","status":"done"},
-    {"date":"Tue 18 Aug 2026","dateISO":"2026-08-18","title":"caraughs birthday","detail":"Tuesday | both","category":"both","status":"done"},
-    {"date":"Fri 21 Aug 2026","dateISO":"2026-08-21","title":"phyco","detail":"Friday | Daz","category":"Daz","status":"done"},
-    {"date":"Wed 26 Aug 2026","dateISO":"2026-08-26","title":"Eye test | 3:55","detail":"Wednesday | Daz","category":"Daz","status":"planned"},
-    {"date":"Fri 28 Aug 2026","dateISO":"2026-08-28","title":"London IBAI Lunch with Greentech","detail":"Friday | DazWORK","category":"DazWORK","status":"planned"},
-    {"date":"Sat 29 Aug 2026","dateISO":"2026-08-29","title":"london | abilgales party | tickets in notes","detail":"Saturday | both","category":"both","status":"planned"},
-    {"date":"Wed 2 Sep 2026","dateISO":"2026-09-02","title":"Car Pickup | 17:30","detail":"Wednesday | Daz","category":"Daz","status":"planned"},
-    {"date":"Wed 2 Sep 2026","dateISO":"2026-09-02","title":"Book 15th test Injection","detail":"Wednesday | Daz","category":"Daz","status":"planned"},
-    {"date":"Thu 3 Sep 2026","dateISO":"2026-09-03","title":"BlackPool | Travel up","detail":"Thurs | FAMILY","category":"FAMILY","status":"planned"},
-    {"date":"Fri 4 Sep 2026","dateISO":"2026-09-04","title":"BlackPool | Lights on","detail":"Fri | FAMILY","category":"FAMILY","status":"planned"},
-    {"date":"Sat 5 Sep 2026","dateISO":"2026-09-05","title":"BlackPool | Enjoy","detail":"Sat | FAMILY","category":"FAMILY","status":"planned"},
-    {"date":"Sun 6 Sep 2026","dateISO":"2026-09-06","title":"BlackPool | Travel back","detail":"Sun | FAMILY","category":"FAMILY","status":"planned"},
-    {"date":"Mon 7 Sep 2026","dateISO":"2026-09-07","title":"Car Dropoff | 10:00","detail":"Monday | Daz","category":"Daz","status":"planned"},
-    {"date":"Sun 13 Sep 2026","dateISO":"2026-09-13","title":"Richards Birthday | got flasy card","detail":"Both","category":"Both","status":"planned"},
-    {"date":"Tue 15 Sep 2026","dateISO":"2026-09-15","title":"Needs testos inj","detail":"Daz","category":"Daz","status":"planned"},
-    {"date":"Wed 14 Oct 2026","dateISO":"2026-10-14","title":"Jean ValJean | Guildford | tickets in notes","detail":"Wednesday | BOTH","category":"BOTH","status":"planned"},
-    {"date":"Fri 23 Oct 2026","dateISO":"2026-10-23","title":"Karl Loxley | Southampton | tickets in wallet","detail":"Friday | BOTH","category":"BOTH","status":"planned"},
-    {"date":"Sat 24 Oct 2026","dateISO":"2026-10-24","title":"Kitten Day","detail":"Saturday | BOTH","category":"BOTH","status":"planned"},
-    {"date":"Fri 6 Nov 2026","dateISO":"2026-11-06","title":"Uncle joes birthday","detail":"BOTH","category":"BOTH","status":"planned"},
-    {"date":"Mon 9 Nov 2026","dateISO":"2026-11-09","title":"pat edwards birthday in heaven","detail":"BOTH","category":"BOTH","status":"planned"},
-    {"date":"Sat 14 Nov 2026","dateISO":"2026-11-14","title":"Alison Moyet | Anvil","detail":"Saturday | BOTH+tracy","category":"BOTH+tracy","status":"planned"},
-    {"date":"Tue 13 Apr 2027","dateISO":"2027-04-13","title":"should get miss seigon tickets via email","detail":"","category":"","status":"planned"},
-    {"date":"Sun 2 May 2027","dateISO":"2027-05-02","title":"Mayflower Johannas","detail":"Sunday | BOTH","category":"BOTH","status":"planned"},
-    {"date":"Sat 29 May 2027","dateISO":"2027-05-29","title":"Dinner Ladies | tickets in wallet","detail":"Saturday | FAMILY","category":"FAMILY","status":"planned"},
-    {"date":"Sat 5 Jun 2027","dateISO":"2027-06-05","title":"DAZ to Jay Surprise","detail":"Sat | BOTH","category":"BOTH","status":"planned"},
-    {"date":"Tue 6 Jul 2027","dateISO":"2027-07-06","title":"Rogers Birthday","detail":"Daz","category":"Daz","status":"planned"},
-    {"date":"Thu 8 Jul 2027","dateISO":"2027-07-08","title":"Davd W Birthday","detail":"Daz","category":"Daz","status":"planned"},
-    {"date":"Fri 9 Jul 2027","dateISO":"2027-07-09","title":"Rob W Birthday","detail":"Daz","category":"Daz","status":"planned"},
-    {"date":"Wed 14 Jul 2027","dateISO":"2027-07-14","title":"Phil W Birthday","detail":"Daz","category":"Daz","status":"planned"},
-    {"date":"Fri 23 Jul 2027","dateISO":"2027-07-23","title":"Auntie pat hills birthday in heaven","detail":"BOTH","category":"BOTH","status":"planned"},
-    {"date":"Fri 23 Jul 2027","dateISO":"2027-07-23","title":"Lee Whatton Birthday 41","detail":"Daz Work","category":"Daz Work","status":"planned"},
-    {"date":"Sat 24 Jul 2027","dateISO":"2027-07-24","title":"Marleys birthday","detail":"BOTH","category":"BOTH","status":"planned"},
-    {"date":"Thu 29 Jul 2027","dateISO":"2027-07-29","title":"Simons Birthday","detail":"BOTH","category":"BOTH","status":"planned"},
-    {"date":"Wed 18 Aug 2027","dateISO":"2027-08-18","title":"caraughs birthday","detail":"both","category":"both","status":"planned"},
-    {"date":"Sat 4 Sep 2027","dateISO":"2027-09-04","title":"Gemmas wedding","detail":"Fri-sat | BOTH","category":"BOTH","status":"planned"},
-    {"date":"Mon 13 Sep 2027","dateISO":"2027-09-13","title":"Richards G Birthday","detail":"Both","category":"Both","status":"planned"},
-    {"date":"Sat 6 Nov 2027","dateISO":"2027-11-06","title":"Uncle joes birthday","detail":"BOTH","category":"BOTH","status":"planned"},
-    {"date":"Tue 9 Nov 2027","dateISO":"2027-11-09","title":"pat edwards birthday in heaven","detail":"BOTH","category":"BOTH","status":"planned"}
+    {
+      "date": "Sat 1 Aug 2026",
+      "dateISO": "2026-08-01",
+      "title": "Cornwall | Canival",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
+      "status": "done"
+    },
+    {
+      "date": "Sun 2 Aug 2026",
+      "dateISO": "2026-08-02",
+      "title": "Cornwall | Canival leave 12:58 arrive 18:03   5hrs 1 change at exeter",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "done"
+    },
+    {
+      "date": "Tue 4 Aug 2026",
+      "dateISO": "2026-08-04",
+      "title": "Eastbourne | Funeral",
+      "detail": "Tuesday | BOTH",
+      "category": "BOTH",
+      "status": "done"
+    },
+    {
+      "date": "Wed 5 Aug 2026",
+      "dateISO": "2026-08-05",
+      "title": "Chase yearly bloods | email sent",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
+    },
+    {
+      "date": "Wed 5 Aug 2026",
+      "dateISO": "2026-08-05",
+      "title": "Phyco | 13:30",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
+    },
+    {
+      "date": "Wed 12 Aug 2026",
+      "dateISO": "2026-08-12",
+      "title": "phyco | 15:30",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "done"
+    },
+    {
+      "date": "Thu 13 Aug 2026",
+      "dateISO": "2026-08-13",
+      "title": "Dentist | 11:10",
+      "detail": "Thursday | Daz",
+      "category": "Daz",
+      "status": "done"
+    },
+    {
+      "date": "Tue 18 Aug 2026",
+      "dateISO": "2026-08-18",
+      "title": "caraughs birthday",
+      "detail": "Tuesday | both",
+      "category": "both",
+      "status": "done"
+    },
+    {
+      "date": "Fri 21 Aug 2026",
+      "dateISO": "2026-08-21",
+      "title": "phyco",
+      "detail": "Friday | Daz",
+      "category": "Daz",
+      "status": "done"
+    },
+    {
+      "date": "Fri 28 Aug 2026",
+      "dateISO": "2026-08-28",
+      "title": "DazWORK | London IBAI Lunch with Greentech",
+      "detail": "Friday",
+      "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 26 Aug 2026",
+      "dateISO": "2026-08-26",
+      "title": "Eye test | 3:55",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Sat 29 Aug 2026",
+      "dateISO": "2026-08-29",
+      "title": "london | abilgales party | tickets in notes",
+      "detail": "Saturday | both",
+      "category": "both",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 2 Sep 2026",
+      "dateISO": "2026-09-02",
+      "title": "Car Pickup | 17:30",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 2 Sep 2026",
+      "dateISO": "2026-09-02",
+      "title": "Book 15th test Injection",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 3 Sep 2026",
+      "dateISO": "2026-09-03",
+      "title": "Thurs | BlackPool | Travel up",
+      "detail": "FAMILY",
+      "category": "FAMILY",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 4 Sep 2026",
+      "dateISO": "2026-09-04",
+      "title": "BlackPool | Lights on",
+      "detail": "Fri | FAMILY",
+      "category": "FAMILY",
+      "status": "planned"
+    },
+    {
+      "date": "Sat 5 Sep 2026",
+      "dateISO": "2026-09-05",
+      "title": "BlackPool | Enjoy",
+      "detail": "Sat | FAMILY",
+      "category": "FAMILY",
+      "status": "planned"
+    },
+    {
+      "date": "Sun 6 Sep 2026",
+      "dateISO": "2026-09-06",
+      "title": "BlackPool | Travel back",
+      "detail": "Sun | FAMILY",
+      "category": "FAMILY",
+      "status": "planned"
+    },
+    {
+      "date": "Mon 7 Sep 2026",
+      "dateISO": "2026-09-07",
+      "title": "Car Dropoff | 10:00",
+      "detail": "Monday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Sun 13 Sep 2026",
+      "dateISO": "2026-09-13",
+      "title": "Richards Birthday | got flasy card",
+      "detail": "Both",
+      "category": "Both",
+      "status": "planned"
+    },
+    {
+      "date": "Tue 15 Sep 2026",
+      "dateISO": "2026-09-15",
+      "title": "Needs testos inj",
+      "detail": "Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 14 Oct 2026",
+      "dateISO": "2026-10-14",
+      "title": "Jean ValJean | Guildford | tickets in notes",
+      "detail": "Wednesday | BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 23 Oct 2026",
+      "dateISO": "2026-10-23",
+      "title": "Karl Loxley | Southampton | tickets in wallet",
+      "detail": "Friday | BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Sat 24 Oct 2026",
+      "dateISO": "2026-10-24",
+      "title": "Kitten Day",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 6 Nov 2026",
+      "dateISO": "2026-11-06",
+      "title": "Uncle joes birthday",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Mon 9 Nov 2026",
+      "dateISO": "2026-11-09",
+      "title": "pat edwards birthday in heaven",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Sat 14 Nov 2026",
+      "dateISO": "2026-11-14",
+      "title": "BOTH+tracy | Alison Moyet | Anvil",
+      "detail": "Saturday",
+      "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Tue 13 Apr 2027",
+      "dateISO": "2027-04-13",
+      "title": "should get miss seigon tickets via email",
+      "detail": "",
+      "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Sun 2 May 2027",
+      "dateISO": "2027-05-02",
+      "title": "Mayflower Johannas",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Sat 29 May 2027",
+      "dateISO": "2027-05-29",
+      "title": "Dinner Ladies | tickets in wallet",
+      "detail": "Saturday | FAMILY",
+      "category": "FAMILY",
+      "status": "planned"
+    },
+    {
+      "date": "Sat 5 Jun 2027",
+      "dateISO": "2027-06-05",
+      "title": "DAZ to Jay Surprise",
+      "detail": "Sat | BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Tue 6 Jul 2027",
+      "dateISO": "2027-07-06",
+      "title": "Rogers Birthday",
+      "detail": "Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 8 Jul 2027",
+      "dateISO": "2027-07-08",
+      "title": "Davd W Birthday",
+      "detail": "Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 9 Jul 2027",
+      "dateISO": "2027-07-09",
+      "title": "Rob W Birthday",
+      "detail": "Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 14 Jul 2027",
+      "dateISO": "2027-07-14",
+      "title": "Phil W Birthday",
+      "detail": "Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 23 Jul 2027",
+      "dateISO": "2027-07-23",
+      "title": "Auntie pat hills birthday in heaven",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 23 Jul 2027",
+      "dateISO": "2027-07-23",
+      "title": "Daz Work | Lee Whatton Birthday 41",
+      "detail": "",
+      "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Sat 24 Jul 2027",
+      "dateISO": "2027-07-24",
+      "title": "Marleys birthday",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 29 Jul 2027",
+      "dateISO": "2027-07-29",
+      "title": "Simons Birthday",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 18 Aug 2027",
+      "dateISO": "2027-08-18",
+      "title": "caraughs birthday",
+      "detail": "both",
+      "category": "both",
+      "status": "planned"
+    },
+    {
+      "date": "Sat 4 Sep 2027",
+      "dateISO": "2027-09-04",
+      "title": "Gemmas wedding",
+      "detail": "Fri-sat | BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Mon 13 Sep 2027",
+      "dateISO": "2027-09-13",
+      "title": "Richards G Birthday",
+      "detail": "Both",
+      "category": "Both",
+      "status": "planned"
+    },
+    {
+      "date": "Sat 6 Nov 2027",
+      "dateISO": "2027-11-06",
+      "title": "Uncle joes birthday",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Tue 9 Nov 2027",
+      "dateISO": "2027-11-09",
+      "title": "pat edwards birthday in heaven",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    }
   ]
 }
