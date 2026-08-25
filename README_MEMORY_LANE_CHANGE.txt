@@ -1,0 +1,1 @@
+Memory Lane simplification: photos only. No video embeds. Existing Dante memory remains as a static image. Plant photo must be a normal image card.
