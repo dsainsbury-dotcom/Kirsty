@@ -1,0 +1,1 @@
+Memory Lane policy: photos only. No videos will be embedded or stored. Existing video-derived memories use a single static image. Future user-uploaded photos should be processed as static images only.
