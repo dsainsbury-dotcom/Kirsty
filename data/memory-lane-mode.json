@@ -1,0 +1,5 @@
+{
+  "mode": "photos-only",
+  "videos": false,
+  "videoDerivedMemories": "static-image-only"
+}
