@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-08-28T23:52:30+00:00",
+  "updated": "2026-08-29T00:07:55+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -95,7 +95,7 @@
       "title": "DazWORK | London IBAI Lunch with Greentech",
       "detail": "Friday",
       "category": "",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Wed 26 Aug 2026",
