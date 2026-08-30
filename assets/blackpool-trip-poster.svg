@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#62c6f0"/><stop offset="1" stop-color="#d9f4ff"/></linearGradient>
+  <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#48b6dd"/><stop offset="1" stop-color="#1d88be"/></linearGradient>
+  <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9c4a"/><stop offset="1" stop-color="#2b2760"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-opacity=".25"/></filter>
+  <style>.title{font:900 68px Arial,sans-serif;fill:#fff;stroke:#111;stroke-width:3;paint-order:stroke}.sub{font:700 28px Arial,sans-serif;fill:#fff}.day{font:900 28px Arial,sans-serif;fill:#111}.head{font:900 25px Arial,sans-serif;fill:#111}.txt{font:700 20px Arial,sans-serif;fill:#222}.small{font:600 17px Arial,sans-serif;fill:#333}.white{fill:#fff}.card{fill:#fff;stroke:#e3e7eb;stroke-width:2}.pill{fill:#fff;stroke:#222;stroke-width:2}.icon{font:700 28px Arial,sans-serif}</style>
+</defs>
+<rect width="1024" height="1536" fill="#eef7fb"/>
+<rect width="1024" height="315" fill="url(#sky)"/>
+<circle cx="820" cy="80" r="46" fill="#ffd966" opacity=".9"/>
+<path d="M0 260 Q180 210 350 260 T700 250 T1024 245 V315 H0Z" fill="url(#sea)" opacity=".9"/>
+<path d="M470 45 l20 0 14 160 -48 0z" fill="#333"/><path d="M440 205 h80 l-8 18 h-64z" fill="#333"/><path d="M467 78 h26 l16 28 h-58z" fill="#444"/>
+<text x="512" y="90" text-anchor="middle" class="title">BLACKPOOL</text><text x="512" y="145" text-anchor="middle" class="sub">Our Mini Adventure</text><text x="512" y="185" text-anchor="middle" class="sub">3rd - 6th September</text><text x="512" y="225" text-anchor="middle" class="sub">Memories Made Together</text>
+
+<g filter="url(#shadow)"><rect x="45" y="335" width="455" height="235" rx="18" class="card"/><rect x="524" y="335" width="455" height="235" rx="18" class="card"/></g>
+<rect x="62" y="350" width="421" height="105" rx="14" fill="#e9e3db"/><path d="M105 430 v-42 l42-30 42 30v42h-22v-26h-38v26z" fill="#b65b3d"/><path d="M265 430 v-56 l48-34 48 34v56h-22v-34h-52v34z" fill="#7c8ea4"/><text x="76" y="488" class="head">The House</text><text x="76" y="518" class="txt">Grand Georgian townhouse</text><text x="76" y="547" class="small">Near the Tower - our base for the trip</text>
+<rect x="541" y="350" width="421" height="105" rx="14" fill="#d7ecf6"/><path d="M625 420 h185 l-20 30H605z" fill="#244d75"/><rect x="650" y="370" width="24" height="50" fill="#455a64"/><rect x="710" y="370" width="24" height="50" fill="#455a64"/><circle cx="640" cy="450" r="13" fill="#111"/><circle cx="782" cy="450" r="13" fill="#111"/><text x="558" y="488" class="head">Wednesday 2nd Sept</text><text x="558" y="518" class="txt">Collect the minibus - 5:30pm</text><text x="558" y="547" class="small">Ready for the adventure</text>
+
+<g filter="url(#shadow)"><rect x="45" y="595" width="934" height="205" rx="18" class="card"/></g><rect x="45" y="595" width="934" height="55" rx="18" fill="#f0b451"/><text x="76" y="633" class="day">DAY 1 - THURSDAY 3RD SEPT</text>
+<text x="78" y="688" class="icon">🚐</text><text x="125" y="686" class="head">Leave for Blackpool</text><text x="125" y="714" class="small">Pick up Mum &amp; Dad - road trip time</text>
+<text x="535" y="688" class="icon">🦞</text><text x="582" y="686" class="head">Seafood Boil</text><text x="582" y="714" class="small">Thursday evening treat</text>
+<text x="78" y="755" class="icon">🏠</text><text x="125" y="753" class="head">Settle into the house</text><text x="125" y="780" class="small">Unpack, relax and start the holiday</text>
+
+<g filter="url(#shadow)"><rect x="45" y="825" width="934" height="255" rx="18" class="card"/></g><rect x="45" y="825" width="934" height="55" rx="18" fill="#f0d14f"/><text x="76" y="863" class="day">DAY 2 - FRIDAY 4TH SEPT</text>
+<text x="78" y="922" class="icon">🗼</text><text x="125" y="920" class="head">Blackpool Tower</text><text x="125" y="948" class="small">Views from the top</text>
+<text x="535" y="922" class="icon">🍰</text><text x="582" y="920" class="head">Afternoon Tea</text><text x="582" y="948" class="small">High tea at the Tower Ballroom</text>
+<text x="78" y="995" class="icon">🌊</text><text x="125" y="993" class="head">Seafront</text><text x="125" y="1021" class="small">Promenade, piers and sea air</text>
+<text x="535" y="995" class="icon">✨</text><text x="582" y="993" class="head">Illuminations</text><text x="582" y="1021" class="small">See the lights after dark</text>
+
+<g filter="url(#shadow)"><rect x="45" y="1105" width="934" height="205" rx="18" class="card"/></g><rect x="45" y="1105" width="934" height="55" rx="18" fill="#69c6d2"/><text x="76" y="1143" class="day">DAY 3 - SATURDAY 5TH SEPT</text>
+<text x="78" y="1202" class="icon">🎱</text><text x="125" y="1200" class="head">Pat's Bingo!</text><text x="125" y="1228" class="small">Friday or Saturday - a bit of fun</text>
+<text x="535" y="1202" class="icon">🎭</text><text x="582" y="1200" class="head">Funny Girls</text><text x="582" y="1228" class="small">Saturday night show</text>
+<text x="78" y="1270" class="icon">🍽️</text><text x="125" y="1268" class="head">Food &amp; drinks</text><text x="125" y="1296" class="small">Enjoy the day without rushing</text>
+
+<g filter="url(#shadow)"><rect x="45" y="1335" width="934" height="145" rx="18" class="card"/></g><rect x="45" y="1335" width="934" height="50" rx="18" fill="#d9b583"/><text x="76" y="1370" class="day">DAY 4 - SUNDAY 6TH SEPT</text><text x="82" y="1425" class="icon">🏡</text><text x="130" y="1423" class="head">Home time</text><text x="300" y="1423" class="txt">Pack up, one last look at the sea, then travel home together.</text>
+<text x="512" y="1510" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="20" fill="#46535c">Family - Connection - Enjoyment - Living again</text>
+</svg>
