@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-08-29T23:52:56+00:00",
+  "updated": "2026-08-30T00:09:46+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -111,7 +111,7 @@
       "title": "london | abilgales party | tickets in notes",
       "detail": "Saturday | both",
       "category": "both",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Wed 2 Sep 2026",
