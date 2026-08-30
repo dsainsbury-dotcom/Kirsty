@@ -1,5 +1,5 @@
 {
-  "updated": "25 August 2026",
+  "updated": "30 August 2026",
   "reading": {
     "confirmed": 14,
     "current": "Chapter 15 in progress",
@@ -7,11 +7,19 @@
   },
   "completedGoals": ["Complete Amazon return"],
   "recentWins": [
+    "Created and shared a full Blackpool trip plan with Mum and Dad to make the family holiday feel special before it starts.",
     "Amazon returns taken back and completed.",
     "Reading has reached chapter 15, with chapters 1-14 completed.",
     "About five weeks into the journey, a new rhythm is starting to form."
   ],
   "dailyLog": [
+    {
+      "date": "30 Aug",
+      "personal": "Created and shared an illustrated Blackpool trip plan for Mum and Dad ahead of the family holiday.",
+      "work": "",
+      "avoidance": "None. This was choosing to put effort into family time and anticipation.",
+      "response": "Made the trip feel special before it starts instead of treating it as just another diary event."
+    },
     {
       "date": "25 Aug",
       "personal": "In the office all day with lots of meetings; possible Apple launch later.",
@@ -29,19 +37,14 @@
   ],
   "lookingForward": [
     {
-      "title": "Dinner at IBAI with Greentech",
-      "detail": "Friday 28 August. Going to IBAI, my new favourite Basque grill/steakhouse near St Paul's in London, with Callum and Gavin from work and Richard and Steve from Greentech, one of my customers.",
-      "values": "Connection / work relationships / enjoyment / living again"
+      "title": "Blackpool with Mum & Dad",
+      "detail": "3-6 September. The trip now has its own illustrated plan, including the family Airbnb, Juicy Lobster seafood boil, Blackpool Tower, ballroom high tea, seafront, fish and chips, illuminations, shopping, Italian dinner, Pat's Bingo and the Funny Girls show.",
+      "values": "Family / connection / enjoyment / living again"
     },
     {
       "title": "Dante & Amara come home",
       "detail": "24 October. Our new kittens are only four weeks old now. We visit them every two weeks and Christine sends photo and video updates every few days.",
       "values": "Family / home / connection / living again"
-    },
-    {
-      "title": "Blackpool with Mum & Dad",
-      "detail": "Next week. Looking forward to going up the tower, high tea and a drag cabaret.",
-      "values": "Family / connection / living again"
     }
   ]
 }
