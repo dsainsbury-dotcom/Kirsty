@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-02T23:54:50+00:00",
+  "updated": "2026-09-03T00:25:35+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -119,7 +119,7 @@
       "title": "Car Pickup | 17:30",
       "detail": "Wednesday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Wed 2 Sep 2026",
@@ -127,7 +127,7 @@
       "title": "Book 15th test Injection",
       "detail": "Wednesday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Thu 3 Sep 2026",
