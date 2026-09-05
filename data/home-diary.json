@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-04T23:52:38+00:00",
+  "updated": "2026-09-05T00:23:55+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -143,7 +143,7 @@
       "title": "BlackPool | Lights on",
       "detail": "Fri | FAMILY",
       "category": "FAMILY",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Sat 5 Sep 2026",
