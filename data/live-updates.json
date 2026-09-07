@@ -1,18 +1,48 @@
 {
-  "updated": "30 August 2026",
+  "updated": "7 September 2026",
   "reading": {
-    "confirmed": 14,
-    "current": "Chapter 15 in progress",
-    "goalNote": "Chapters 1-14 confirmed complete. Currently reading chapter 15."
+    "confirmed": 15,
+    "current": "Chapter 15 complete",
+    "goalNote": "Chapters 1-15 confirmed complete."
   },
   "completedGoals": ["Complete Amazon return"],
   "recentWins": [
-    "Created and shared a full Blackpool trip plan with Mum and Dad to make the family holiday feel special before it starts.",
+    "Had a fantastic Blackpool family weekend and came home feeling that life is being lived, not just managed.",
+    "Adapted when the Blackpool Tower trip was cancelled by the wind, rescheduled it and enjoyed the rest of the day anyway.",
+    "Made the extra journey to see Uncle Alfie on the way home; he was so happy and the visit mattered.",
+    "Chapter 15 of The Secret of Secrets completed.",
     "Amazon returns taken back and completed.",
-    "Reading has reached chapter 15, with chapters 1-14 completed.",
     "About five weeks into the journey, a new rhythm is starting to form."
   ],
   "dailyLog": [
+    {
+      "date": "6 Sep",
+      "personal": "Finished the Blackpool weekend with a detour to see Uncle Alfie in Abergele for roast lunch before heading home.",
+      "work": "",
+      "avoidance": "It would have been easy to skip the extra journey after a busy weekend.",
+      "response": "Made the diversion because seeing him mattered, and he was really happy."
+    },
+    {
+      "date": "5 Sep",
+      "personal": "Blackpool Tower, 4D experience, glass floor, Fleetwood Market, La Fontana and Funny Girls.",
+      "work": "",
+      "avoidance": "None.",
+      "response": "Went back for the Tower after Friday's cancellation and made the final night special."
+    },
+    {
+      "date": "4 Sep",
+      "personal": "Tower Ballroom afternoon tea, fish and chips, arcades and the Blackpool Illuminations switch-on with fireworks.",
+      "work": "",
+      "avoidance": "Tower trip cancelled because of strong wind.",
+      "response": "Rescheduled it rather than letting the cancellation spoil the day."
+    },
+    {
+      "date": "3 Sep",
+      "personal": "Travelled to Blackpool with Jason, Eve, Mum and Dad; settled into a brilliant Airbnb and had dinner at the Juicy Lobster.",
+      "work": "",
+      "avoidance": "None.",
+      "response": "Got everyone there, accepted the small compromises and enjoyed the start of the trip."
+    },
     {
       "date": "30 Aug",
       "personal": "Created and shared an illustrated Blackpool trip plan for Mum and Dad ahead of the family holiday.",
@@ -35,15 +65,17 @@
       "response": "Kept reading moving, closed the Amazon return task and noticed how much there is to look forward to"
     }
   ],
+  "journey": [
+    {
+      "date": "3-6 September 2026",
+      "title": "A weekend that felt like living again",
+      "text": "Blackpool with Jason, Eve, Mum and Dad became much more than a trip in the diary. We travelled together, laughed, ate well, watched the Illuminations and fireworks, had afternoon tea in the Tower Ballroom, finally made it up Blackpool Tower after the wind cancellation, went to Funny Girls and finished with a family detour to Uncle Alfie on the way home. The strongest thing about the weekend was how much enjoyment, connection and ordinary life there was in it. I came home thinking simply: what a great weekend."
+    }
+  ],
   "lookingForward": [
     {
-      "title": "Blackpool with Mum & Dad",
-      "detail": "3-6 September. The trip now has its own illustrated plan, including the family Airbnb, Juicy Lobster seafood boil, Blackpool Tower, ballroom high tea, seafront, fish and chips, illuminations, shopping, Italian dinner, Pat's Bingo and the Funny Girls show.",
-      "values": "Family / connection / enjoyment / living again"
-    },
-    {
       "title": "Dante & Amara come home",
-      "detail": "24 October. Our new kittens are only four weeks old now. We visit them every two weeks and Christine sends photo and video updates every few days.",
+      "detail": "24 October. Our new kittens are growing fast. We visit them every two weeks and Christine sends regular updates in between.",
       "values": "Family / home / connection / living again"
     }
   ]
