@@ -30,7 +30,21 @@ jobs:
       - name: Sync diary from Google Sheets
         env:
           GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
-        run: python scripts/sync_diary.py
+        run: |
+          set -o pipefail
+          max_attempts=4
+          attempt=1
+          until python scripts/sync_diary.py; do
+            if [ "$attempt" -ge "$max_attempts" ]; then
+              echo "Google diary sync failed after $max_attempts attempts."
+              exit 1
+            fi
+            wait_seconds=$((attempt * 30))
+            echo "Sync attempt $attempt failed. Retrying in ${wait_seconds}s..."
+            sleep "$wait_seconds"
+            attempt=$((attempt + 1))
+          done
+          echo "Google diary sync succeeded on attempt $attempt."
 
       - name: Commit updated diary data
         run: |
