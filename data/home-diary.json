@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-09T10:19:31+00:00",
+  "updated": "2026-09-09T10:43:54+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 12,
     "beforeAugust2026": 101
   },
-  "count": 44,
+  "count": 48,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -170,18 +170,26 @@
       "status": "done"
     },
     {
-      "date": "Sun 13 Sep 2026",
-      "dateISO": "2026-09-13",
-      "title": "Richards Birthday | got flasy card",
+      "date": "Thu 10 Sep 2026",
+      "dateISO": "2026-09-10",
+      "title": "Thurs | Cuddles with kittens",
       "detail": "Both",
       "category": "Both",
       "status": "planned"
     },
     {
-      "date": "Tue 15 Sep 2026",
-      "dateISO": "2026-09-15",
-      "title": "Needs testos inj",
-      "detail": "Daz",
+      "date": "Sun 13 Sep 2026",
+      "dateISO": "2026-09-13",
+      "title": "Richards Birthday | got flasy card",
+      "detail": "Sunday | Both",
+      "category": "Both",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 17 Sep 2026",
+      "dateISO": "2026-09-17",
+      "title": "Testosterone Injection | 12:35",
+      "detail": "Thursday | Daz",
       "category": "Daz",
       "status": "planned"
     },
@@ -210,9 +218,25 @@
       "status": "planned"
     },
     {
+      "date": "Thu 5 Nov 2026",
+      "dateISO": "2026-11-05",
+      "title": "Mr Worthington 2Yr Whipple checkup | Royal surrey 10am",
+      "detail": "Friday | DAZ",
+      "category": "DAZ",
+      "status": "planned"
+    },
+    {
       "date": "Fri 6 Nov 2026",
       "dateISO": "2026-11-06",
       "title": "Uncle joes birthday",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Sun 8 Nov 2026",
+      "dateISO": "2026-11-08",
+      "title": "Mummy S birthday",
       "detail": "BOTH",
       "category": "BOTH",
       "status": "planned"
@@ -357,6 +381,14 @@
       "date": "Sat 6 Nov 2027",
       "dateISO": "2027-11-06",
       "title": "Uncle joes birthday",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Mon 8 Nov 2027",
+      "dateISO": "2027-11-08",
+      "title": "Mummy S birthday",
       "detail": "BOTH",
       "category": "BOTH",
       "status": "planned"
