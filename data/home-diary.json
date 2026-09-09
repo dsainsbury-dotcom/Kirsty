@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-09T14:45:14+00:00",
+  "updated": "2026-09-09T15:15:38+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -12,10 +12,10 @@
     "todayOrFuture": "planned"
   },
   "skipped": {
-    "noDate": 12,
+    "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 48,
+  "count": 50,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -194,6 +194,14 @@
       "status": "planned"
     },
     {
+      "date": "Sun 20 Sep 2026",
+      "dateISO": "2026-09-20",
+      "title": "Royal Albert Hall | Magic at the Musicals",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
       "date": "Wed 14 Oct 2026",
       "dateISO": "2026-10-14",
       "title": "Jean ValJean | Guildford | tickets in notes",
@@ -218,8 +226,8 @@
       "status": "planned"
     },
     {
-      "date": "Thu 5 Nov 2026",
-      "dateISO": "2026-11-05",
+      "date": "Fri 6 Nov 2026",
+      "dateISO": "2026-11-06",
       "title": "Mr Worthington 2Yr Whipple checkup | Royal surrey 10am",
       "detail": "Friday | DAZ",
       "category": "DAZ",
@@ -375,6 +383,14 @@
       "title": "Richards G Birthday",
       "detail": "Both",
       "category": "Both",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 5 Nov 2027",
+      "dateISO": "2027-11-05",
+      "title": "Mr Worthington 2Yr Whipple checkup",
+      "detail": "DAZ",
+      "category": "DAZ",
       "status": "planned"
     },
     {
