@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-13T13:53:13+00:00",
+  "updated": "2026-09-13T14:14:41+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 52,
+  "count": 53,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -194,19 +194,27 @@
       "status": "planned"
     },
     {
-      "date": "Sun 20 Sep 2026",
-      "dateISO": "2026-09-20",
-      "title": "Royal Albert Hall | Magic at the Musicals",
-      "detail": "Sunday | BOTH",
-      "category": "BOTH",
-      "status": "planned"
-    },
-    {
       "date": "Mon 28 Sep 2026",
       "dateISO": "2026-09-28",
       "title": "Kirsty session | 13:00",
       "detail": "Monday | Daz",
       "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 8 Oct 2026",
+      "dateISO": "2026-10-08",
+      "title": "Jay | Hygenist | 1030",
+      "detail": "Thursday",
+      "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 8 Oct 2026",
+      "dateISO": "2026-10-08",
+      "title": "Jay | Dentist | 1530",
+      "detail": "Thursday",
+      "category": "",
       "status": "planned"
     },
     {
