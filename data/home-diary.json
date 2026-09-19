@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-19T06:58:22+00:00",
+  "updated": "2026-09-19T07:17:23+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 59,
+  "count": 58,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -295,14 +295,6 @@
       "title": "Kitten Day",
       "detail": "Saturday | BOTH",
       "category": "BOTH",
-      "status": "planned"
-    },
-    {
-      "date": "Fri 6 Nov 2026",
-      "dateISO": "2026-11-06",
-      "title": "Mr Worthington 2Yr Whipple checkup | Royal surrey 10am",
-      "detail": "Friday | DAZ",
-      "category": "DAZ",
       "status": "planned"
     },
     {
