@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-19T03:31:37+00:00",
+  "updated": "2026-09-19T03:53:22+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 57,
+  "count": 59,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -186,12 +186,52 @@
       "status": "done"
     },
     {
+      "date": "Tue 22 Sep 2026",
+      "dateISO": "2026-09-22",
+      "title": "Tues | Roger London IBAI | 12:00",
+      "detail": "Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
       "date": "Thu 17 Sep 2026",
       "dateISO": "2026-09-17",
       "title": "Testosterone Injection | 12:35",
       "detail": "Thursday | Daz",
       "category": "Daz",
       "status": "done"
+    },
+    {
+      "date": "Mon 21 Sep 2026",
+      "dateISO": "2026-09-21",
+      "title": "Solar - Project Solar | 18:00 | Confirmed appointment",
+      "detail": "Monday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 24 Sep 2026",
+      "dateISO": "2026-09-24",
+      "title": "Solar - Orange Solar Systems | 12:00-14:00 | Confirmed appointment - Alan",
+      "detail": "Thursday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 24 Sep 2026",
+      "dateISO": "2026-09-24",
+      "title": "Solar - Creativ Energy | 15:30 | Confirmed appointment - Nikki Brocklehurst",
+      "detail": "Thursday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 25 Sep 2026",
+      "dateISO": "2026-09-25",
+      "title": "Solar - Hybrid Electrical & Renewables | 12:40 | Confirmed appointment - Lewis",
+      "detail": "Friday | Daz",
+      "category": "Daz",
+      "status": "planned"
     },
     {
       "date": "Sun 27 Sep 2026",
@@ -234,30 +274,6 @@
       "status": "planned"
     },
     {
-      "date": "Wed 21 Oct 2026",
-      "dateISO": "2026-10-21",
-      "title": "Solar - Project Solar | 18:00 | Confirmed appointment",
-      "detail": "Monday | Daz",
-      "category": "Daz",
-      "status": "planned"
-    },
-    {
-      "date": "Sat 24 Oct 2026",
-      "dateISO": "2026-10-24",
-      "title": "Solar - Creativ Energy | 15:30 | Confirmed appointment",
-      "detail": "Thursday | Daz",
-      "category": "Daz",
-      "status": "planned"
-    },
-    {
-      "date": "Sun 25 Oct 2026",
-      "dateISO": "2026-10-25",
-      "title": "Solar - Hybrid Electrical & Renewables | 12:40 | Confirmed appointment - Lewis",
-      "detail": "Friday | Daz",
-      "category": "Daz",
-      "status": "planned"
-    },
-    {
       "date": "Wed 14 Oct 2026",
       "dateISO": "2026-10-14",
       "title": "Jean ValJean | Guildford | tickets in notes",
@@ -290,11 +306,11 @@
       "status": "planned"
     },
     {
-      "date": "Fri 6 Nov 2026",
-      "dateISO": "2026-11-06",
-      "title": "Uncle joes birthday",
-      "detail": "BOTH",
-      "category": "BOTH",
+      "date": "Wed 4 Nov 2026",
+      "dateISO": "2026-11-04",
+      "title": "Mr Worthington 2Yr Whipple checkup | Royal Surrey 11:30am | Appointment changed from Fri 6 Nov 10:00; confirmed by Carebit 17 Sep",
+      "detail": "Wednesday | DAZ",
+      "category": "DAZ",
       "status": "planned"
     },
     {
