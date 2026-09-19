@@ -1,1 +1,19 @@
-(()=>{const add=()=>{const grid=document.getElementById('sessions-grid');if(!grid||!grid.children.length||document.getElementById('kirsty-schedule-25aug'))return false;const card=document.createElement('div');card.className='card session-card';card.id='kirsty-schedule-25aug';card.innerHTML='<span class="pill">25 Aug 2026</span><h3>Confirmed upcoming Kirsty sessions</h3><p><b>Wednesday 26 August 2026:</b> 13:00</p><p><b>Monday 14 September 2026:</b> 13:00</p><p><b>Monday 28 September 2026:</b> 13:00</p><p><b>Scheduling note:</b> The session previously planned for Thursday 17 September was replaced by Monday 14 September.</p><p><b>Status:</b> Confirmed by Kirsty by email.</p>';grid.prepend(card);return true;};let tries=0;const timer=setInterval(()=>{tries++;if(add()||tries>20)clearInterval(timer);},250);})();
+(()=>{
+  const parseKirsty=async()=>{
+    const grid=document.getElementById('sessions-grid');
+    if(!grid)return;
+    document.getElementById('kirsty-schedule-live')?.remove();
+    document.getElementById('kirsty-schedule-25aug')?.remove();
+    try{
+      const r=await fetch('data/home-diary.json?ts='+Date.now());
+      if(!r.ok)throw new Error('diary '+r.status);
+      const data=await r.json();
+      const rows=(data.entries||[]).filter(x=>x.status==='planned' && /kirsty/i.test((x.title||'')+' '+(x.detail||''))).sort((a,b)=>(a.dateISO||'').localeCompare(b.dateISO||''));
+      const card=document.createElement('div');
+      card.className='card session-card';card.id='kirsty-schedule-live';
+      card.innerHTML='<span class="pill">LIVE DIARY</span><h3>Upcoming Kirsty sessions</h3>'+(rows.length?rows.map(x=>`<p><b>${x.date||x.dateISO}:</b> ${x.detail||x.title||''}</p>`).join(''):'<p>No upcoming Kirsty session is currently in the synced diary.</p>')+'<p><b>Status:</b> Automatically updated from the Google diary sync.</p>';
+      grid.prepend(card);
+    }catch(e){console.error('Could not build live Kirsty schedule',e);}
+  };
+  let tries=0;const timer=setInterval(()=>{tries++;if(document.getElementById('sessions-grid')?.children.length||tries>20){clearInterval(timer);parseKirsty();}},250);
+})();
