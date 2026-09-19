@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-19T09:31:21+00:00",
+  "updated": "2026-09-19T09:52:58+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -226,19 +226,19 @@
       "status": "planned"
     },
     {
-      "date": "Fri 25 Sep 2026",
-      "dateISO": "2026-09-25",
-      "title": "Solar - Hybrid Electrical & Renewables | 12:40 | Confirmed appointment - Lewis",
-      "detail": "Friday | Daz",
-      "category": "Daz",
-      "status": "planned"
-    },
-    {
       "date": "Sun 27 Sep 2026",
       "dateISO": "2026-09-27",
       "title": "Mums for lunch",
       "detail": "Sunday | BOTH",
       "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Mon 28 Sep 2026",
+      "dateISO": "2026-09-28",
+      "title": "Solar - Hybrid Electrical & Renewables | 15:00 | Confirmed appointment - Lewis; rearranged from 25th",
+      "detail": "Monday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
