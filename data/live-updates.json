@@ -1,90 +1,31 @@
 {
   "updated": "19 September 2026",
   "reading": {
-    "confirmed": 15,
-    "current": "Chapter 15 complete",
-    "goalNote": "Chapters 1-15 confirmed complete."
+    "confirmed": 16,
+    "current": "Now on chapter 17",
+    "goalNote": "Chapters 1-16 confirmed complete; now reading chapter 17."
   },
   "completedGoals": ["Complete Amazon return"],
   "recentWins": [
+    "Reached chapter 17 of The Secret of Secrets; the reading habit has continued despite a very busy period at work.",
+    "Kept doing well between Kirsty sessions even with a longer gap caused by work commitments.",
     "Kept my promise to Getty's Fish & Chips and left a detailed five-star review across social media after the warm welcome we received in Blackpool.",
     "Had a fantastic Blackpool family weekend and came home feeling that life is being lived, not just managed.",
     "Adapted when the Blackpool Tower trip was cancelled by the wind, rescheduled it and enjoyed the rest of the day anyway.",
     "Made the extra journey to see Uncle Alfie on the way home; he was so happy and the visit mattered.",
-    "Chapter 15 of The Secret of Secrets completed.",
-    "Amazon returns taken back and completed.",
-    "About five weeks into the journey, a new rhythm is starting to form."
+    "Amazon returns taken back and completed."
   ],
   "dailyLog": [
-    {
-      "date": "8 Sep",
-      "personal": "Kept my promise to Getty's Fish & Chips and posted a detailed five-star review on several social media/review sites after the lovely welcome they gave us in Blackpool.",
-      "work": "",
-      "avoidance": "None. This was following through on something I had said I would do.",
-      "response": "Took the time to write a proper review, thanked them for the warmth and hospitality, and supported a small independent business that became part of the memory of our trip."
-    },
-    {
-      "date": "6 Sep",
-      "personal": "Finished the Blackpool weekend with a detour to see Uncle Alfie in Abergele for roast lunch before heading home.",
-      "work": "",
-      "avoidance": "It would have been easy to skip the extra journey after a busy weekend.",
-      "response": "Made the diversion because seeing him mattered, and he was really happy."
-    },
-    {
-      "date": "5 Sep",
-      "personal": "Blackpool Tower, 4D experience, glass floor, Fleetwood Market, La Fontana and Funny Girls.",
-      "work": "",
-      "avoidance": "None.",
-      "response": "Went back for the Tower after Friday's cancellation and made the final night special."
-    },
-    {
-      "date": "4 Sep",
-      "personal": "Tower Ballroom afternoon tea, fish and chips, arcades and the Blackpool Illuminations switch-on with fireworks.",
-      "work": "",
-      "avoidance": "Tower trip cancelled because of strong wind.",
-      "response": "Rescheduled it rather than letting the cancellation spoil the day."
-    },
-    {
-      "date": "3 Sep",
-      "personal": "Travelled to Blackpool with Jason, Eve, Mum and Dad; settled into a brilliant Airbnb and had dinner at the Juicy Lobster.",
-      "work": "",
-      "avoidance": "None.",
-      "response": "Got everyone there, accepted the small compromises and enjoyed the start of the trip."
-    },
-    {
-      "date": "30 Aug",
-      "personal": "Created and shared an illustrated Blackpool trip plan for Mum and Dad ahead of the family holiday.",
-      "work": "",
-      "avoidance": "None. This was choosing to put effort into family time and anticipation.",
-      "response": "Made the trip feel special before it starts instead of treating it as just another diary event."
-    },
-    {
-      "date": "25 Aug",
-      "personal": "In the office all day with lots of meetings; possible Apple launch later.",
-      "work": "Busy office day with several meetings and a possible Apple launch.",
-      "avoidance": "",
-      "response": "Getting on with the day and seeing what it brings."
-    },
-    {
-      "date": "24 Aug",
-      "personal": "Chapter 15 in progress; Amazon returns taken back; looking forward to Blackpool with Mum & Dad next week; Dante and Amara chosen and coming home on 24 October",
-      "work": "",
-      "avoidance": "",
-      "response": "Kept reading moving, closed the Amazon return task and noticed how much there is to look forward to"
-    }
+    {"date":"12 Sep","personal":"Now on chapter 17 of The Secret of Secrets. Kirsty session needed moving because of work, but I have been doing well during the longer gap between sessions.","work":"Very busy period at work.","avoidance":"None reported.","response":"Kept the reading habit and therapy progress moving even without a recent session."},
+    {"date":"8 Sep","personal":"Kept my promise to Getty's Fish & Chips and posted a detailed five-star review on several social media/review sites after the lovely welcome they gave us in Blackpool.","work":"","avoidance":"None. This was following through on something I had said I would do.","response":"Took the time to write a proper review, thanked them for the warmth and hospitality, and supported a small independent business that became part of the memory of our trip."},
+    {"date":"6 Sep","personal":"Finished the Blackpool weekend with a detour to see Uncle Alfie in Abergele for roast lunch before heading home.","work":"","avoidance":"It would have been easy to skip the extra journey after a busy weekend.","response":"Made the diversion because seeing him mattered, and he was really happy."},
+    {"date":"5 Sep","personal":"Blackpool Tower, 4D experience, glass floor, Fleetwood Market, La Fontana and Funny Girls.","work":"","avoidance":"None.","response":"Went back for the Tower after Friday's cancellation and made the final night special."},
+    {"date":"4 Sep","personal":"Tower Ballroom afternoon tea, fish and chips, arcades and the Blackpool Illuminations switch-on with fireworks.","work":"","avoidance":"Tower trip cancelled because of strong wind.","response":"Rescheduled it rather than letting the cancellation spoil the day."},
+    {"date":"3 Sep","personal":"Travelled to Blackpool with Jason, Eve, Mum and Dad; settled into a brilliant Airbnb and had dinner at the Juicy Lobster.","work":"","avoidance":"None.","response":"Got everyone there, accepted the small compromises and enjoyed the start of the trip."},
+    {"date":"30 Aug","personal":"Created and shared an illustrated Blackpool trip plan for Mum and Dad ahead of the family holiday.","work":"","avoidance":"None. This was choosing to put effort into family time and anticipation.","response":"Made the trip feel special before it starts instead of treating it as just another diary event."},
+    {"date":"25 Aug","personal":"In the office all day with lots of meetings; possible Apple launch later.","work":"Busy office day with several meetings and a possible Apple launch.","avoidance":"","response":"Getting on with the day and seeing what it brings."},
+    {"date":"24 Aug","personal":"Chapter 15 in progress; Amazon returns taken back; looking forward to Blackpool with Mum & Dad next week; Dante and Amara chosen and coming home on 24 October","work":"","avoidance":"","response":"Kept reading moving, closed the Amazon return task and noticed how much there is to look forward to"}
   ],
-  "journey": [
-    {
-      "date": "3-6 September 2026",
-      "title": "A weekend that felt like living again",
-      "text": "Blackpool with Jason, Eve, Mum and Dad became much more than a trip in the diary. We travelled together, laughed, ate well, watched the Illuminations and fireworks, had afternoon tea in the Tower Ballroom, finally made it up Blackpool Tower after the wind cancellation, went to Funny Girls and finished with a family detour to Uncle Alfie on the way home. The strongest thing about the weekend was how much enjoyment, connection and ordinary life there was in it. I came home thinking simply: what a great weekend."
-    }
-  ],
-  "lookingForward": [
-    {
-      "title": "Dante & Amara come home",
-      "detail": "24 October. Our new kittens are growing fast. We visit them every two weeks and Christine sends regular updates in between.",
-      "values": "Family / home / connection / living again"
-    }
-  ]
+  "journey": [{"date":"3-6 September 2026","title":"A weekend that felt like living again","text":"Blackpool with Jason, Eve, Mum and Dad became much more than a trip in the diary. We travelled together, laughed, ate well, watched the Illuminations and fireworks, had afternoon tea in the Tower Ballroom, finally made it up Blackpool Tower after the wind cancellation, went to Funny Girls and finished with a family detour to Uncle Alfie on the way home. The strongest thing about the weekend was how much enjoyment, connection and ordinary life there was in it. I came home thinking simply: what a great weekend."}],
+  "lookingForward": [{"title":"Dante & Amara come home","detail":"24 October. Our new kittens are growing fast. We visit them every two weeks and Christine sends regular updates in between.","values":"Family / home / connection / living again"}]
 }
