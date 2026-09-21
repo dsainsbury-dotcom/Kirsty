@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-21T05:19:31+00:00",
+  "updated": "2026-09-21T10:59:59+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -234,6 +234,22 @@
       "status": "planned"
     },
     {
+      "date": "Sun 27 Sep 2026",
+      "dateISO": "2026-09-27",
+      "title": "Mums for lunch",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Mon 28 Sep 2026",
+      "dateISO": "2026-09-28",
+      "title": "Kirsty session | 13:00",
+      "detail": "Monday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
       "date": "Mon 28 Sep 2026",
       "dateISO": "2026-09-28",
       "title": "Solar - Hybrid Electrical & Renewables | 15:00 | Confirmed appointment - Lewis; rearranged from 25th",
@@ -244,7 +260,7 @@
     {
       "date": "Mon 28 Sep 2026",
       "dateISO": "2026-09-28",
-      "title": "Kirsty session | 13:00",
+      "title": "Solar - Evergreen Power UK Solar | 18:00-19:30 | Confirmed - Microsoft Teams",
       "detail": "Monday | Daz",
       "category": "Daz",
       "status": "planned"
@@ -294,22 +310,6 @@
       "dateISO": "2026-10-24",
       "title": "Kitten Day",
       "detail": "Saturday | BOTH",
-      "category": "BOTH",
-      "status": "planned"
-    },
-    {
-      "date": "Wed 4 Nov 2026",
-      "dateISO": "2026-11-04",
-      "title": "Mr Worthington 2Yr Whipple checkup | Royal Surrey 11:30am | Appointment changed from Fri 6 Nov 10:00; confirmed by Carebit 17 Sep",
-      "detail": "Wednesday | DAZ",
-      "category": "DAZ",
-      "status": "planned"
-    },
-    {
-      "date": "Sun 8 Nov 2026",
-      "dateISO": "2026-11-08",
-      "title": "Mummy S birthday",
-      "detail": "BOTH",
       "category": "BOTH",
       "status": "planned"
     },
