@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-23T09:27:52+00:00",
+  "updated": "2026-09-23T14:22:01+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 58,
+  "count": 60,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -210,6 +210,14 @@
       "status": "done"
     },
     {
+      "date": "Wed 23 Sep 2026",
+      "dateISO": "2026-09-23",
+      "title": "DPD delivery - RELIANT freezer | 14:44-15:44 | Confirmed delivery window",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
       "date": "Thu 24 Sep 2026",
       "dateISO": "2026-09-24",
       "title": "Solar - Orange Solar Systems | 12:00-14:00 | Confirmed appointment - Alan",
@@ -263,6 +271,14 @@
       "title": "Solar - Evergreen Power UK Solar | 18:00-19:30 | Confirmed - Microsoft Teams",
       "detail": "Monday | Daz",
       "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Sun 4 Oct 2026",
+      "dateISO": "2026-10-04",
+      "title": "Jason's mum's birthday lunch | 10:00 onwards | Birthday lunch",
+      "detail": "Sunday | BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
