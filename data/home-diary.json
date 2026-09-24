@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-23T21:48:31+00:00",
+  "updated": "2026-09-24T00:20:14+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -215,7 +215,7 @@
       "title": "DPD delivery - RELIANT freezer | 14:44-15:44 | Confirmed delivery window",
       "detail": "Wednesday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Thu 24 Sep 2026",
