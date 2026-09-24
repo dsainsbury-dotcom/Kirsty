@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-24T15:09:17+00:00",
+  "updated": "2026-09-24T19:12:35+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 60,
+  "count": 61,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -260,16 +260,16 @@
     {
       "date": "Mon 28 Sep 2026",
       "dateISO": "2026-09-28",
-      "title": "Solar - Hybrid Electrical & Renewables | 15:00 | Confirmed appointment - Lewis; rearranged from 25th",
+      "title": "Solar - Evergreen Power UK Solar | 18:00-19:30 | Confirmed - Microsoft Teams",
       "detail": "Monday | Daz",
       "category": "Daz",
       "status": "planned"
     },
     {
-      "date": "Mon 28 Sep 2026",
-      "dateISO": "2026-09-28",
-      "title": "Solar - Evergreen Power UK Solar | 18:00-19:30 | Confirmed - Microsoft Teams",
-      "detail": "Monday | Daz",
+      "date": "Thu 1 Oct 2026",
+      "dateISO": "2026-10-01",
+      "title": "Solar - Hybrid Electrical & Renewables | 12:00 | Confirmed appointment - Lewis; rearranged from 28th",
+      "detail": "Thursday | Daz",
       "category": "Daz",
       "status": "planned"
     },
@@ -295,6 +295,14 @@
       "title": "Jay | Dentist | 1530",
       "detail": "Thursday",
       "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Sat 10 Oct 2026",
+      "dateISO": "2026-10-10",
+      "title": "Flu Jab | 10:50 | Confirmed - work calendar invite",
+      "detail": "Saturday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
