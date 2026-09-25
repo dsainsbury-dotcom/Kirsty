@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-25T15:34:37+00:00",
+  "updated": "2026-09-25T19:34:21+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -252,7 +252,7 @@
     {
       "date": "Mon 28 Sep 2026",
       "dateISO": "2026-09-28",
-      "title": "Solar - Evergreen Power UK Solar | 18:00-19:30 | Confirmed - Microsoft Teams",
+      "title": "Solar - Evergreen Power UK Solar | 18:00-19:30 | Confirmed - home PV survey at Darren's address",
       "detail": "Monday | Daz",
       "category": "Daz",
       "status": "planned"
