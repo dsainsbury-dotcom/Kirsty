@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-25T00:44:51+00:00",
+  "updated": "2026-09-25T05:29:16+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 61,
+  "count": 63,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -351,6 +351,22 @@
       "title": "BOTH+tracy | Alison Moyet | Anvil",
       "detail": "Saturday",
       "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 26 Nov 2026",
+      "dateISO": "2026-11-26",
+      "title": "Book blood test for testosterone | Hospital testosterone level check needed 2 weeks before injection due 10 Dec 2026.",
+      "detail": "Thursday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 10 Dec 2026",
+      "dateISO": "2026-12-10",
+      "title": "Testosterone Injection | 12 weeks after previous injection on 17 Sep 2026.",
+      "detail": "Thursday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
