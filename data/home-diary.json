@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-24T22:28:51+00:00",
+  "updated": "2026-09-25T00:17:00+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -223,7 +223,7 @@
       "title": "Solar - Orange Solar Systems | 12:00-14:00 | Confirmed appointment - Alan",
       "detail": "Thursday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Thu 24 Sep 2026",
@@ -231,15 +231,7 @@
       "title": "Solar - Creativ Energy | 15:30 | Confirmed appointment - Nikki Brocklehurst",
       "detail": "Thursday | Daz",
       "category": "Daz",
-      "status": "planned"
-    },
-    {
-      "date": "Sun 27 Sep 2026",
-      "dateISO": "2026-09-27",
-      "title": "Mums for lunch",
-      "detail": "Sunday | BOTH",
-      "category": "BOTH",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Sun 27 Sep 2026",
@@ -431,6 +423,14 @@
       "title": "Daz Work | Lee Whatton Birthday 41",
       "detail": "",
       "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 30 Jul 2027",
+      "dateISO": "2027-07-30",
+      "title": "Lunch - Veeraswamy | 12:15-14:15 | Reservation for 3; 99 Regent St, London W1B 4RS; confirmed 24 Sep 2026",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
