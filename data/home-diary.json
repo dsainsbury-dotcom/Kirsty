@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-27T22:30:01+00:00",
+  "updated": "2026-09-28T01:08:11+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -239,7 +239,7 @@
       "title": "Mums for lunch",
       "detail": "Sunday | BOTH",
       "category": "BOTH",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Mon 28 Sep 2026",
