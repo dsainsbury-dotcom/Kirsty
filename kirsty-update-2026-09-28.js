@@ -34,12 +34,11 @@
 
     const personalGoals=document.getElementById('personal-goals');
     if(personalGoals && !document.getElementById('goal-observing-stream')){
-      const goal=document.createElement('div');
+      const holder=document.createElement('div');
+      holder.innerHTML=item('Practise Observing the Stream for 2–3 minutes','active','New homework from the 28 September Kirsty session.');
+      const goal=holder.firstElementChild;
       goal.id='goal-observing-stream';
-      goal.innerHTML=item('Practise Observing the Stream for 2–3 minutes','active','New homework from the 28 September Kirsty session.');
-      personalGoals.prepend(goal.firstElementChild);
-      goal.remove();
-      personalGoals.firstElementChild.id='goal-observing-stream';
+      personalGoals.prepend(goal);
     }
 
     const principles=document.getElementById('principles');
@@ -51,15 +50,6 @@
       principles.prepend(chip);
     }
 
-    const recent=document.getElementById('recent-wins');
-    if(recent && !document.getElementById('progress-28sep-kirsty')){
-      const wrap=document.createElement('div');
-      wrap.id='progress-28sep-kirsty';
-      wrap.className='item';
-      wrap.innerHTML='<span class="dot"></span><div><div>Stopped treating every unfinished homework task as avoidance.</div><small>Kirsty and I agreed the previous homework was not relevant and I had not properly understood it, so we replaced it with something clearer instead of forcing it.</small></div>';
-      recent.prepend(wrap);
-    }
-
     const sessions=document.getElementById('sessions-grid');
     if(sessions && !document.getElementById('kirsty-session-28sep')){
       const card=document.createElement('div');
@@ -67,15 +57,6 @@
       card.id='kirsty-session-28sep';
       card.innerHTML='<span class="pill">28 Sep 2026 · COMPLETED</span><h3>Observing the Stream and the final stretch</h3><p><b>Session:</b> The previous homework was not completed because Kirsty and I agreed it was not really relevant, and I had not properly understood what it was asking me to do. This is not being treated as avoidance.</p><p><b>New homework:</b> Practise <b>Observing the Stream</b> for 2–3 minutes. Step back from the flow of thoughts, notice how and where they show up, and let them continue without trying to stop or fight them.</p><p><b>Next:</b> One final Kirsty session is booked for 14 October at 14:30. We are into the meditation/closing stage now. After the formal sessions finish, the logs and check-ins carry on.</p>';
       sessions.prepend(card);
-    }
-
-    const timeline=document.getElementById('timeline');
-    if(timeline && !document.getElementById('journey-28sep')){
-      const row=document.createElement('div');
-      row.className='time-item';
-      row.id='journey-28sep';
-      row.innerHTML='<span class="date">28 September 2026</span><h3>The end of the formal journey is in sight</h3><p>Kirsty and I dropped homework that was not helping and replaced it with Observing the Stream. There is one final session left, with meditation and closing work. The therapy sessions are ending, but the useful part carries on: keeping the logs going, noticing how I am feeling, what I am doing, what I have done and anything that needs following up.</p>';
-      timeline.appendChild(row);
     }
 
     const library=document.getElementById('library-grid');
