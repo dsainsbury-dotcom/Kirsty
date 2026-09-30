@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-09-30T08:36:55+00:00",
+  "updated": "2026-09-30T15:21:46+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 65,
+  "count": 68,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -314,6 +314,14 @@
       "status": "planned"
     },
     {
+      "date": "Fri 9 Oct 2026",
+      "dateISO": "2026-10-09",
+      "title": "Gill and simons | 17:45 Fri - 12:30 Sun | Confirmed - Darren Sainsbury Google calendar",
+      "detail": "Friday-Sunday | Both | 9th-11th",
+      "category": "Both",
+      "status": "planned"
+    },
+    {
       "date": "Sat 10 Oct 2026",
       "dateISO": "2026-10-10",
       "title": "Flu Jab | 10:50 | Confirmed - work calendar invite",
@@ -338,6 +346,14 @@
       "status": "planned"
     },
     {
+      "date": "Thu 15 Oct 2026",
+      "dateISO": "2026-10-15",
+      "title": "5 people | Soraya - PLACEHOLDER | 13:00-15:00 | OpenTable availability alert only - not booked; waiting for a table",
+      "detail": "Thursday",
+      "category": "",
+      "status": "planned"
+    },
+    {
       "date": "Fri 23 Oct 2026",
       "dateISO": "2026-10-23",
       "title": "Karl Loxley | Southampton | tickets in wallet",
@@ -351,6 +367,14 @@
       "title": "Kitten Day",
       "detail": "Saturday | BOTH",
       "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 6 Nov 2026",
+      "dateISO": "2026-11-06",
+      "title": "4 people | Soraya - PLACEHOLDER | 12:00-14:00 | OpenTable availability alert only - not booked; waiting for a table",
+      "detail": "Friday",
+      "category": "",
       "status": "planned"
     },
     {
