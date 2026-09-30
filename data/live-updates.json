@@ -1,5 +1,5 @@
 {
-  "updated": "19 September 2026",
+  "updated": "30 September 2026",
   "reading": {
     "confirmed": 16,
     "current": "Now on chapter 17",
@@ -7,6 +7,8 @@
   },
   "completedGoals": ["Complete Amazon return"],
   "recentWins": [
+    "Kirsty and I agreed the previous homework was not relevant and I had not properly understood it, so it is not being treated as avoidance. We replaced it with a clearer exercise instead of forcing it.",
+    "Moved into the final stretch of the formal Kirsty journey with a clear plan to keep the logs and check-ins going afterwards.",
     "Reached chapter 17 of The Secret of Secrets; the reading habit has continued despite a very busy period at work.",
     "Kept doing well between Kirsty sessions even with a longer gap caused by work commitments.",
     "Kept my promise to Getty's Fish & Chips and left a detailed five-star review across social media after the warm welcome we received in Blackpool.",
@@ -16,6 +18,7 @@
     "Amazon returns taken back and completed."
   ],
   "dailyLog": [
+    {"date":"28 Sep","personal":"Met with Kirsty. The previous homework was dropped because we agreed it was not relevant and I had not properly understood it. New homework is Observing the Stream for 2–3 minutes. One final Kirsty session remains, then the formal therapy journey ends, but the logs continue.","work":"","avoidance":"The previous homework is not being counted as avoidance.","response":"Talked it through, replaced what was not useful with a clearer exercise, and agreed to keep the ongoing logs after therapy ends."},
     {"date":"12 Sep","personal":"Now on chapter 17 of The Secret of Secrets. Kirsty session needed moving because of work, but I have been doing well during the longer gap between sessions.","work":"Very busy period at work.","avoidance":"None reported.","response":"Kept the reading habit and therapy progress moving even without a recent session."},
     {"date":"8 Sep","personal":"Kept my promise to Getty's Fish & Chips and posted a detailed five-star review on several social media/review sites after the lovely welcome they gave us in Blackpool.","work":"","avoidance":"None. This was following through on something I had said I would do.","response":"Took the time to write a proper review, thanked them for the warmth and hospitality, and supported a small independent business that became part of the memory of our trip."},
     {"date":"6 Sep","personal":"Finished the Blackpool weekend with a detour to see Uncle Alfie in Abergele for roast lunch before heading home.","work":"","avoidance":"It would have been easy to skip the extra journey after a busy weekend.","response":"Made the diversion because seeing him mattered, and he was really happy."},
@@ -26,6 +29,28 @@
     {"date":"25 Aug","personal":"In the office all day with lots of meetings; possible Apple launch later.","work":"Busy office day with several meetings and a possible Apple launch.","avoidance":"","response":"Getting on with the day and seeing what it brings."},
     {"date":"24 Aug","personal":"Chapter 15 in progress; Amazon returns taken back; looking forward to Blackpool with Mum & Dad next week; Dante and Amara chosen and coming home on 24 October","work":"","avoidance":"","response":"Kept reading moving, closed the Amazon return task and noticed how much there is to look forward to"}
   ],
-  "journey": [{"date":"3-6 September 2026","title":"A weekend that felt like living again","text":"Blackpool with Jason, Eve, Mum and Dad became much more than a trip in the diary. We travelled together, laughed, ate well, watched the Illuminations and fireworks, had afternoon tea in the Tower Ballroom, finally made it up Blackpool Tower after the wind cancellation, went to Funny Girls and finished with a family detour to Uncle Alfie on the way home. The strongest thing about the weekend was how much enjoyment, connection and ordinary life there was in it. I came home thinking simply: what a great weekend."}],
-  "lookingForward": [{"title":"Dante & Amara come home","detail":"24 October. Our new kittens are growing fast. We visit them every two weeks and Christine sends regular updates in between.","values":"Family / home / connection / living again"}]
+  "journey": [
+    {"date":"3-6 September 2026","title":"A weekend that felt like living again","text":"Blackpool with Jason, Eve, Mum and Dad became much more than a trip in the diary. We travelled together, laughed, ate well, watched the Illuminations and fireworks, had afternoon tea in the Tower Ballroom, finally made it up Blackpool Tower after the wind cancellation, went to Funny Girls and finished with a family detour to Uncle Alfie on the way home. The strongest thing about the weekend was how much enjoyment, connection and ordinary life there was in it. I came home thinking simply: what a great weekend."},
+    {"date":"28 September 2026","title":"The final stretch with Kirsty","text":"The previous homework was dropped because Kirsty and I agreed it was not relevant and I had not properly understood it. The new exercise is Observing the Stream: step back from thoughts for a couple of minutes, notice how they show up and let them carry on without fighting them. There is one final Kirsty session left. The formal therapy journey is nearly finished, but the useful logging and check-ins will continue afterwards."}
+  ],
+  "therapy": {
+    "lastSession": {
+      "date": "28 September 2026",
+      "summary": "Previous homework dropped as not relevant and not understood properly; not treated as avoidance. New homework set: Observing the Stream."
+    },
+    "currentHomework": {
+      "title": "Observing the Stream",
+      "duration": "2–3 minutes",
+      "summary": "Step back from the flow of thoughts, notice where and how they show up and let them continue in the background rather than trying to stop or fight them."
+    },
+    "nextSession": {
+      "date": "14 October 2026",
+      "time": "14:30",
+      "note": "Final Kirsty session; meditation and closing stage."
+    },
+    "afterTherapy": "Keep the ongoing logs and check-ins going: what I am doing, how I am feeling, what I have done and anything that needs following up."
+  },
+  "lookingForward": [
+    {"title":"Dante & Amara come home","detail":"24 October. Our new kittens are growing fast. We visit them every two weeks and Christine sends regular updates in between.","values":"Family / home / connection / living again"}
+  ]
 }
