@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-01T11:49:51+00:00",
+  "updated": "2026-10-01T18:17:47+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 68,
+  "count": 71,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -330,6 +330,14 @@
       "status": "planned"
     },
     {
+      "date": "Tue 13 Oct 2026",
+      "dateISO": "2026-10-13",
+      "title": "Blood test - Basingstoke & North Hampshire Hospital | 07:50 | Confirmed by Sangix email on 1 Oct 2026; Aldermaston Road, Basingstoke RG24 9NA",
+      "detail": "Tuesday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
       "date": "Wed 14 Oct 2026",
       "dateISO": "2026-10-14",
       "title": "Kirsty session | 14:30",
@@ -343,6 +351,22 @@
       "title": "Jean ValJean | Guildford | tickets in notes",
       "detail": "Wednesday | BOTH",
       "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 15 Oct 2026",
+      "dateISO": "2026-10-15",
+      "title": "5 people | Lunch - Oudh 1722 | 14:00-16:30 | Confirmed reservation; 66 Union Street, London; ref T5NLT4BNFUU; updated to 5 guests on 1 Oct 2026",
+      "detail": "Thursday",
+      "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 15 Oct 2026",
+      "dateISO": "2026-10-15",
+      "title": "5 people | Lunch - Chef Javad Persian Cuisine and Bar Kensington | 14:00-15:30 | Confirmed booking; 343 Kensington High Street, London W8 6NW; ref IVY5A; confirmed 1 Oct 2026",
+      "detail": "Thursday",
+      "category": "",
       "status": "planned"
     },
     {
