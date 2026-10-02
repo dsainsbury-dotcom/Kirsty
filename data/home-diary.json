@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-02T08:34:48+00:00",
+  "updated": "2026-10-02T15:02:41+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 71,
+  "count": 73,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -290,11 +290,27 @@
       "status": "done"
     },
     {
+      "date": "Sat 3 Oct 2026",
+      "dateISO": "2026-10-03",
+      "title": "SNX restricted stock vesting - 33 shares | All day | E*TRADE grant ST10195; 33 SNX shares vesting; stock settlement; alert received 2 Oct 2026",
+      "detail": "Saturday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
       "date": "Sun 4 Oct 2026",
       "dateISO": "2026-10-04",
       "title": "Jason's mum's birthday lunch | 10:00 onwards | Birthday lunch",
       "detail": "Sunday | BOTH",
       "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 7 Oct 2026",
+      "dateISO": "2026-10-07",
+      "title": "muscle wednesday with linzy | 18:00-21:00 | Work calendar invite; Microsoft Teams; already present on Google Calendar and awaiting RSVP",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
@@ -311,6 +327,14 @@
       "title": "Jay | Dentist | 1530",
       "detail": "Thursday",
       "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 9 Oct 2026",
+      "dateISO": "2026-10-09",
+      "title": "MYPICTURE Buyer Protection deadline | All day | Trusted Shops Basic protection TS2C-2024592701 for £22 MYPICTURE purchase expires 9 Oct 2026; check non-delivery/refund issue before expiry",
+      "detail": "Friday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
@@ -356,15 +380,7 @@
     {
       "date": "Thu 15 Oct 2026",
       "dateISO": "2026-10-15",
-      "title": "5 people | Lunch - Oudh 1722 | 14:00-16:30 | Confirmed reservation; 66 Union Street, London; ref T5NLT4BNFUU; updated to 5 guests on 1 Oct 2026",
-      "detail": "Thursday",
-      "category": "",
-      "status": "planned"
-    },
-    {
-      "date": "Thu 15 Oct 2026",
-      "dateISO": "2026-10-15",
-      "title": "5 people | Lunch - Chef Javad Persian Cuisine and Bar Kensington | 14:00-15:30 | Confirmed booking; 343 Kensington High Street, London W8 6NW; ref IVY5A; confirmed 1 Oct 2026",
+      "title": "6 people | Lunch - Chef Javad Persian Cuisine and Bar Kensington | 14:00-15:30 | Confirmed booking; 343 Kensington High Street, London W8 6NW; ref IVY5A; party size updated to 6 on 2 Oct 2026",
       "detail": "Thursday",
       "category": "",
       "status": "planned"
