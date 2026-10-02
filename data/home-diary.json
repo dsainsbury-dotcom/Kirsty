@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-02T19:57:43+00:00",
+  "updated": "2026-10-02T23:42:20+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 73,
+  "count": 75,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -324,9 +324,25 @@
     {
       "date": "Thu 8 Oct 2026",
       "dateISO": "2026-10-08",
+      "title": "Raylo & TD SYNNEX QBR | 13:00-14:30 | Work calendar invite; 5 New Street Square, City of London EC4A 3TW; placeholder QBR; RSVP left untouched",
+      "detail": "Thursday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 8 Oct 2026",
+      "dateISO": "2026-10-08",
       "title": "Jay | Dentist | 1530",
       "detail": "Thursday",
       "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 8 Oct 2026",
+      "dateISO": "2026-10-08",
+      "title": "Sunhil meal London or (TBC Where) | 18:00-21:30 | Work calendar invite; Microsoft Teams; STATUS CONFIRMED; RSVP/attendee PARTSTAT NEEDS-ACTION left untouched",
+      "detail": "Thursday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
