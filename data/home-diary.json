@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-01T22:50:52+00:00",
+  "updated": "2026-10-02T02:04:57+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -287,7 +287,7 @@
       "title": "Solar - Hybrid Electrical & Renewables | 12:00 | Confirmed appointment - Lewis; rearranged from 28th",
       "detail": "Thursday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Sun 4 Oct 2026",
