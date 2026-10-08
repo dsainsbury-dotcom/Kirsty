@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-08T06:09:20+00:00",
+  "updated": "2026-10-08T13:34:52+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -484,9 +484,9 @@
     {
       "date": "Fri 4 Dec 2026",
       "dateISO": "2026-12-04",
-      "title": "Jay online driving course | 09:00-12:00 | Confirmed calendar invite; organiser JP; Darren accepted",
-      "detail": "Friday | Daz",
-      "category": "Daz",
+      "title": "Jay | Jay online driving course | 09:00-12:00 | Confirmed calendar invite; organiser JP; Darren accepted",
+      "detail": "Friday",
+      "category": "",
       "status": "planned"
     },
     {
