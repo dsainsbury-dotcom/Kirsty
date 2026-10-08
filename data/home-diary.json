@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-08T13:34:52+00:00",
+  "updated": "2026-10-08T19:28:59+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 80,
+  "count": 81,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -380,7 +380,7 @@
     {
       "date": "Wed 14 Oct 2026",
       "dateISO": "2026-10-14",
-      "title": "Kirsty session - CANCELLED | 14:30 | Cancelled by Darren on 7 Oct due to work travel. Kirsty acknowledged and offered Wed 11 Nov or Thu 12 Nov; replacement not yet booked.",
+      "title": "Kirsty session - CANCELLED | 14:30 | Cancelled by Darren on 7 Oct due to work travel. Replacement now confirmed for Wed 11 Nov 2026 at 14:30 with Kirsty.",
       "detail": "Wednesday | Daz",
       "category": "Daz",
       "status": "planned"
@@ -463,6 +463,14 @@
       "title": "pat edwards birthday in heaven",
       "detail": "BOTH",
       "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 11 Nov 2026",
+      "dateISO": "2026-11-11",
+      "title": "Appointment with Kirsty | 14:30-15:30 | Confirmed by email 8 Oct 2026; appointment confirmed for 14:30 on 11 Nov. One-hour duration follows established Kirsty session pattern; Google Calendar added.",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
