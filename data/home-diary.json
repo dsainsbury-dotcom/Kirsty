@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-08T23:54:32+00:00",
+  "updated": "2026-10-09T05:35:50+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -319,7 +319,7 @@
       "title": "Jay | Hygenist | 1030",
       "detail": "Thursday",
       "category": "",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Thu 8 Oct 2026",
@@ -327,7 +327,7 @@
       "title": "Raylo & TD SYNNEX QBR | 13:00-14:30 | Confirmed work calendar invite; Notcutt House, 36 Southwark Bridge Road, London SE1 9EU; Darren accepted",
       "detail": "Thursday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Thu 8 Oct 2026",
@@ -335,7 +335,7 @@
       "title": "Jay | Dentist | 1530",
       "detail": "Thursday",
       "category": "",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Thu 8 Oct 2026",
@@ -343,7 +343,7 @@
       "title": "Sunhil meal London or (TBC Where) | 18:00-21:30 | Work calendar invite; Microsoft Teams; STATUS CONFIRMED; RSVP/attendee PARTSTAT NEEDS-ACTION left untouched",
       "detail": "Thursday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Fri 9 Oct 2026",
@@ -431,7 +431,7 @@
       "title": "Lunch - Veeraswamy | 17:30-19:30 | Confirmed reservation for 2; 99 Regent St, London W1B 4RS; confirmed 5 Oct 2026",
       "detail": "Thursday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Wed 14 Oct 2026",
