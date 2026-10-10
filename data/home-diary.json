@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-10T08:36:16+00:00",
+  "updated": "2026-10-10T14:46:51+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 81,
+  "count": 78,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -380,7 +380,7 @@
     {
       "date": "Wed 14 Oct 2026",
       "dateISO": "2026-10-14",
-      "title": "Kirsty session - CANCELLED | 14:30 | Cancelled by Darren on 7 Oct due to work travel. Replacement now confirmed for Wed 11 Nov 2026 at 14:30 with Kirsty.",
+      "title": "Lunch - Veeraswamy | 12:30-14:30 | Confirmed reservation for 2; 99 Regent St, London W1B 4RS; confirmed 5 Oct 2026",
       "detail": "Wednesday | Daz",
       "category": "Daz",
       "status": "planned"
@@ -423,30 +423,6 @@
       "title": "Kitten Day",
       "detail": "Saturday | BOTH",
       "category": "BOTH",
-      "status": "planned"
-    },
-    {
-      "date": "Thu 8 Oct 2026",
-      "dateISO": "2026-10-08",
-      "title": "Lunch - Veeraswamy | 17:30-19:30 | Confirmed reservation for 2; 99 Regent St, London W1B 4RS; confirmed 5 Oct 2026",
-      "detail": "Thursday | Daz",
-      "category": "Daz",
-      "status": "done"
-    },
-    {
-      "date": "Wed 14 Oct 2026",
-      "dateISO": "2026-10-14",
-      "title": "Lunch - Veeraswamy | 12:30-14:30 | Confirmed reservation for 2; 99 Regent St, London W1B 4RS; confirmed 5 Oct 2026",
-      "detail": "Wednesday | Daz",
-      "category": "Daz",
-      "status": "planned"
-    },
-    {
-      "date": "Sat 10 Oct 2026",
-      "dateISO": "2026-10-10",
-      "title": "Dinner - Ristorante Barolo | 19:00-21:00 | Confirmed directly by Barolo Management on 5 Oct 2026.",
-      "detail": "Saturday | Daz",
-      "category": "Daz",
       "status": "planned"
     },
     {
