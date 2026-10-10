@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-09T22:49:27+00:00",
+  "updated": "2026-10-10T02:12:19+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -351,7 +351,7 @@
       "title": "MYPICTURE Buyer Protection deadline | All day | Trusted Shops Basic protection TS2C-2024592701 for £22 MYPICTURE purchase expires 9 Oct 2026; check non-delivery/refund issue before expiry",
       "detail": "Friday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Fri 9 Oct 2026",
@@ -359,7 +359,7 @@
       "title": "Gill and simons | 17:45 Fri - 12:30 Sun | Confirmed - Darren Sainsbury Google calendar",
       "detail": "Friday-Sunday | Both | 9th-11th",
       "category": "Both",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Sat 10 Oct 2026",
