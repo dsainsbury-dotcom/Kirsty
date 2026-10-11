@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-10T22:37:33+00:00",
+  "updated": "2026-10-11T01:17:56+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -367,7 +367,7 @@
       "title": "Flu Jab | 10:50 | Confirmed - work calendar invite",
       "detail": "Saturday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Tue 13 Oct 2026",
