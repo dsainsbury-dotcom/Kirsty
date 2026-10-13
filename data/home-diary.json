@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-13T16:28:14+00:00",
+  "updated": "2026-10-13T21:29:31+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 78,
+  "count": 81,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -380,6 +380,14 @@
     {
       "date": "Wed 14 Oct 2026",
       "dateISO": "2026-10-14",
+      "title": "Train: Basingstoke to London Waterloo | 10:54-12:02 | Collect ticket before travel. Trainline F6NBTCKJ.",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 14 Oct 2026",
+      "dateISO": "2026-10-14",
       "title": "Lunch - Veeraswamy | 12:30-14:30 | Confirmed reservation for 2; 99 Regent St, London W1B 4RS; confirmed 5 Oct 2026",
       "detail": "Wednesday | Daz",
       "category": "Daz",
@@ -388,9 +396,25 @@
     {
       "date": "Wed 14 Oct 2026",
       "dateISO": "2026-10-14",
-      "title": "Jean ValJean | Guildford | tickets in notes",
+      "title": "Train: London Waterloo to Basingstoke | 15:42-16:58 | Trainline F6NBTCKJ. Conflicts with separate Guildford train.",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 14 Oct 2026",
+      "dateISO": "2026-10-14",
+      "title": "Jean ValJean | Guildford | Guildford tickets noted. Trainline e-ticket 17:45 London Waterloo to Guildford; show time not confirmed.",
       "detail": "Wednesday | BOTH",
       "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 14 Oct 2026",
+      "dateISO": "2026-10-14",
+      "title": "Train: London Waterloo to Guildford | 17:45-18:20 | Trainline e-ticket 678204329973; conflicts with 15:42 Basingstoke return.",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
@@ -516,7 +540,7 @@
     {
       "date": "Sat 5 Jun 2027",
       "dateISO": "2027-06-05",
-      "title": "DAZ to Jay Surprise",
+      "title": "Daz to Jay Surprise - Miss Saigon | 19:30",
       "detail": "Sat | BOTH",
       "category": "BOTH",
       "status": "planned"
