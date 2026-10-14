@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-14T15:31:55+00:00",
+  "updated": "2026-10-14T19:43:44+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 81,
+  "count": 83,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -414,6 +414,22 @@
       "dateISO": "2026-10-14",
       "title": "Train: London Waterloo to Guildford | 17:45-18:20 | Trainline e-ticket 678204329973; conflicts with 15:42 Basingstoke return.",
       "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 14 Oct 2026",
+      "dateISO": "2026-10-14",
+      "title": "2 people | Caniço reservation (Alvor) | 21:00-23:00",
+      "detail": "Wednesday",
+      "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 15 Oct 2026",
+      "dateISO": "2026-10-15",
+      "title": "Sangix appointment | 07:35",
+      "detail": "Thursday | Daz",
       "category": "Daz",
       "status": "planned"
     },
