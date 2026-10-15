@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-15T11:11:45+00:00",
+  "updated": "2026-10-15T15:37:16+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 86,
+  "count": 87,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -463,6 +463,14 @@
       "title": "5 people | Soraya - PLACEHOLDER | 13:00-15:00 | OpenTable availability alert only - not booked; waiting for a table",
       "detail": "Thursday",
       "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 23 Oct 2026",
+      "dateISO": "2026-10-23",
+      "title": "Meeting - Darren Sainsbury | 12:30-14:00 | Starbucks Coffee, Houndmills Rd, Basingstoke. Teams link in Google Calendar.",
+      "detail": "Friday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
