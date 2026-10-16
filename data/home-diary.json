@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-15T22:37:52+00:00",
+  "updated": "2026-10-16T00:48:13+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -431,7 +431,7 @@
       "title": "CANCELLED - Hospital blood test | 07:35 | Cancelled by Darren on 14 Oct 2026.",
       "detail": "Thursday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Thu 15 Oct 2026",
@@ -439,7 +439,7 @@
       "title": "Train: Basingstoke to London Paddington | 10:53-11:52 | Collect tickets: J239T26H. Network Railcard required.",
       "detail": "Thursday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Thu 15 Oct 2026",
@@ -447,7 +447,7 @@
       "title": "6 people | Lunch - Chef Javad Persian Cuisine and Bar Kensington | 14:00-15:30 | Confirmed booking; 343 Kensington High Street, London W8 6NW; ref IVY5A; party size updated to 6 on 2 Oct 2026",
       "detail": "Thursday",
       "category": "",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Thu 15 Oct 2026",
@@ -455,7 +455,7 @@
       "title": "Train: London Paddington to Basingstoke | 16:00-17:03 | Via Reading. Trainline J239T26H. Network Railcard.",
       "detail": "Thursday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Thu 15 Oct 2026",
@@ -463,7 +463,7 @@
       "title": "5 people | Soraya - PLACEHOLDER | 13:00-15:00 | OpenTable availability alert only - not booked; waiting for a table",
       "detail": "Thursday",
       "category": "",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Fri 23 Oct 2026",
