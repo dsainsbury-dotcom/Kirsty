@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-20T19:31:38+00:00",
+  "updated": "2026-10-20T22:42:05+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 88,
+  "count": 90,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -498,6 +498,14 @@
       "status": "planned"
     },
     {
+      "date": "Thu 5 Nov 2026",
+      "dateISO": "2026-11-05",
+      "title": "Curry with Brian",
+      "detail": "BOTH",
+      "category": "BOTH",
+      "status": "planned"
+    },
+    {
       "date": "Fri 6 Nov 2026",
       "dateISO": "2026-11-06",
       "title": "4 people | Soraya - PLACEHOLDER | 12:00-14:00 | OpenTable availability alert only - not booked; waiting for a table",
@@ -511,6 +519,14 @@
       "title": "pat edwards birthday in heaven",
       "detail": "BOTH",
       "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Wed 4 Nov 2026",
+      "dateISO": "2026-11-04",
+      "title": "Mr Tim Worthington - follow-up consultation | 11:30 | Confirmed by Carebit 17 Sep 2026; rescheduled from Friday 6 Nov 10:00.",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
