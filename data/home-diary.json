@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-21T01:01:50+00:00",
+  "updated": "2026-10-21T06:04:11+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -468,7 +468,7 @@
     {
       "date": "Wed 21 Oct 2026",
       "dateISO": "2026-10-21",
-      "title": "Hospital appointment | 07:45 | Confirmed 20 Oct; Basingstoke and North Hampshire Hospital. End time unconfirmed.",
+      "title": "Blood test appointment - CANCELLED | 07:45 | Cancelled 21 Oct 2026 by user per Sangix email. Original time 07:45.",
       "detail": "Wednesday | Daz",
       "category": "Daz",
       "status": "planned"
