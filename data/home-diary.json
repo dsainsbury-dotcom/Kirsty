@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-21T06:04:11+00:00",
+  "updated": "2026-10-21T11:54:26+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -498,6 +498,14 @@
       "status": "planned"
     },
     {
+      "date": "Wed 4 Nov 2026",
+      "dateISO": "2026-11-04",
+      "title": "Mr Tim Worthington - follow-up consultation | 11:30 | Confirmed by Carebit 17 Sep 2026; rescheduled from Friday 6 Nov 10:00.",
+      "detail": "Wednesday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
       "date": "Thu 5 Nov 2026",
       "dateISO": "2026-11-05",
       "title": "Curry with Brian",
@@ -519,14 +527,6 @@
       "title": "pat edwards birthday in heaven",
       "detail": "BOTH",
       "category": "BOTH",
-      "status": "planned"
-    },
-    {
-      "date": "Wed 4 Nov 2026",
-      "dateISO": "2026-11-04",
-      "title": "Mr Tim Worthington - follow-up consultation | 11:30 | Confirmed by Carebit 17 Sep 2026; rescheduled from Friday 6 Nov 10:00.",
-      "detail": "Wednesday | Daz",
-      "category": "Daz",
       "status": "planned"
     },
     {
@@ -562,18 +562,18 @@
       "status": "planned"
     },
     {
-      "date": "Fri 25 Dec 2026",
-      "dateISO": "2026-12-25",
-      "title": "Christmas Day - The Phoenix Inn | 13:00 | 25 Dec 2026, 13:00, six guests. Ref BNT4G6TQ. One sitting. Confirmed 5 Oct; corrected 6 Oct. | 16 Oct: Phoenix Inn asked for email reconfirmation. Reply pending. Deposit early Dec.",
-      "detail": "Friday | Daz",
-      "category": "Daz",
-      "status": "planned"
-    },
-    {
       "date": "Thu 10 Dec 2026",
       "dateISO": "2026-12-10",
       "title": "Testosterone Injection | 12 weeks after previous injection on 17 Sep 2026.",
       "detail": "Thursday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 25 Dec 2026",
+      "dateISO": "2026-12-25",
+      "title": "Christmas Day - The Phoenix Inn | 13:00 | 25 Dec 2026, 13:00, six guests. Ref BNT4G6TQ. One sitting. Booking previously confirmed; 16 Oct email asks for reconfirmation, deposit to arrange early December. ACTION: reply to Mike to reconfirm. | 16 Oct: Phoenix Inn asked for email reconfirmation. Reply pending. Deposit early Dec.",
+      "detail": "Friday | Daz",
       "category": "Daz",
       "status": "planned"
     },
@@ -583,14 +583,6 @@
       "title": "Voices Of Valjean - Guildford Cathedral | 19:30 | Two VIP tickets. Rescheduled from 14 Oct 2026.",
       "detail": "Friday | Both",
       "category": "Both",
-      "status": "planned"
-    },
-    {
-      "date": "Tue 13 Apr 2027",
-      "dateISO": "2027-04-13",
-      "title": "should get miss seigon tickets via email",
-      "detail": "",
-      "category": "",
       "status": "planned"
     },
     {
@@ -703,6 +695,14 @@
       "title": "Richards G Birthday",
       "detail": "Both",
       "category": "Both",
+      "status": "planned"
+    },
+    {
+      "date": "Mon 4 Oct 2027",
+      "dateISO": "2027-10-04",
+      "title": "PROVISIONAL - Encore The Cruise 2027 | 4-8 October | Booking enquiry sent 20 Oct 2026. Ambience departing London Tilbury. NOT BOOKED. Awaiting organiser, financial protection, payment/cancellation terms and performance access details.",
+      "detail": "Monday-Friday | Daz | 4th-8th",
+      "category": "Daz",
       "status": "planned"
     },
     {
