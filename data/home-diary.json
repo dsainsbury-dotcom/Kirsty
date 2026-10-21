@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-21T16:58:01+00:00",
+  "updated": "2026-10-21T20:31:57+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -700,7 +700,7 @@
     {
       "date": "Mon 4 Oct 2027",
       "dateISO": "2027-10-04",
-      "title": "PROVISIONAL - Encore The Cruise 2027 | 4-8 October | Booking enquiry sent 20 Oct 2026; NOT BOOKED. 21 Oct 2026 Ambassador Cruise Line response: organiser is Live Nation; conditions linked on Encore website; deposit usually 25% and balance 90 days before sailing (not confirmed for this specific charter). Prior charter passengers generally guaranteed shows, with dinner sittings 17:45 and 20:15. Exact ABTOT protection, cancellation conditions, sailing-specific performance access and artist cancellation/lineup-change terms not yet verified. Follow up with organiser before booking.",
+      "title": "PROVISIONAL - Encore The Cruise 2027 | 4-8 October | 21 Oct 2026 Hello Sailor reply: Hello Sailor Cruises presents Encore, Ambassador operates the cruise and manages reservations/payments. Ambassador ABTA Y6765; qualifying no-fly bookings with Ambassador Cruise Holidays Ltd are ABTOT protected, but confirm exact charter coverage. Ambassador previously called Live Nation organiser: organiser roles remain inconsistent. Specific deposit, final balance and cancellation terms not confirmed. Headline shows are intended to be repeated for passenger access; lineup may change and contractual remedies depend on terms. Confirm all in writing before booking. NOT BOOKED.",
       "detail": "Monday-Friday | Daz | 4th-8th",
       "category": "Daz",
       "status": "planned"
