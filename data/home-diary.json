@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-21T11:54:26+00:00",
+  "updated": "2026-10-21T16:58:01+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -500,7 +500,7 @@
     {
       "date": "Wed 4 Nov 2026",
       "dateISO": "2026-11-04",
-      "title": "Mr Tim Worthington - follow-up consultation | 11:30 | Confirmed by Carebit 17 Sep 2026; rescheduled from Friday 6 Nov 10:00.",
+      "title": "Mr Tim Worthington - follow-up consultation | 11:30 | Confirmed by Carebit 17 Sep 2026; rescheduled from Friday 6 Nov 10:00. 21 Oct 2026: Google Calendar entry missing; creation blocked by connector safety checks. Booking itself remains confirmed.",
       "detail": "Wednesday | Daz",
       "category": "Daz",
       "status": "planned"
@@ -700,7 +700,7 @@
     {
       "date": "Mon 4 Oct 2027",
       "dateISO": "2027-10-04",
-      "title": "PROVISIONAL - Encore The Cruise 2027 | 4-8 October | Booking enquiry sent 20 Oct 2026. Ambience departing London Tilbury. NOT BOOKED. Awaiting organiser, financial protection, payment/cancellation terms and performance access details.",
+      "title": "PROVISIONAL - Encore The Cruise 2027 | 4-8 October | Booking enquiry sent 20 Oct 2026; NOT BOOKED. 21 Oct 2026 Ambassador Cruise Line response: organiser is Live Nation; conditions linked on Encore website; deposit usually 25% and balance 90 days before sailing (not confirmed for this specific charter). Prior charter passengers generally guaranteed shows, with dinner sittings 17:45 and 20:15. Exact ABTOT protection, cancellation conditions, sailing-specific performance access and artist cancellation/lineup-change terms not yet verified. Follow up with organiser before booking.",
       "detail": "Monday-Friday | Daz | 4th-8th",
       "category": "Daz",
       "status": "planned"
