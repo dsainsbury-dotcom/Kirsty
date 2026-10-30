@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-10-30T16:36:35+00:00",
+  "updated": "2026-10-30T21:05:36+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 92,
+  "count": 93,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -503,6 +503,14 @@
       "title": "Kitten Day",
       "detail": "Saturday | BOTH",
       "category": "BOTH",
+      "status": "planned"
+    },
+    {
+      "date": "Sun 1 Nov 2026",
+      "dateISO": "2026-11-01",
+      "title": "Apple Genius Bar - iPhone, Festival Place | 14:50 | Confirmed Apple appointment Sun 1 Nov 2026 at 14:50, Apple Festival Place, Upper Level, Queen Anne's Walk, Basingstoke. Apple Support case 103013979757. Source Gmail 1a18db08c773a4b1. Appointment duration not provided; Google Calendar all-day marker title contains actual 14:50 time, not an all-day appointment. Back up iPhone and know Apple Account password before service. Calendar event 8v45if5a783ubr9vau3kb63o8o.",
+      "detail": "Sunday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
