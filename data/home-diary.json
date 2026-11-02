@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-11-02T09:09:43+00:00",
+  "updated": "2026-11-02T19:31:05+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 94,
+  "count": 96,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -514,6 +514,14 @@
       "status": "done"
     },
     {
+      "date": "Tue 3 Nov 2026",
+      "dateISO": "2026-11-03",
+      "title": "The Greatest Showman - priority booking opens | 12:00 | Reminder only, NOT tickets booked. Priority booking opens Tue 3 Nov 2026 at 12:00 GMT; Google Calendar event _c4rj4dph65j3cbb670p64b9k6phm6b9pc8s68bb16sq3ec1n64q3ie9i6506oqbkdlqn6bj3dtmg. Disney pre-sale email 2 Nov 11:02 GMT (Gmail 1a19becc1dc84ef2): unique personal booking link expected by 10:30 GMT on 3 Nov, pre-sale lasts 48 hours from 12:00. Link is SINGLE USE, one queue entry; do not click until ready and keep same browser/device open in queue. Maximum 8 tickets/order; 10 minutes to complete checkout. Link does not guarantee tickets. General sale from 18 Nov. No tickets purchased or RSVP.",
+      "detail": "Tuesday | Daz",
+      "category": "Daz",
+      "status": "planned"
+    },
+    {
       "date": "Wed 4 Nov 2026",
       "dateISO": "2026-11-04",
       "title": "Mr Tim Worthington - follow-up consultation | 11:30 | Confirmed by Carebit 17 Sep 2026; rescheduled from Friday 6 Nov 10:00. Google Calendar all-day marker created 26 Oct 2026 with actual 11:30 time in title because duration not supplied; event 22c3so7cnivu9abgir005r0ieg. Marker is not an all-day appointment.",
@@ -599,6 +607,14 @@
       "title": "Testosterone Injection | 12 weeks after previous injection on 17 Sep 2026.",
       "detail": "Thursday | Daz",
       "category": "Daz",
+      "status": "planned"
+    },
+    {
+      "date": "Fri 18 Dec 2026",
+      "dateISO": "2026-12-18",
+      "title": "Daz Work | Apple Team Xmas Meal - TBC (calendar invitation) | 18:00-22:30 | Google Calendar event from Gavin Alexander, dated 2 Nov 2026 14:14 GMT. Event 18 Dec 2026 18:00-22:30, accepted status in calendar, but subject explicitly TBC and venue unspecified. Not a confirmed restaurant booking; no payment or RSVP by sweep. Verify final details when organiser confirms.",
+      "detail": "Friday",
+      "category": "",
       "status": "planned"
     },
     {
