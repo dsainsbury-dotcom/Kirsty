@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-11-02T19:31:05+00:00",
+  "updated": "2026-11-03T01:49:15+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -548,7 +548,7 @@
     {
       "date": "Sun 8 Nov 2026",
       "dateISO": "2026-11-08",
-      "title": "4 people | The Swan Inn - confirmed lunch reservation | 14:00 | Confirmed 24 Oct 2026 by ResDiary, ref BNH4YFLQ. 4 guests, The Swan Inn, Newtown, Newbury RG20 9BH, tel 01635 40313. Booking end time not provided. Google Calendar all-day marker displays 14:00 in title; reservation itself is not all-day. Gmail 1a16e4e6c6082698. CONFLICT identified 1 Nov: The Coat & Bear Newbury separately confirmed 5 guests on 8 Nov 14:00-16:00, ref DMN-16969959320. Both remain confirmed; user must choose and cancel unwanted reservation.",
+      "title": "4 people | The Swan Inn - confirmed lunch reservation | 14:00 | Confirmed 24 Oct 2026 by ResDiary, ref BNH4YFLQ. 4 guests, The Swan Inn, Newtown, Newbury RG20 9BH, tel 01635 40313. Booking end time not provided. Google Calendar all-day marker displays 14:00 in title; reservation itself is not all-day. Gmail 1a16e4e6c6082698. PRIOR CONFLICT RESOLVED: The Coat & Bear Newbury reservation for 5 guests on 8 Nov at 14:00, ref DMN-16969959320, was CANCELLED by venue email on 1 Nov 2026 at 10:15 GMT (Gmail 1a1969b545530fa6). Swan Inn remains confirmed on available evidence; no longer treat Coat & Bear as active.",
       "detail": "Sunday",
       "category": "",
       "status": "planned"
@@ -556,7 +556,7 @@
     {
       "date": "Sun 8 Nov 2026",
       "dateISO": "2026-11-08",
-      "title": "5 people | The Coat & Bear Newbury - confirmed lunch reservation | 14:00-16:00 | Confirmed 1 Nov 2026 10:11 GMT, 5 guests, The Coat & Bear, 28 Bartholomew Street, Newbury RG14 5EU, ref DMN-16969959320, tel 01635 243690. Gmail 1a196981ccf13e0d. Google Calendar event n57abm0lh1uikehh2ob04m01g8. CONFLICT: The Swan Inn booking for 4 guests is also confirmed at 14:00 on 8 Nov; both retained pending Darren's choice. Do not cancel either without instruction.",
+      "title": "5 people | The Coat & Bear Newbury - CANCELLED lunch reservation | 14:00-16:00 | CANCELLED: The Coat & Bear cancellation email received 1 Nov 2026 at 10:15 GMT (Gmail 1a1969b545530fa6), ref DMN-16969959320, supersedes confirmation at 10:11 GMT (Gmail 1a196981ccf13e0d). Original reservation: 5 guests, Sunday 8 Nov 2026 14:00-16:00, 28 Bartholomew Street, Newbury RG14 5EU, tel 01635 243690. Google Calendar event n57abm0lh1uikehh2ob04m01g8 already shows CANCELLED, verified 2 Nov 2026. Do not recreate or treat as active. The Swan Inn booking for 4 guests at 14:00 remains confirmed.",
       "detail": "Sunday",
       "category": "",
       "status": "planned"
