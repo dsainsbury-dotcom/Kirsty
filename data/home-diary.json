@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-11-03T09:16:20+00:00",
+  "updated": "2026-11-03T17:14:29+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 96,
+  "count": 97,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -516,7 +516,7 @@
     {
       "date": "Tue 3 Nov 2026",
       "dateISO": "2026-11-03",
-      "title": "The Greatest Showman - priority booking opens | 12:00 | Reminder only, NOT tickets booked. Priority booking opens Tue 3 Nov 2026 at 12:00 GMT; Google Calendar event _c4rj4dph65j3cbb670p64b9k6phm6b9pc8s68bb16sq3ec1n64q3ie9i6506oqbkdlqn6bj3dtmg. Disney pre-sale email 2 Nov 11:02 GMT (Gmail 1a19becc1dc84ef2): unique personal booking link expected by 10:30 GMT on 3 Nov, pre-sale lasts 48 hours from 12:00. Link is SINGLE USE, one queue entry; do not click until ready and keep same browser/device open in queue. Maximum 8 tickets/order; 10 minutes to complete checkout. Link does not guarantee tickets. General sale from 18 Nov. No tickets purchased or RSVP.",
+      "title": "The Greatest Showman - priority booking opens | 12:00 | Reminder only, NOT tickets booked. Disney unique single-use priority booking link RECEIVED 3 Nov 2026 at 10:02 GMT (Gmail 1a1a0dbffc1433d7); use original email's BOOK TICKETS button, do not share. Presale opens 3 Nov 12:00 GMT for 48 hours; one queue entry, maximum 8 tickets/order; link does not guarantee tickets. General sale 18 Nov. Do not auto-purchase or RSVP.",
       "detail": "Tuesday | Daz",
       "category": "Daz",
       "status": "planned"
@@ -631,6 +631,14 @@
       "title": "Voices Of Valjean - Guildford Cathedral | 19:30 | Two VIP tickets. Rescheduled from 14 Oct 2026.",
       "detail": "Friday | Both",
       "category": "Both",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 17 Jun 2027",
+      "dateISO": "2027-06-17",
+      "title": "The Greatest Showman - Theatre Royal Drury Lane | 19:00 | CONFIRMED booking 3 Nov 2026 12:20 GMT, LW Tickets ref 26307E-99LU34BE9L, 2 Stalls seats Row E 16-17, £250 total. E-tickets expected approximately 24 hours before performance; confirmation email is not ticket. Gmail 1a1a15a49196505a.",
+      "detail": "Saturday | BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
