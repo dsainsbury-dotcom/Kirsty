@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-11-04T09:53:39+00:00",
+  "updated": "2026-11-04T17:52:35+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -15,7 +15,7 @@
     "noDate": 13,
     "beforeAugust2026": 101
   },
-  "count": 97,
+  "count": 99,
   "entries": [
     {
       "date": "Sat 1 Aug 2026",
@@ -570,6 +570,14 @@
       "status": "planned"
     },
     {
+      "date": "Mon 9 Nov 2026",
+      "dateISO": "2026-11-09",
+      "title": "2 people | Veeraswamy - reservation updated (TIME VERIFY) | 12:30? | Update email 4 Nov 14:30 GMT, ref AKNPVX32DS49. Monday 9 Nov 2026 2 guests; email displays 12:30 but generated calendar link says 12:00. Confirm exact time with restaurant. 99 Regent St London. Google Calendar all-day marker 9nj12vh6u7bmqftmd0jhpe5bp0; not an all-day reservation. Gmail 1a1a6f7c8889c410.",
+      "detail": "Monday",
+      "category": "",
+      "status": "planned"
+    },
+    {
       "date": "Wed 11 Nov 2026",
       "dateISO": "2026-11-11",
       "title": "Appointment with Kirsty | 14:30-15:30 | Confirmed by email 8 Oct 2026; appointment confirmed for 14:30 on 11 Nov. One-hour duration follows established Kirsty session pattern; Google Calendar added.",
@@ -583,6 +591,14 @@
       "title": "BOTH+tracy | Alison Moyet | Anvil",
       "detail": "Saturday",
       "category": "",
+      "status": "planned"
+    },
+    {
+      "date": "Thu 19 Nov 2026",
+      "dateISO": "2026-11-19",
+      "title": "nagome launch - ONLINE livestream registered | 18:00-20:00 UK | Free online registration confirmed 4 Nov 2026; order #01A1A71E. Livestream begins 19:00 CET = 18:00 GMT. Link expected by email. In-person event in Brussels is NOT the booked attendance. Google Calendar 0v3scln97s0lk8q7a3mua1jjt8; Gmail 1a1a71eadecc19bf.",
+      "detail": "Thursday | Daz",
+      "category": "Daz",
       "status": "planned"
     },
     {
