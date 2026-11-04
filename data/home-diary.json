@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-11-03T22:22:18+00:00",
+  "updated": "2026-11-04T02:36:37+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -519,7 +519,7 @@
       "title": "The Greatest Showman - priority booking opens | 12:00 | Reminder only, NOT tickets booked. Disney unique single-use priority booking link RECEIVED 3 Nov 2026 at 10:02 GMT (Gmail 1a1a0dbffc1433d7); use original email's BOOK TICKETS button, do not share. Presale opens 3 Nov 12:00 GMT for 48 hours; one queue entry, maximum 8 tickets/order; link does not guarantee tickets. General sale 18 Nov. Do not auto-purchase or RSVP.",
       "detail": "Tuesday | Daz",
       "category": "Daz",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Wed 4 Nov 2026",
