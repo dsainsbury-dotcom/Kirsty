@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-11-05T11:35:17+00:00",
+  "updated": "2026-11-05T19:01:04+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -572,7 +572,7 @@
     {
       "date": "Mon 9 Nov 2026",
       "dateISO": "2026-11-09",
-      "title": "2 people | Veeraswamy - reservation updated (TIME VERIFY) | 12:30? | Update email 4 Nov 14:30 GMT, ref AKNPVX32DS49. Monday 9 Nov 2026 2 guests; email displays 12:30 but generated calendar link says 12:00. Confirm exact time with restaurant. 99 Regent St London. Google Calendar all-day marker 9nj12vh6u7bmqftmd0jhpe5bp0; not an all-day reservation. Gmail 1a1a6f7c8889c410.",
+      "title": "2 people | Veeraswamy - CONFIRMED 12:00 (2 guests) | 12:00-14:15 | LATEST CONFIRMED update 5 Nov 2026 13:48 GMT, Gmail 1a1abf7e0f2196db, ref AKNPVX32DS49: Mon 9 Nov, 2 guests at 12:00 (changed from 3 guests at 12:00). Restaurant's current confirmation and calendar link agree; supersedes 4 Nov time ambiguity. 99 Regent St London. Google Calendar marker 9nj12vh6u7bmqftmd0jhpe5bp0; calendar link indicates end 14:15. No RSVP sent.",
       "detail": "Monday",
       "category": "",
       "status": "planned"
