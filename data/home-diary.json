@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-11-08T23:31:26+00:00",
+  "updated": "2026-11-09T02:59:35+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -551,7 +551,7 @@
       "title": "5 people | The Swan Inn - confirmed lunch reservation (5 guests) | 14:00 | Booking 8 Nov 2026 at 14:00, 5 guests per Darren's confirmed amendment (8 Nov). Original ResDiary email 24 Oct had 4; newer amended email not located in searched Gmail. Ref BNH4YFLQ. The Coat & Bear alternative was cancelled and must not be treated as active. Google Calendar event nsimq6gaqap934hv8qck62u4vk updated to 5.",
       "detail": "Sunday",
       "category": "",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Sun 8 Nov 2026",
@@ -559,7 +559,7 @@
       "title": "5 people | The Coat & Bear Newbury - CANCELLED lunch reservation | 14:00-16:00 | CANCELLED: The Coat & Bear Newbury, 5 guests, 8 Nov 2026 at 14:00. Cancellation email 1 Nov, ref DMN-16969959320. Do not recreate. The Swan Inn booking is separate and was amended to 5 guests per Darren on 8 Nov.",
       "detail": "Sunday",
       "category": "",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Sun 8 Nov 2026",
@@ -567,7 +567,7 @@
       "title": "Mummy S birthday | 80th birthday (born 8 November 1946) | Annual birthday on 8 November",
       "detail": "Sunday | BOTH",
       "category": "BOTH",
-      "status": "planned"
+      "status": "done"
     },
     {
       "date": "Fri 4 Dec 2026",
