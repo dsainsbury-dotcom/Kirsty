@@ -2,7 +2,7 @@
   "source": "Google Sheets - DiaryEvents",
   "sheetId": "18-tyMUVrdJHzTE5RRZrtl1dt0dj7C-Hoa6stf6_PdT4",
   "tab": "Sheet1",
-  "updated": "2026-11-16T15:06:06+00:00",
+  "updated": "2026-11-16T21:14:52+00:00",
   "rules": {
     "ignoreBefore": "2026-08-01",
     "ignoreNoDate": true,
@@ -596,9 +596,9 @@
     {
       "date": "Fri 25 Dec 2026",
       "dateISO": "2026-12-25",
-      "title": "Christmas Day - The Phoenix Inn | 13:00 | 25 Dec 2026, 13:00, six guests. Ref BNT4G6TQ. One sitting. Booking previously confirmed; 16 Oct email asks for reconfirmation, deposit to arrange early December. ACTION: reply to Mike to reconfirm. | 16 Oct: Phoenix Inn asked for email reconfirmation. Reply pending. Deposit early Dec.",
-      "detail": "Friday | Daz",
-      "category": "Daz",
+      "title": "Christmas Day at Mum's | Time TBC | Darren confirmed on 16 Nov 2026 that Christmas Day will be at Mum's instead. Phoenix Inn six-person 13:00 booking (ref BNT4G6TQ) is NOT being attended. Cancellation email sent to Mike/festive@phoenixinnhw.co.uk on 16 Nov (Gmail 1a1e4fef1ba8ff81). Awaiting venue's cancellation confirmation. Mum's visit time TBC. | Phoenix booking cancellation email sent; awaiting confirmation",
+      "detail": "Friday | BOTH",
+      "category": "BOTH",
       "status": "planned"
     },
     {
